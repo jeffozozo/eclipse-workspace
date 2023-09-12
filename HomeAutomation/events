@@ -1,0 +1,13 @@
+10:05:15|upstairs girls room window|open
+10:55:03|upstairs girls room window|close
+11:10:34|hallway motion detector|motion
+12:01:44|front door|open
+12:01:59|front door|close
+17:30:00|garage door|activate|open
+08:30:00|garage door|activate|close
+22:30:00|system|activate|arm
+22:
+
+rules
+10:00:00|14:00:00|door|untriggered
+23:00:00|06:00:00|window|untriggered

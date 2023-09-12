@@ -1,0 +1,179 @@
+[Fri 2014.04.18 : 09:01:45 AM] Setting up Banks
+[Fri 2014.04.18 : 09:01:45 AM] Starting the Simulation
+[Fri 2014.04.18 : 09:01:45 AM] The ThreadManager Construct has been called, all information has been passed.
+[Fri 2014.04.18 : 09:01:45 AM] The Transactions Are being Created...
+[Fri 2014.04.18 : 09:01:45 AM] A Worker Thread has been created: 1
+[Fri 2014.04.18 : 09:01:45 AM] A Worker Thread has been created: 2
+[Fri 2014.04.18 : 09:01:45 AM] A Worker Thread has been created: 3
+[Fri 2014.04.18 : 09:01:52 AM] Worker Thread 2 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:01:53 AM] Worker Thread 3 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:01:54 AM] A Worker Thread has been created: 4
+[Fri 2014.04.18 : 09:01:55 AM] A Worker Thread has been created: 5
+[Fri 2014.04.18 : 09:01:56 AM] A Worker Thread has been created: 6
+[Fri 2014.04.18 : 09:01:56 AM] A Worker Thread has been created: 7
+[Fri 2014.04.18 : 09:02:01 AM] Worker Thread 4 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:01 AM] Worker Thread 5 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:02 AM] Worker Thread 6 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:03 AM] A Worker Thread has been created: 8
+[Fri 2014.04.18 : 09:02:03 AM] Worker Thread 7 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:03 AM] A Worker Thread has been created: 9
+[Fri 2014.04.18 : 09:02:03 AM] A Worker Thread has been created: 10
+[Fri 2014.04.18 : 09:02:03 AM] A Worker Thread has been created: 11
+[Fri 2014.04.18 : 09:02:03 AM] A Worker Thread has been created: 12
+[Fri 2014.04.18 : 09:02:04 AM] A Worker Thread has been created: 13
+[Fri 2014.04.18 : 09:02:05 AM] A Worker Thread has been created: 14
+[Fri 2014.04.18 : 09:02:05 AM] A Worker Thread has been created: 15
+[Fri 2014.04.18 : 09:02:05 AM] A Worker Thread has been created: 16
+[Fri 2014.04.18 : 09:02:07 AM] **********REJECTED thread 4 from Citi *********
+[Fri 2014.04.18 : 09:02:09 AM] Worker Thread 7 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:09 AM] Worker Thread 9 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:11 AM] Asking worker Thread : 1 To Stop
+[Fri 2014.04.18 : 09:02:11 AM] worker Thread : 1 Has been stopped
+[Fri 2014.04.18 : 09:02:12 AM] Worker Thread 10 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:12 AM] Worker Thread 11 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:13 AM] A Worker Thread has been created: 17
+[Fri 2014.04.18 : 09:02:13 AM] Worker Thread 13 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:13 AM] A Worker Thread has been created: 18
+[Fri 2014.04.18 : 09:02:13 AM] Worker Thread 14 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:13 AM] **********REJECTED thread 4 from Citi *********
+[Fri 2014.04.18 : 09:02:13 AM] A Worker Thread has been created: 19
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 20
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 21
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 22
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 23
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 24
+[Fri 2014.04.18 : 09:02:14 AM] A Worker Thread has been created: 25
+[Fri 2014.04.18 : 09:02:15 AM] A Worker Thread has been created: 26
+[Fri 2014.04.18 : 09:02:15 AM] A Worker Thread has been created: 27
+[Fri 2014.04.18 : 09:02:18 AM] Worker Thread 7 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:18 AM] Worker Thread 9 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:20 AM] **********REJECTED thread 4 from Citi *********
+[Fri 2014.04.18 : 09:02:20 AM] Worker Thread 20 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:20 AM] Worker Thread 10 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:20 AM] Worker Thread 11 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:20 AM] Worker Thread 22 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:20 AM] Worker Thread 23 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:21 AM] Worker Thread 17 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:22 AM] Worker Thread 13 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:22 AM] Worker Thread 19 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:22 AM] Worker Thread 21 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:22 AM] A Worker Thread has been created: 28
+[Fri 2014.04.18 : 09:02:23 AM] A Worker Thread has been created: 29
+[Fri 2014.04.18 : 09:02:23 AM] Worker Thread 24 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:23 AM] A Worker Thread has been created: 30
+[Fri 2014.04.18 : 09:02:23 AM] Worker Thread 25 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:23 AM] A Worker Thread has been created: 31
+[Fri 2014.04.18 : 09:02:23 AM] Worker Thread 26 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:23 AM] A Worker Thread has been created: 32
+[Fri 2014.04.18 : 09:02:23 AM] Worker Thread 27 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:23 AM] A Worker Thread has been created: 33
+[Fri 2014.04.18 : 09:02:24 AM] A Worker Thread has been created: 34
+[Fri 2014.04.18 : 09:02:24 AM] Worker Thread 7 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:26 AM] **********REJECTED thread 4 from Citi *********
+[Fri 2014.04.18 : 09:02:26 AM] **********REJECTED thread 9 from USAA *********
+[Fri 2014.04.18 : 09:02:27 AM] **********REJECTED thread 11 from Citi *********
+[Fri 2014.04.18 : 09:02:27 AM] Worker Thread 22 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:29 AM] Worker Thread 24 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:30 AM] **********REJECTED thread 26 from Citi *********
+[Fri 2014.04.18 : 09:02:30 AM] Worker Thread 32 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:30 AM] Worker Thread 27 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:30 AM] Worker Thread 33 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:30 AM] **********REJECTED thread 34 from Citi *********
+[Fri 2014.04.18 : 09:02:30 AM] Worker Thread 17 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:30 AM] Worker Thread 13 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:31 AM] Worker Thread 21 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:32 AM] Worker Thread 30 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:32 AM] Worker Thread 25 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:32 AM] Worker Thread 31 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:33 AM] Worker Thread 7 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:34 AM] Worker Thread 1 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:35 AM] Worker Thread 22 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:36 AM] **********REJECTED thread 24 from Citi *********
+[Fri 2014.04.18 : 09:02:36 AM] **********REJECTED thread 26 from Citi *********
+[Fri 2014.04.18 : 09:02:38 AM] **********REJECTED thread 30 from Citi *********
+[Fri 2014.04.18 : 09:02:38 AM] Worker Thread 31 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:38 AM] Worker Thread 27 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:38 AM] Worker Thread 33 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:39 AM] Worker Thread 4 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:40 AM] Worker Thread 25 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:41 AM] Worker Thread 7 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:41 AM] Worker Thread 2 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:41 AM] Worker Thread 9 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:42 AM] Worker Thread 11 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:42 AM] Worker Thread 22 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:42 AM] Worker Thread 3 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:45 AM] Worker Thread 27 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:45 AM] **********REJECTED thread 33 from Citi *********
+[Fri 2014.04.18 : 09:02:45 AM] Asking worker Thread : 2 To Stop
+[Fri 2014.04.18 : 09:02:45 AM] worker Thread : 2 Has been stopped
+[Fri 2014.04.18 : 09:02:45 AM] Worker Thread 34 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:46 AM] Asking worker Thread : 3 To Stop
+[Fri 2014.04.18 : 09:02:46 AM] worker Thread : 3 Has been stopped
+[Fri 2014.04.18 : 09:02:46 AM] Asking worker Thread : 4 To Stop
+[Fri 2014.04.18 : 09:02:46 AM] worker Thread : 4 Has been stopped
+[Fri 2014.04.18 : 09:02:46 AM] Asking worker Thread : 5 To Stop
+[Fri 2014.04.18 : 09:02:46 AM] worker Thread : 5 Has been stopped
+[Fri 2014.04.18 : 09:02:46 AM] Asking worker Thread : 6 To Stop
+[Fri 2014.04.18 : 09:02:46 AM] worker Thread : 6 Has been stopped
+[Fri 2014.04.18 : 09:02:47 AM] Worker Thread 31 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:47 AM] A Worker Thread has been created: 35
+[Fri 2014.04.18 : 09:02:47 AM] A Worker Thread has been created: 36
+[Fri 2014.04.18 : 09:02:47 AM] **********REJECTED thread 4 from USAA *********
+[Fri 2014.04.18 : 09:02:47 AM] Asking worker Thread : 7 To Stop
+[Fri 2014.04.18 : 09:02:47 AM] worker Thread : 7 Has been stopped
+[Fri 2014.04.18 : 09:02:48 AM] Asking worker Thread : 8 To Stop
+[Fri 2014.04.18 : 09:02:48 AM] worker Thread : 8 Has been stopped
+[Fri 2014.04.18 : 09:02:48 AM] Asking worker Thread : 9 To Stop
+[Fri 2014.04.18 : 09:02:48 AM] worker Thread : 9 Has been stopped
+[Fri 2014.04.18 : 09:02:48 AM] Asking worker Thread : 10 To Stop
+[Fri 2014.04.18 : 09:02:48 AM] worker Thread : 10 Has been stopped
+[Fri 2014.04.18 : 09:02:48 AM] Worker Thread 11 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:48 AM] Worker Thread 3 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:48 AM] Worker Thread 24 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:48 AM] A Worker Thread has been created: 37
+[Fri 2014.04.18 : 09:02:49 AM] A Worker Thread has been created: 38
+[Fri 2014.04.18 : 09:02:49 AM] Worker Thread 26 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:49 AM] Worker Thread 25 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:49 AM] Asking worker Thread : 11 To Stop
+[Fri 2014.04.18 : 09:02:49 AM] worker Thread : 11 Has been stopped
+[Fri 2014.04.18 : 09:02:49 AM] Asking worker Thread : 12 To Stop
+[Fri 2014.04.18 : 09:02:49 AM] worker Thread : 12 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 13 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 13 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] Worker Thread 7 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 14 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 14 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] **********REJECTED thread 2 from USAA *********
+[Fri 2014.04.18 : 09:02:50 AM] Worker Thread 9 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 15 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 15 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 16 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 16 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 17 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 17 Has been stopped
+[Fri 2014.04.18 : 09:02:50 AM] Worker Thread 5 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:50 AM] Asking worker Thread : 18 To Stop
+[Fri 2014.04.18 : 09:02:50 AM] worker Thread : 18 Has been stopped
+[Fri 2014.04.18 : 09:02:51 AM] Asking worker Thread : 19 To Stop
+[Fri 2014.04.18 : 09:02:51 AM] worker Thread : 19 Has been stopped
+[Fri 2014.04.18 : 09:02:51 AM] Worker Thread 6 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:51 AM] Worker Thread 27 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:51 AM] Asking worker Thread : 20 To Stop
+[Fri 2014.04.18 : 09:02:51 AM] worker Thread : 20 Has been stopped
+[Fri 2014.04.18 : 09:02:51 AM] Asking worker Thread : 21 To Stop
+[Fri 2014.04.18 : 09:02:51 AM] worker Thread : 21 Has been stopped
+[Fri 2014.04.18 : 09:02:51 AM] Worker Thread 8 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:52 AM] Asking worker Thread : 22 To Stop
+[Fri 2014.04.18 : 09:02:52 AM] worker Thread : 22 Has been stopped
+[Fri 2014.04.18 : 09:02:52 AM] Asking worker Thread : 23 To Stop
+[Fri 2014.04.18 : 09:02:52 AM] worker Thread : 23 Has been stopped
+[Fri 2014.04.18 : 09:02:52 AM] Asking worker Thread : 24 To Stop
+[Fri 2014.04.18 : 09:02:52 AM] worker Thread : 24 Has been stopped
+[Fri 2014.04.18 : 09:02:52 AM] Worker Thread 12 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:53 AM] Worker Thread 31 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:54 AM] Worker Thread 15 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:54 AM] Worker Thread 16 Successfully Procesed a Transacton from WrightPatt
+[Fri 2014.04.18 : 09:02:55 AM] Worker Thread 24 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:55 AM] Worker Thread 37 Successfully Procesed a Transacton from Citi
+[Fri 2014.04.18 : 09:02:55 AM] Worker Thread 35 Successfully Procesed a Transacton from USAA
+[Fri 2014.04.18 : 09:02:57 AM] Worker Thread 11 Successfully Procesed a Transacton from USAA

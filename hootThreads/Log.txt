@@ -1,0 +1,16 @@
+[Sat 2014.03.22 : 07:30:43 PM] Setting up Banks
+[Sat 2014.03.22 : 07:30:43 PM] Starting the Simulation
+[Sat 2014.03.22 : 07:30:43 PM] The ThreadManager Construct has been called, all information has been passed.
+[Sat 2014.03.22 : 07:30:43 PM] The Transactions Are being Created...
+[Sat 2014.03.22 : 07:30:43 PM] A Worker Thread has been created: 2
+[Sat 2014.03.22 : 07:30:43 PM] A Worker Thread has been created: 3
+[Sat 2014.03.22 : 07:30:43 PM] A Worker Thread has been created: 4
+[Sat 2014.03.22 : 07:30:43 PM] Worker Thread +4 Successfully Procesed a Transacton from USAA
+[Sat 2014.03.22 : 07:30:44 PM] Worker Thread +4 Successfully Procesed a Transacton from Citi
+[Sat 2014.03.22 : 07:30:45 PM] Worker Thread +4 Successfully Procesed a Transacton from Citi
+[Sat 2014.03.22 : 07:30:49 PM] Worker Thread +4 Successfully Procesed a Transacton from Citi
+[Sat 2014.03.22 : 07:30:49 PM] Worker Thread +4 Successfully Procesed a Transacton from WrightPatt
+[Sat 2014.03.22 : 07:30:49 PM] Worker Thread +4 Successfully Procesed a Transacton from Citi
+[Sat 2014.03.22 : 07:30:50 PM] Worker Thread +4 Successfully Procesed a Transacton from WrightPatt
+[Sat 2014.03.22 : 07:30:50 PM] Worker Thread +4 Successfully Procesed a Transacton from Citi
+[Sat 2014.03.22 : 07:30:53 PM] Worker Thread +4 Successfully Procesed a Transacton from USAA

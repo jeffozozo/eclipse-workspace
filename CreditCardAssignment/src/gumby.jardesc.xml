@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="US-ASCII" standalone="no"?>
+<jardesc>
+    <jar path="/Users/jeffozozo/Documents/ccA.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/CreditCardAssignment/src/gumby.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=CreditCardAssignment/src&lt;{MainClass.java[MainClass" manifestLocation="/CreditCardAssignment/ccmanifest" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal>
+                <package handleIdentifier="=CreditCardAssignment/src&lt;"/>
+            </packagesToUnSeal>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=CreditCardAssignment"/>
+    </selectedElements>
+</jardesc>

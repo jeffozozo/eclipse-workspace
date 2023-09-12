@@ -1,0 +1,20 @@
+upstairs girls room 1 window,sensor
+upstairs girls room 1 light,switch
+front door,sensor
+back door 1,sensor
+back door 2,sensor
+garage door,sensor
+garage door,switch
+side door,sensor
+downstairs boys room 1 window,sensor
+downstairs boys room 2 window,sensor
+front room window,sensor
+kitchen window,sensor
+kitchen door,sensor
+kitchen coffee maker,switch
+kitchen dishwasher,switch
+kitchen lights,switch
+hallway motion,sensor
+front door lock,switch
+side door lock,switch
+

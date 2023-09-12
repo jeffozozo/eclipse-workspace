@@ -1,0 +1,2669 @@
+Log File Open, Begin logging...
+[06/10/2019 08:21:58] Starting worker thread: 16
+[06/10/2019 08:21:58] Starting worker thread: 19
+[06/10/2019 08:21:58] Starting worker thread: 18
+[06/10/2019 08:21:58] Starting worker thread: 17
+[06/10/2019 08:21:58] Starting worker thread: 15
+[06/10/2019 08:21:59] new transaction created: ID: 0 Bank: Citibank acct:775 amt:2360.72
+[06/10/2019 08:21:59] trying to add txn 0 to request queue
+[06/10/2019 08:21:59] success adding txn 0 to request queue
+[06/10/2019 08:21:59] Worker 17 Processing Request: ID: 0 Bank: Citibank acct:775 amt:2360.72
+[06/10/2019 08:21:59] worker: 17 Authorizing txn: 0 at: Citibank
+[06/10/2019 08:22:00] new transaction created: ID: 1 Bank: Bank of America acct:1049 amt:774.94
+[06/10/2019 08:22:00] trying to add txn 1 to request queue
+[06/10/2019 08:22:00] success adding txn 1 to request queue
+[06/10/2019 08:22:00] Worker 18 Processing Request: ID: 1 Bank: Bank of America acct:1049 amt:774.94
+[06/10/2019 08:22:00] worker: 18 Authorizing txn: 1 at: Bank of America
+[06/10/2019 08:22:01] new transaction created: ID: 2 Bank: Chase acct:1917 amt:1766.83
+[06/10/2019 08:22:01] trying to add txn 2 to request queue
+[06/10/2019 08:22:01] success adding txn 2 to request queue
+[06/10/2019 08:22:01] Worker 16 Processing Request: ID: 2 Bank: Chase acct:1917 amt:1766.83
+[06/10/2019 08:22:01] worker: 16 Authorizing txn: 2 at: Chase
+[06/10/2019 08:22:02] new transaction created: ID: 3 Bank: Wells Fargo acct:8977 amt:1836.00
+[06/10/2019 08:22:02] trying to add txn 3 to request queue
+[06/10/2019 08:22:02] success adding txn 3 to request queue
+[06/10/2019 08:22:02] Worker 19 Processing Request: ID: 3 Bank: Wells Fargo acct:8977 amt:1836.00
+[06/10/2019 08:22:02] worker: 19 Authorizing txn: 3 at: Wells Fargo
+[06/10/2019 08:22:03] new transaction created: ID: 4 Bank: Citibank acct:5698 amt:1679.24
+[06/10/2019 08:22:03] trying to add txn 4 to request queue
+[06/10/2019 08:22:03] success adding txn 4 to request queue
+[06/10/2019 08:22:04] Worker 15 Processing Request: ID: 4 Bank: Citibank acct:5698 amt:1679.24
+[06/10/2019 08:22:04] worker: 15 Authorizing txn: 4 at: Citibank
+[06/10/2019 08:22:04] new transaction created: ID: 5 Bank: Chase acct:4988 amt:2591.42
+[06/10/2019 08:22:04] trying to add txn 5 to request queue
+[06/10/2019 08:22:04] success adding txn 5 to request queue
+[06/10/2019 08:22:05] new transaction created: ID: 6 Bank: Chase acct:3501 amt:1991.12
+[06/10/2019 08:22:05] trying to add txn 6 to request queue
+[06/10/2019 08:22:05] success adding txn 6 to request queue
+[06/10/2019 08:22:06] new transaction created: ID: 7 Bank: Citibank acct:7433 amt:3276.46
+[06/10/2019 08:22:06] trying to add txn 7 to request queue
+[06/10/2019 08:22:06] success adding txn 7 to request queue
+[06/10/2019 08:22:06] new transaction created: ID: 8 Bank: Bank of America acct:3339 amt:3574.47
+[06/10/2019 08:22:06] trying to add txn 8 to request queue
+[06/10/2019 08:22:06] success adding txn 8 to request queue
+[06/10/2019 08:22:07] new transaction created: ID: 9 Bank: Chase acct:7561 amt:4711.90
+[06/10/2019 08:22:07] trying to add txn 9 to request queue
+[06/10/2019 08:22:07] success adding txn 9 to request queue
+[06/10/2019 08:22:07] new transaction created: ID: 10 Bank: Chase acct:7595 amt:2455.08
+[06/10/2019 08:22:07] trying to add txn 10 to request queue
+[06/10/2019 08:22:07] success adding txn 10 to request queue
+[06/10/2019 08:22:07] new transaction created: ID: 11 Bank: Citibank acct:9558 amt:635.27
+[06/10/2019 08:22:07] trying to add txn 11 to request queue
+[06/10/2019 08:22:07] success adding txn 11 to request queue
+[06/10/2019 08:22:07] new transaction created: ID: 12 Bank: Bank of America acct:734 amt:3382.43
+[06/10/2019 08:22:07] trying to add txn 12 to request queue
+[06/10/2019 08:22:07] success adding txn 12 to request queue
+[06/10/2019 08:22:08] new transaction created: ID: 13 Bank: Bank of America acct:6842 amt:1256.96
+[06/10/2019 08:22:08] trying to add txn 13 to request queue
+[06/10/2019 08:22:08] success adding txn 13 to request queue
+[06/10/2019 08:22:08] new transaction created: ID: 14 Bank: Wells Fargo acct:2787 amt:2884.14
+[06/10/2019 08:22:08] trying to add txn 14 to request queue
+[06/10/2019 08:22:08] success adding txn 14 to request queue
+[06/10/2019 08:22:08] new transaction created: ID: 15 Bank: Citibank acct:1906 amt:1834.25
+[06/10/2019 08:22:08] trying to add txn 15 to request queue
+[06/10/2019 08:22:08] success adding txn 15 to request queue
+[06/10/2019 08:22:08] new transaction created: ID: 16 Bank: Bank of America acct:5151 amt:2430.27
+[06/10/2019 08:22:08] trying to add txn 16 to request queue
+[06/10/2019 08:22:08] success adding txn 16 to request queue
+[06/10/2019 08:22:08] new transaction created: ID: 17 Bank: Chase acct:223 amt:4551.17
+[06/10/2019 08:22:08] trying to add txn 17 to request queue
+[06/10/2019 08:22:08] success adding txn 17 to request queue
+[06/10/2019 08:22:09] new transaction created: ID: 18 Bank: Citibank acct:6304 amt:2901.10
+[06/10/2019 08:22:09] trying to add txn 18 to request queue
+[06/10/2019 08:22:09] success adding txn 18 to request queue
+[06/10/2019 08:22:09] new transaction created: ID: 19 Bank: Citibank acct:7915 amt:2978.47
+[06/10/2019 08:22:09] trying to add txn 19 to request queue
+[06/10/2019 08:22:09] success adding txn 19 to request queue
+[06/10/2019 08:22:09] new transaction created: ID: 20 Bank: Bank of America acct:4208 amt:4381.14
+[06/10/2019 08:22:09] trying to add txn 20 to request queue
+[06/10/2019 08:22:09] success adding txn 20 to request queue
+[06/10/2019 08:22:09] new transaction created: ID: 21 Bank: Chase acct:1212 amt:3352.98
+[06/10/2019 08:22:09] trying to add txn 21 to request queue
+[06/10/2019 08:22:09] success adding txn 21 to request queue
+[06/10/2019 08:22:09] Request 0 returned in: 10 seconds. Result: true
+[06/10/2019 08:22:09] Request 0 placed in output queue.
+[06/10/2019 08:22:09] transaction ID: 0 Bank: Citibank acct:775 amt:2360.72 completed.
+[06/10/2019 08:22:09] Worker 17 Processing Request: ID: 5 Bank: Chase acct:4988 amt:2591.42
+[06/10/2019 08:22:09] worker: 17 Authorizing txn: 5 at: Chase
+[06/10/2019 08:22:09] new transaction created: ID: 22 Bank: Citibank acct:3152 amt:4761.10
+[06/10/2019 08:22:09] trying to add txn 22 to request queue
+[06/10/2019 08:22:09] success adding txn 22 to request queue
+[06/10/2019 08:22:10] new transaction created: ID: 23 Bank: Chase acct:4166 amt:2728.13
+[06/10/2019 08:22:10] trying to add txn 23 to request queue
+[06/10/2019 08:22:10] success adding txn 23 to request queue
+[06/10/2019 08:22:10] new transaction created: ID: 24 Bank: Wells Fargo acct:2286 amt:4797.98
+[06/10/2019 08:22:10] trying to add txn 24 to request queue
+[06/10/2019 08:22:10] success adding txn 24 to request queue
+[06/10/2019 08:22:10] new transaction created: ID: 25 Bank: Citibank acct:4272 amt:4579.15
+[06/10/2019 08:22:10] trying to add txn 25 to request queue
+[06/10/2019 08:22:10] success adding txn 25 to request queue
+[06/10/2019 08:22:10] Request 2 returned in: 9 seconds. Result: true
+[06/10/2019 08:22:10] Request 2 placed in output queue.
+[06/10/2019 08:22:10] transaction ID: 2 Bank: Chase acct:1917 amt:1766.83 completed.
+[06/10/2019 08:22:10] Worker 16 Processing Request: ID: 6 Bank: Chase acct:3501 amt:1991.12
+[06/10/2019 08:22:10] worker: 16 Authorizing txn: 6 at: Chase
+[06/10/2019 08:22:10] new transaction created: ID: 26 Bank: Bank of America acct:3590 amt:3079.32
+[06/10/2019 08:22:10] trying to add txn 26 to request queue
+[06/10/2019 08:22:10] success adding txn 26 to request queue
+[06/10/2019 08:22:10] new transaction created: ID: 27 Bank: Citibank acct:867 amt:1504.23
+[06/10/2019 08:22:10] trying to add txn 27 to request queue
+[06/10/2019 08:22:10] success adding txn 27 to request queue
+[06/10/2019 08:22:10] Request 1 returned in: 10 seconds. Result: true
+[06/10/2019 08:22:10] Request 1 placed in output queue.
+[06/10/2019 08:22:10] transaction ID: 1 Bank: Bank of America acct:1049 amt:774.94 completed.
+[06/10/2019 08:22:10] Worker 18 Processing Request: ID: 7 Bank: Citibank acct:7433 amt:3276.46
+[06/10/2019 08:22:10] worker: 18 Authorizing txn: 7 at: Citibank
+[06/10/2019 08:22:11] new transaction created: ID: 28 Bank: Bank of America acct:3781 amt:1296.52
+[06/10/2019 08:22:11] trying to add txn 28 to request queue
+[06/10/2019 08:22:11] success adding txn 28 to request queue
+[06/10/2019 08:22:11] new transaction created: ID: 29 Bank: Wells Fargo acct:647 amt:1926.17
+[06/10/2019 08:22:11] trying to add txn 29 to request queue
+[06/10/2019 08:22:11] success adding txn 29 to request queue
+[06/10/2019 08:22:11] new transaction created: ID: 30 Bank: Citibank acct:3333 amt:3388.19
+[06/10/2019 08:22:11] trying to add txn 30 to request queue
+[06/10/2019 08:22:11] success adding txn 30 to request queue
+[06/10/2019 08:22:11] new transaction created: ID: 31 Bank: Bank of America acct:1947 amt:551.67
+[06/10/2019 08:22:11] trying to add txn 31 to request queue
+[06/10/2019 08:22:11] success adding txn 31 to request queue
+[06/10/2019 08:22:11] new transaction created: ID: 32 Bank: Bank of America acct:4062 amt:4035.35
+[06/10/2019 08:22:11] trying to add txn 32 to request queue
+[06/10/2019 08:22:11] success adding txn 32 to request queue
+[06/10/2019 08:22:12] new transaction created: ID: 33 Bank: Chase acct:135 amt:2110.39
+[06/10/2019 08:22:12] trying to add txn 33 to request queue
+[06/10/2019 08:22:12] success adding txn 33 to request queue
+[06/10/2019 08:22:12] new transaction created: ID: 34 Bank: Wells Fargo acct:202 amt:2583.84
+[06/10/2019 08:22:12] trying to add txn 34 to request queue
+[06/10/2019 08:22:12] success adding txn 34 to request queue
+[06/10/2019 08:22:12] new transaction created: ID: 35 Bank: Chase acct:6485 amt:511.70
+[06/10/2019 08:22:12] trying to add txn 35 to request queue
+[06/10/2019 08:22:12] success adding txn 35 to request queue
+[06/10/2019 08:22:12] new transaction created: ID: 36 Bank: Wells Fargo acct:757 amt:444.79
+[06/10/2019 08:22:12] trying to add txn 36 to request queue
+[06/10/2019 08:22:12] success adding txn 36 to request queue
+[06/10/2019 08:22:12] Request 3 returned in: 10 seconds. Result: false
+[06/10/2019 08:22:12] Request 3 placed in output queue.
+[06/10/2019 08:22:12] transaction ID: 3 Bank: Wells Fargo acct:8977 amt:1836.00 completed.
+[06/10/2019 08:22:12] Worker 19 Processing Request: ID: 8 Bank: Bank of America acct:3339 amt:3574.47
+[06/10/2019 08:22:12] worker: 19 Authorizing txn: 8 at: Bank of America
+[06/10/2019 08:22:12] new transaction created: ID: 37 Bank: Wells Fargo acct:6999 amt:3566.45
+[06/10/2019 08:22:12] trying to add txn 37 to request queue
+[06/10/2019 08:22:12] success adding txn 37 to request queue
+[06/10/2019 08:22:13] new transaction created: ID: 38 Bank: Chase acct:7835 amt:2061.93
+[06/10/2019 08:22:13] trying to add txn 38 to request queue
+[06/10/2019 08:22:13] success adding txn 38 to request queue
+[06/10/2019 08:22:13] new transaction created: ID: 39 Bank: Wells Fargo acct:2562 amt:3554.33
+[06/10/2019 08:22:13] trying to add txn 39 to request queue
+[06/10/2019 08:22:13] success adding txn 39 to request queue
+[06/10/2019 08:22:13] new transaction created: ID: 40 Bank: Wells Fargo acct:1694 amt:2054.63
+[06/10/2019 08:22:13] trying to add txn 40 to request queue
+[06/10/2019 08:22:13] success adding txn 40 to request queue
+[06/10/2019 08:22:13] new transaction created: ID: 41 Bank: Wells Fargo acct:1874 amt:2354.68
+[06/10/2019 08:22:13] trying to add txn 41 to request queue
+[06/10/2019 08:22:13] success adding txn 41 to request queue
+[06/10/2019 08:22:13] new transaction created: ID: 42 Bank: Bank of America acct:7595 amt:4030.18
+[06/10/2019 08:22:13] trying to add txn 42 to request queue
+[06/10/2019 08:22:13] success adding txn 42 to request queue
+[06/10/2019 08:22:14] new transaction created: ID: 43 Bank: Wells Fargo acct:3368 amt:2604.68
+[06/10/2019 08:22:14] trying to add txn 43 to request queue
+[06/10/2019 08:22:14] success adding txn 43 to request queue
+[06/10/2019 08:22:14] new transaction created: ID: 44 Bank: Wells Fargo acct:5841 amt:3407.57
+[06/10/2019 08:22:14] trying to add txn 44 to request queue
+[06/10/2019 08:22:14] success adding txn 44 to request queue
+[06/10/2019 08:22:14] new transaction created: ID: 45 Bank: Wells Fargo acct:7651 amt:187.12
+[06/10/2019 08:22:14] trying to add txn 45 to request queue
+[06/10/2019 08:22:14] success adding txn 45 to request queue
+[06/10/2019 08:22:14] new transaction created: ID: 46 Bank: Citibank acct:605 amt:1600.60
+[06/10/2019 08:22:14] trying to add txn 46 to request queue
+[06/10/2019 08:22:14] success adding txn 46 to request queue
+[06/10/2019 08:22:14] new transaction created: ID: 47 Bank: Bank of America acct:922 amt:4273.09
+[06/10/2019 08:22:14] trying to add txn 47 to request queue
+[06/10/2019 08:22:14] success adding txn 47 to request queue
+[06/10/2019 08:22:15] Request 4 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:15] Request 4 placed in output queue.
+[06/10/2019 08:22:15] transaction ID: 4 Bank: Citibank acct:5698 amt:1679.24 completed.
+[06/10/2019 08:22:15] Worker 15 Processing Request: ID: 9 Bank: Chase acct:7561 amt:4711.90
+[06/10/2019 08:22:15] worker: 15 Authorizing txn: 9 at: Chase
+[06/10/2019 08:22:15] new transaction created: ID: 48 Bank: Chase acct:1413 amt:4861.72
+[06/10/2019 08:22:15] trying to add txn 48 to request queue
+[06/10/2019 08:22:15] success adding txn 48 to request queue
+[06/10/2019 08:22:15] new transaction created: ID: 49 Bank: Bank of America acct:7373 amt:781.43
+[06/10/2019 08:22:15] trying to add txn 49 to request queue
+[06/10/2019 08:22:15] success adding txn 49 to request queue
+[06/10/2019 08:22:15] new transaction created: ID: 50 Bank: Citibank acct:5806 amt:3814.45
+[06/10/2019 08:22:15] trying to add txn 50 to request queue
+[06/10/2019 08:22:15] success adding txn 50 to request queue
+[06/10/2019 08:22:15] new transaction created: ID: 51 Bank: Chase acct:3301 amt:859.00
+[06/10/2019 08:22:15] trying to add txn 51 to request queue
+[06/10/2019 08:22:15] success adding txn 51 to request queue
+[06/10/2019 08:22:15] new transaction created: ID: 52 Bank: Citibank acct:5860 amt:634.52
+[06/10/2019 08:22:15] trying to add txn 52 to request queue
+[06/10/2019 08:22:15] success adding txn 52 to request queue
+[06/10/2019 08:22:16] new transaction created: ID: 53 Bank: Chase acct:9298 amt:679.76
+[06/10/2019 08:22:16] trying to add txn 53 to request queue
+[06/10/2019 08:22:16] success adding txn 53 to request queue
+[06/10/2019 08:22:16] new transaction created: ID: 54 Bank: Citibank acct:9509 amt:2390.04
+[06/10/2019 08:22:16] trying to add txn 54 to request queue
+[06/10/2019 08:22:16] success adding txn 54 to request queue
+[06/10/2019 08:22:16] new transaction created: ID: 55 Bank: Citibank acct:5942 amt:4593.00
+[06/10/2019 08:22:16] trying to add txn 55 to request queue
+[06/10/2019 08:22:16] success adding txn 55 to request queue
+[06/10/2019 08:22:16] new transaction created: ID: 56 Bank: Chase acct:703 amt:1371.67
+[06/10/2019 08:22:16] trying to add txn 56 to request queue
+[06/10/2019 08:22:16] success adding txn 56 to request queue
+[06/10/2019 08:22:16] new transaction created: ID: 57 Bank: Wells Fargo acct:1251 amt:3132.15
+[06/10/2019 08:22:16] trying to add txn 57 to request queue
+[06/10/2019 08:22:16] success adding txn 57 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 58 Bank: Bank of America acct:1939 amt:1441.76
+[06/10/2019 08:22:17] trying to add txn 58 to request queue
+[06/10/2019 08:22:17] success adding txn 58 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 59 Bank: Citibank acct:1297 amt:925.52
+[06/10/2019 08:22:17] trying to add txn 59 to request queue
+[06/10/2019 08:22:17] success adding txn 59 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 60 Bank: Citibank acct:3753 amt:764.02
+[06/10/2019 08:22:17] trying to add txn 60 to request queue
+[06/10/2019 08:22:17] success adding txn 60 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 61 Bank: Wells Fargo acct:3016 amt:3727.72
+[06/10/2019 08:22:17] trying to add txn 61 to request queue
+[06/10/2019 08:22:17] success adding txn 61 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 62 Bank: Bank of America acct:7826 amt:4514.33
+[06/10/2019 08:22:17] trying to add txn 62 to request queue
+[06/10/2019 08:22:17] success adding txn 62 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 63 Bank: Citibank acct:203 amt:1609.97
+[06/10/2019 08:22:17] trying to add txn 63 to request queue
+[06/10/2019 08:22:17] success adding txn 63 to request queue
+[06/10/2019 08:22:17] new transaction created: ID: 64 Bank: Chase acct:4058 amt:2600.91
+[06/10/2019 08:22:17] trying to add txn 64 to request queue
+[06/10/2019 08:22:17] success adding txn 64 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 65 Bank: Wells Fargo acct:7434 amt:3051.14
+[06/10/2019 08:22:18] trying to add txn 65 to request queue
+[06/10/2019 08:22:18] success adding txn 65 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 66 Bank: Bank of America acct:7901 amt:4626.68
+[06/10/2019 08:22:18] trying to add txn 66 to request queue
+[06/10/2019 08:22:18] success adding txn 66 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 67 Bank: Bank of America acct:3712 amt:1309.93
+[06/10/2019 08:22:18] trying to add txn 67 to request queue
+[06/10/2019 08:22:18] success adding txn 67 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 68 Bank: Bank of America acct:4660 amt:3367.74
+[06/10/2019 08:22:18] trying to add txn 68 to request queue
+[06/10/2019 08:22:18] success adding txn 68 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 69 Bank: Wells Fargo acct:1812 amt:2613.08
+[06/10/2019 08:22:18] trying to add txn 69 to request queue
+[06/10/2019 08:22:18] success adding txn 69 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 70 Bank: Citibank acct:7815 amt:839.76
+[06/10/2019 08:22:18] trying to add txn 70 to request queue
+[06/10/2019 08:22:18] success adding txn 70 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 71 Bank: Bank of America acct:3119 amt:1934.59
+[06/10/2019 08:22:18] trying to add txn 71 to request queue
+[06/10/2019 08:22:18] success adding txn 71 to request queue
+[06/10/2019 08:22:18] new transaction created: ID: 72 Bank: Chase acct:9356 amt:1604.84
+[06/10/2019 08:22:18] trying to add txn 72 to request queue
+[06/10/2019 08:22:18] success adding txn 72 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 73 Bank: Wells Fargo acct:5792 amt:3266.06
+[06/10/2019 08:22:19] trying to add txn 73 to request queue
+[06/10/2019 08:22:19] success adding txn 73 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 74 Bank: Chase acct:493 amt:3725.05
+[06/10/2019 08:22:19] trying to add txn 74 to request queue
+[06/10/2019 08:22:19] success adding txn 74 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 75 Bank: Chase acct:5012 amt:576.70
+[06/10/2019 08:22:19] trying to add txn 75 to request queue
+[06/10/2019 08:22:19] success adding txn 75 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 76 Bank: Bank of America acct:143 amt:690.69
+[06/10/2019 08:22:19] trying to add txn 76 to request queue
+[06/10/2019 08:22:19] success adding txn 76 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 77 Bank: Citibank acct:3245 amt:4151.85
+[06/10/2019 08:22:19] trying to add txn 77 to request queue
+[06/10/2019 08:22:19] success adding txn 77 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 78 Bank: Wells Fargo acct:8398 amt:598.71
+[06/10/2019 08:22:19] trying to add txn 78 to request queue
+[06/10/2019 08:22:19] success adding txn 78 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 79 Bank: Chase acct:521 amt:4687.75
+[06/10/2019 08:22:19] trying to add txn 79 to request queue
+[06/10/2019 08:22:19] success adding txn 79 to request queue
+[06/10/2019 08:22:19] new transaction created: ID: 80 Bank: Chase acct:574 amt:1795.54
+[06/10/2019 08:22:19] trying to add txn 80 to request queue
+[06/10/2019 08:22:19] success adding txn 80 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 81 Bank: Citibank acct:6072 amt:4645.47
+[06/10/2019 08:22:20] trying to add txn 81 to request queue
+[06/10/2019 08:22:20] success adding txn 81 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 82 Bank: Bank of America acct:9906 amt:453.17
+[06/10/2019 08:22:20] trying to add txn 82 to request queue
+[06/10/2019 08:22:20] success adding txn 82 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 83 Bank: Citibank acct:3710 amt:4652.93
+[06/10/2019 08:22:20] trying to add txn 83 to request queue
+[06/10/2019 08:22:20] success adding txn 83 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 84 Bank: Wells Fargo acct:9682 amt:3053.25
+[06/10/2019 08:22:20] trying to add txn 84 to request queue
+[06/10/2019 08:22:20] success adding txn 84 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 85 Bank: Chase acct:1547 amt:1648.59
+[06/10/2019 08:22:20] trying to add txn 85 to request queue
+[06/10/2019 08:22:20] success adding txn 85 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 86 Bank: Wells Fargo acct:7672 amt:4304.77
+[06/10/2019 08:22:20] trying to add txn 86 to request queue
+[06/10/2019 08:22:20] success adding txn 86 to request queue
+[06/10/2019 08:22:20] new transaction created: ID: 87 Bank: Bank of America acct:8310 amt:3425.97
+[06/10/2019 08:22:20] trying to add txn 87 to request queue
+[06/10/2019 08:22:20] success adding txn 87 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 88 Bank: Wells Fargo acct:1572 amt:4519.66
+[06/10/2019 08:22:21] trying to add txn 88 to request queue
+[06/10/2019 08:22:21] success adding txn 88 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 89 Bank: Bank of America acct:2045 amt:4941.38
+[06/10/2019 08:22:21] trying to add txn 89 to request queue
+[06/10/2019 08:22:21] success adding txn 89 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 90 Bank: Bank of America acct:6491 amt:4180.19
+[06/10/2019 08:22:21] trying to add txn 90 to request queue
+[06/10/2019 08:22:21] success adding txn 90 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 91 Bank: Citibank acct:4636 amt:349.41
+[06/10/2019 08:22:21] trying to add txn 91 to request queue
+[06/10/2019 08:22:21] success adding txn 91 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 92 Bank: Wells Fargo acct:7066 amt:1225.20
+[06/10/2019 08:22:21] trying to add txn 92 to request queue
+[06/10/2019 08:22:21] success adding txn 92 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 93 Bank: Bank of America acct:6636 amt:4127.42
+[06/10/2019 08:22:21] trying to add txn 93 to request queue
+[06/10/2019 08:22:21] success adding txn 93 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 94 Bank: Chase acct:3716 amt:3188.68
+[06/10/2019 08:22:21] trying to add txn 94 to request queue
+[06/10/2019 08:22:21] success adding txn 94 to request queue
+[06/10/2019 08:22:21] new transaction created: ID: 95 Bank: Wells Fargo acct:9650 amt:1720.70
+[06/10/2019 08:22:21] trying to add txn 95 to request queue
+[06/10/2019 08:22:21] success adding txn 95 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 96 Bank: Wells Fargo acct:6129 amt:3587.11
+[06/10/2019 08:22:22] trying to add txn 96 to request queue
+[06/10/2019 08:22:22] success adding txn 96 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 97 Bank: Citibank acct:8072 amt:1999.83
+[06/10/2019 08:22:22] trying to add txn 97 to request queue
+[06/10/2019 08:22:22] success adding txn 97 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 98 Bank: Citibank acct:6788 amt:69.09
+[06/10/2019 08:22:22] trying to add txn 98 to request queue
+[06/10/2019 08:22:22] success adding txn 98 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 99 Bank: Bank of America acct:2657 amt:4067.56
+[06/10/2019 08:22:22] trying to add txn 99 to request queue
+[06/10/2019 08:22:22] success adding txn 99 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 100 Bank: Bank of America acct:2939 amt:623.88
+[06/10/2019 08:22:22] trying to add txn 100 to request queue
+[06/10/2019 08:22:22] success adding txn 100 to request queue
+[06/10/2019 08:22:22] Request 6 returned in: 12 seconds. Result: true
+[06/10/2019 08:22:22] Request 6 placed in output queue.
+[06/10/2019 08:22:22] transaction ID: 6 Bank: Chase acct:3501 amt:1991.12 completed.
+[06/10/2019 08:22:22] Worker 16 Processing Request: ID: 10 Bank: Chase acct:7595 amt:2455.08
+[06/10/2019 08:22:22] worker: 16 Authorizing txn: 10 at: Chase
+[06/10/2019 08:22:22] new transaction created: ID: 101 Bank: Chase acct:3423 amt:4929.56
+[06/10/2019 08:22:22] trying to add txn 101 to request queue
+[06/10/2019 08:22:22] success adding txn 101 to request queue
+[06/10/2019 08:22:22] Request 5 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:22] Request 5 placed in output queue.
+[06/10/2019 08:22:22] transaction ID: 5 Bank: Chase acct:4988 amt:2591.42 completed.
+[06/10/2019 08:22:22] Worker 17 Processing Request: ID: 11 Bank: Citibank acct:9558 amt:635.27
+[06/10/2019 08:22:22] worker: 17 Authorizing txn: 11 at: Citibank
+[06/10/2019 08:22:22] new transaction created: ID: 102 Bank: Chase acct:4936 amt:2619.67
+[06/10/2019 08:22:22] trying to add txn 102 to request queue
+[06/10/2019 08:22:22] success adding txn 102 to request queue
+[06/10/2019 08:22:22] new transaction created: ID: 103 Bank: Citibank acct:3619 amt:1724.16
+[06/10/2019 08:22:22] trying to add txn 103 to request queue
+[06/10/2019 08:22:22] success adding txn 103 to request queue
+[06/10/2019 08:22:22] Request 7 returned in: 12 seconds. Result: true
+[06/10/2019 08:22:22] Request 7 placed in output queue.
+[06/10/2019 08:22:22] transaction ID: 7 Bank: Citibank acct:7433 amt:3276.46 completed.
+[06/10/2019 08:22:22] Worker 18 Processing Request: ID: 12 Bank: Bank of America acct:734 amt:3382.43
+[06/10/2019 08:22:22] worker: 18 Authorizing txn: 12 at: Bank of America
+[06/10/2019 08:22:23] new transaction created: ID: 104 Bank: Bank of America acct:4868 amt:1937.09
+[06/10/2019 08:22:23] trying to add txn 104 to request queue
+[06/10/2019 08:22:23] success adding txn 104 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 105 Bank: Citibank acct:5453 amt:594.47
+[06/10/2019 08:22:23] trying to add txn 105 to request queue
+[06/10/2019 08:22:23] success adding txn 105 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 106 Bank: Citibank acct:198 amt:3019.95
+[06/10/2019 08:22:23] trying to add txn 106 to request queue
+[06/10/2019 08:22:23] success adding txn 106 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 107 Bank: Citibank acct:4383 amt:1823.46
+[06/10/2019 08:22:23] trying to add txn 107 to request queue
+[06/10/2019 08:22:23] success adding txn 107 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 108 Bank: Bank of America acct:1729 amt:4504.61
+[06/10/2019 08:22:23] trying to add txn 108 to request queue
+[06/10/2019 08:22:23] success adding txn 108 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 109 Bank: Bank of America acct:8628 amt:1458.91
+[06/10/2019 08:22:23] trying to add txn 109 to request queue
+[06/10/2019 08:22:23] success adding txn 109 to request queue
+[06/10/2019 08:22:23] Request 8 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:23] Request 8 placed in output queue.
+[06/10/2019 08:22:23] transaction ID: 8 Bank: Bank of America acct:3339 amt:3574.47 completed.
+[06/10/2019 08:22:23] Worker 19 Processing Request: ID: 13 Bank: Bank of America acct:6842 amt:1256.96
+[06/10/2019 08:22:23] worker: 19 Authorizing txn: 13 at: Bank of America
+[06/10/2019 08:22:23] new transaction created: ID: 110 Bank: Wells Fargo acct:7104 amt:2763.27
+[06/10/2019 08:22:23] trying to add txn 110 to request queue
+[06/10/2019 08:22:23] success adding txn 110 to request queue
+[06/10/2019 08:22:23] new transaction created: ID: 111 Bank: Chase acct:9649 amt:3770.57
+[06/10/2019 08:22:23] trying to add txn 111 to request queue
+[06/10/2019 08:22:23] success adding txn 111 to request queue
+[06/10/2019 08:22:23] Starting worker thread: 20
+[06/10/2019 08:22:23] Worker 20 Processing Request: ID: 14 Bank: Wells Fargo acct:2787 amt:2884.14
+[06/10/2019 08:22:23] worker: 20 Authorizing txn: 14 at: Wells Fargo
+[06/10/2019 08:22:24] new transaction created: ID: 112 Bank: Citibank acct:5469 amt:3138.60
+[06/10/2019 08:22:24] trying to add txn 112 to request queue
+[06/10/2019 08:22:24] success adding txn 112 to request queue
+[06/10/2019 08:22:24] new transaction created: ID: 113 Bank: Citibank acct:1405 amt:2684.34
+[06/10/2019 08:22:24] trying to add txn 113 to request queue
+[06/10/2019 08:22:24] success adding txn 113 to request queue
+[06/10/2019 08:22:24] new transaction created: ID: 114 Bank: Chase acct:1934 amt:4298.93
+[06/10/2019 08:22:24] trying to add txn 114 to request queue
+[06/10/2019 08:22:24] success adding txn 114 to request queue
+[06/10/2019 08:22:24] new transaction created: ID: 115 Bank: Chase acct:5891 amt:3922.23
+[06/10/2019 08:22:24] trying to add txn 115 to request queue
+[06/10/2019 08:22:24] success adding txn 115 to request queue
+[06/10/2019 08:22:24] new transaction created: ID: 116 Bank: Chase acct:8571 amt:1978.74
+[06/10/2019 08:22:24] trying to add txn 116 to request queue
+[06/10/2019 08:22:24] success adding txn 116 to request queue
+[06/10/2019 08:22:24] Starting worker thread: 21
+[06/10/2019 08:22:24] Worker 21 Processing Request: ID: 15 Bank: Citibank acct:1906 amt:1834.25
+[06/10/2019 08:22:24] worker: 21 Authorizing txn: 15 at: Citibank
+[06/10/2019 08:22:24] new transaction created: ID: 117 Bank: Chase acct:3979 amt:683.22
+[06/10/2019 08:22:24] trying to add txn 117 to request queue
+[06/10/2019 08:22:24] success adding txn 117 to request queue
+[06/10/2019 08:22:24] new transaction created: ID: 118 Bank: Wells Fargo acct:5270 amt:4703.48
+[06/10/2019 08:22:24] trying to add txn 118 to request queue
+[06/10/2019 08:22:24] success adding txn 118 to request queue
+[06/10/2019 08:22:24] Starting worker thread: 22
+[06/10/2019 08:22:24] Worker 22 Processing Request: ID: 16 Bank: Bank of America acct:5151 amt:2430.27
+[06/10/2019 08:22:24] worker: 22 Authorizing txn: 16 at: Bank of America
+[06/10/2019 08:22:24] new transaction created: ID: 119 Bank: Wells Fargo acct:9387 amt:1828.28
+[06/10/2019 08:22:24] trying to add txn 119 to request queue
+[06/10/2019 08:22:24] success adding txn 119 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 120 Bank: Citibank acct:7767 amt:4953.69
+[06/10/2019 08:22:25] trying to add txn 120 to request queue
+[06/10/2019 08:22:25] success adding txn 120 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 121 Bank: Citibank acct:4041 amt:3768.89
+[06/10/2019 08:22:25] trying to add txn 121 to request queue
+[06/10/2019 08:22:25] success adding txn 121 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 122 Bank: Bank of America acct:4397 amt:1180.56
+[06/10/2019 08:22:25] trying to add txn 122 to request queue
+[06/10/2019 08:22:25] success adding txn 122 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 123 Bank: Bank of America acct:7633 amt:3973.85
+[06/10/2019 08:22:25] trying to add txn 123 to request queue
+[06/10/2019 08:22:25] success adding txn 123 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 124 Bank: Wells Fargo acct:3713 amt:2531.38
+[06/10/2019 08:22:25] trying to add txn 124 to request queue
+[06/10/2019 08:22:25] success adding txn 124 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 125 Bank: Citibank acct:8277 amt:1966.37
+[06/10/2019 08:22:25] trying to add txn 125 to request queue
+[06/10/2019 08:22:25] success adding txn 125 to request queue
+[06/10/2019 08:22:25] new transaction created: ID: 126 Bank: Bank of America acct:7313 amt:3439.47
+[06/10/2019 08:22:25] trying to add txn 126 to request queue
+[06/10/2019 08:22:25] success adding txn 126 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 127 Bank: Citibank acct:9518 amt:63.97
+[06/10/2019 08:22:26] trying to add txn 127 to request queue
+[06/10/2019 08:22:26] success adding txn 127 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 128 Bank: Bank of America acct:12 amt:4417.22
+[06/10/2019 08:22:26] trying to add txn 128 to request queue
+[06/10/2019 08:22:26] success adding txn 128 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 129 Bank: Bank of America acct:652 amt:4798.61
+[06/10/2019 08:22:26] trying to add txn 129 to request queue
+[06/10/2019 08:22:26] success adding txn 129 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 130 Bank: Citibank acct:5102 amt:2909.83
+[06/10/2019 08:22:26] trying to add txn 130 to request queue
+[06/10/2019 08:22:26] success adding txn 130 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 131 Bank: Bank of America acct:9434 amt:4965.58
+[06/10/2019 08:22:26] trying to add txn 131 to request queue
+[06/10/2019 08:22:26] success adding txn 131 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 132 Bank: Citibank acct:4695 amt:1649.30
+[06/10/2019 08:22:26] trying to add txn 132 to request queue
+[06/10/2019 08:22:26] success adding txn 132 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 133 Bank: Bank of America acct:2062 amt:176.73
+[06/10/2019 08:22:26] trying to add txn 133 to request queue
+[06/10/2019 08:22:26] success adding txn 133 to request queue
+[06/10/2019 08:22:26] new transaction created: ID: 134 Bank: Citibank acct:9750 amt:246.96
+[06/10/2019 08:22:26] trying to add txn 134 to request queue
+[06/10/2019 08:22:26] success adding txn 134 to request queue
+[06/10/2019 08:22:27] Request 9 returned in: 12 seconds. Result: true
+[06/10/2019 08:22:27] Request 9 placed in output queue.
+[06/10/2019 08:22:27] transaction ID: 9 Bank: Chase acct:7561 amt:4711.90 completed.
+[06/10/2019 08:22:27] Worker 15 Processing Request: ID: 17 Bank: Chase acct:223 amt:4551.17
+[06/10/2019 08:22:27] worker: 15 Authorizing txn: 17 at: Chase
+[06/10/2019 08:22:27] new transaction created: ID: 135 Bank: Wells Fargo acct:6994 amt:888.79
+[06/10/2019 08:22:27] trying to add txn 135 to request queue
+[06/10/2019 08:22:27] success adding txn 135 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 136 Bank: Wells Fargo acct:9602 amt:4750.44
+[06/10/2019 08:22:27] trying to add txn 136 to request queue
+[06/10/2019 08:22:27] success adding txn 136 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 137 Bank: Wells Fargo acct:5618 amt:4319.39
+[06/10/2019 08:22:27] trying to add txn 137 to request queue
+[06/10/2019 08:22:27] success adding txn 137 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 138 Bank: Chase acct:4686 amt:4655.86
+[06/10/2019 08:22:27] trying to add txn 138 to request queue
+[06/10/2019 08:22:27] success adding txn 138 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 139 Bank: Citibank acct:7877 amt:643.07
+[06/10/2019 08:22:27] trying to add txn 139 to request queue
+[06/10/2019 08:22:27] success adding txn 139 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 140 Bank: Bank of America acct:5402 amt:3036.65
+[06/10/2019 08:22:27] trying to add txn 140 to request queue
+[06/10/2019 08:22:27] success adding txn 140 to request queue
+[06/10/2019 08:22:27] Starting worker thread: 23
+[06/10/2019 08:22:27] Worker 23 Processing Request: ID: 18 Bank: Citibank acct:6304 amt:2901.10
+[06/10/2019 08:22:27] worker: 23 Authorizing txn: 18 at: Citibank
+[06/10/2019 08:22:27] new transaction created: ID: 141 Bank: Bank of America acct:6943 amt:985.60
+[06/10/2019 08:22:27] trying to add txn 141 to request queue
+[06/10/2019 08:22:27] success adding txn 141 to request queue
+[06/10/2019 08:22:27] new transaction created: ID: 142 Bank: Bank of America acct:9246 amt:4956.00
+[06/10/2019 08:22:27] trying to add txn 142 to request queue
+[06/10/2019 08:22:27] success adding txn 142 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 143 Bank: Bank of America acct:9155 amt:2247.15
+[06/10/2019 08:22:28] trying to add txn 143 to request queue
+[06/10/2019 08:22:28] success adding txn 143 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 144 Bank: Bank of America acct:5563 amt:1705.61
+[06/10/2019 08:22:28] trying to add txn 144 to request queue
+[06/10/2019 08:22:28] success adding txn 144 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 145 Bank: Wells Fargo acct:2435 amt:2406.61
+[06/10/2019 08:22:28] trying to add txn 145 to request queue
+[06/10/2019 08:22:28] success adding txn 145 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 146 Bank: Wells Fargo acct:9306 amt:4963.26
+[06/10/2019 08:22:28] trying to add txn 146 to request queue
+[06/10/2019 08:22:28] success adding txn 146 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 147 Bank: Wells Fargo acct:1835 amt:3599.11
+[06/10/2019 08:22:28] trying to add txn 147 to request queue
+[06/10/2019 08:22:28] success adding txn 147 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 148 Bank: Wells Fargo acct:7129 amt:2992.55
+[06/10/2019 08:22:28] trying to add txn 148 to request queue
+[06/10/2019 08:22:28] success adding txn 148 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 149 Bank: Wells Fargo acct:7842 amt:4582.86
+[06/10/2019 08:22:28] trying to add txn 149 to request queue
+[06/10/2019 08:22:28] success adding txn 149 to request queue
+[06/10/2019 08:22:28] new transaction created: ID: 150 Bank: Wells Fargo acct:1696 amt:860.94
+[06/10/2019 08:22:28] trying to add txn 150 to request queue
+[06/10/2019 08:22:28] success adding txn 150 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 151 Bank: Bank of America acct:8241 amt:4411.19
+[06/10/2019 08:22:29] trying to add txn 151 to request queue
+[06/10/2019 08:22:29] success adding txn 151 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 152 Bank: Chase acct:983 amt:3060.90
+[06/10/2019 08:22:29] trying to add txn 152 to request queue
+[06/10/2019 08:22:29] success adding txn 152 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 153 Bank: Bank of America acct:9259 amt:4614.86
+[06/10/2019 08:22:29] trying to add txn 153 to request queue
+[06/10/2019 08:22:29] success adding txn 153 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 154 Bank: Citibank acct:6148 amt:2858.47
+[06/10/2019 08:22:29] trying to add txn 154 to request queue
+[06/10/2019 08:22:29] success adding txn 154 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 155 Bank: Chase acct:2975 amt:3008.30
+[06/10/2019 08:22:29] trying to add txn 155 to request queue
+[06/10/2019 08:22:29] success adding txn 155 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 156 Bank: Citibank acct:7076 amt:4579.80
+[06/10/2019 08:22:29] trying to add txn 156 to request queue
+[06/10/2019 08:22:29] success adding txn 156 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 157 Bank: Bank of America acct:797 amt:4607.98
+[06/10/2019 08:22:29] trying to add txn 157 to request queue
+[06/10/2019 08:22:29] success adding txn 157 to request queue
+[06/10/2019 08:22:29] new transaction created: ID: 158 Bank: Chase acct:2980 amt:2680.71
+[06/10/2019 08:22:29] trying to add txn 158 to request queue
+[06/10/2019 08:22:29] success adding txn 158 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 159 Bank: Bank of America acct:9398 amt:1904.26
+[06/10/2019 08:22:30] trying to add txn 159 to request queue
+[06/10/2019 08:22:30] success adding txn 159 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 160 Bank: Bank of America acct:5934 amt:2805.79
+[06/10/2019 08:22:30] trying to add txn 160 to request queue
+[06/10/2019 08:22:30] success adding txn 160 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 161 Bank: Citibank acct:5840 amt:1770.78
+[06/10/2019 08:22:30] trying to add txn 161 to request queue
+[06/10/2019 08:22:30] success adding txn 161 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 162 Bank: Citibank acct:8258 amt:2752.87
+[06/10/2019 08:22:30] trying to add txn 162 to request queue
+[06/10/2019 08:22:30] success adding txn 162 to request queue
+[06/10/2019 08:22:30] Request 10 returned in: 8 seconds. Result: false
+[06/10/2019 08:22:30] Request 10 placed in output queue.
+[06/10/2019 08:22:30] transaction ID: 10 Bank: Chase acct:7595 amt:2455.08 completed.
+[06/10/2019 08:22:30] Worker 16 Processing Request: ID: 19 Bank: Citibank acct:7915 amt:2978.47
+[06/10/2019 08:22:30] worker: 16 Authorizing txn: 19 at: Citibank
+[06/10/2019 08:22:30] new transaction created: ID: 163 Bank: Chase acct:3570 amt:1922.41
+[06/10/2019 08:22:30] trying to add txn 163 to request queue
+[06/10/2019 08:22:30] success adding txn 163 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 164 Bank: Citibank acct:187 amt:1947.06
+[06/10/2019 08:22:30] trying to add txn 164 to request queue
+[06/10/2019 08:22:30] success adding txn 164 to request queue
+[06/10/2019 08:22:30] new transaction created: ID: 165 Bank: Citibank acct:5352 amt:3825.78
+[06/10/2019 08:22:30] trying to add txn 165 to request queue
+[06/10/2019 08:22:30] success adding txn 165 to request queue
+[06/10/2019 08:22:31] new transaction created: ID: 166 Bank: Chase acct:2642 amt:3776.06
+[06/10/2019 08:22:31] trying to add txn 166 to request queue
+[06/10/2019 08:22:31] success adding txn 166 to request queue
+[06/10/2019 08:22:31] Starting worker thread: 24
+[06/10/2019 08:22:31] Worker 24 Processing Request: ID: 20 Bank: Bank of America acct:4208 amt:4381.14
+[06/10/2019 08:22:31] worker: 24 Authorizing txn: 20 at: Bank of America
+[06/10/2019 08:22:31] new transaction created: ID: 167 Bank: Chase acct:3587 amt:1826.68
+[06/10/2019 08:22:31] trying to add txn 167 to request queue
+[06/10/2019 08:22:31] success adding txn 167 to request queue
+[06/10/2019 08:22:31] new transaction created: ID: 168 Bank: Chase acct:9014 amt:4743.66
+[06/10/2019 08:22:31] trying to add txn 168 to request queue
+[06/10/2019 08:22:31] success adding txn 168 to request queue
+[06/10/2019 08:22:31] Starting worker thread: 25
+[06/10/2019 08:22:31] Worker 25 Processing Request: ID: 21 Bank: Chase acct:1212 amt:3352.98
+[06/10/2019 08:22:31] worker: 25 Authorizing txn: 21 at: Chase
+[06/10/2019 08:22:31] new transaction created: ID: 169 Bank: Wells Fargo acct:6631 amt:1198.58
+[06/10/2019 08:22:31] trying to add txn 169 to request queue
+[06/10/2019 08:22:31] success adding txn 169 to request queue
+[06/10/2019 08:22:31] Starting worker thread: 26
+[06/10/2019 08:22:31] Worker 26 Processing Request: ID: 22 Bank: Citibank acct:3152 amt:4761.10
+[06/10/2019 08:22:31] worker: 26 Authorizing txn: 22 at: Citibank
+[06/10/2019 08:22:31] new transaction created: ID: 170 Bank: Chase acct:3463 amt:3418.65
+[06/10/2019 08:22:31] trying to add txn 170 to request queue
+[06/10/2019 08:22:31] success adding txn 170 to request queue
+[06/10/2019 08:22:31] new transaction created: ID: 171 Bank: Bank of America acct:7208 amt:663.54
+[06/10/2019 08:22:31] trying to add txn 171 to request queue
+[06/10/2019 08:22:31] success adding txn 171 to request queue
+[06/10/2019 08:22:31] Starting worker thread: 27
+[06/10/2019 08:22:31] Worker 27 Processing Request: ID: 23 Bank: Chase acct:4166 amt:2728.13
+[06/10/2019 08:22:31] worker: 27 Authorizing txn: 23 at: Chase
+[06/10/2019 08:22:31] new transaction created: ID: 172 Bank: Chase acct:3375 amt:481.88
+[06/10/2019 08:22:31] trying to add txn 172 to request queue
+[06/10/2019 08:22:31] success adding txn 172 to request queue
+[06/10/2019 08:22:31] Request 13 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:31] Request 13 placed in output queue.
+[06/10/2019 08:22:31] transaction ID: 13 Bank: Bank of America acct:6842 amt:1256.96 completed.
+[06/10/2019 08:22:31] Worker 19 Processing Request: ID: 24 Bank: Wells Fargo acct:2286 amt:4797.98
+[06/10/2019 08:22:31] worker: 19 Authorizing txn: 24 at: Wells Fargo
+[06/10/2019 08:22:31] new transaction created: ID: 173 Bank: Wells Fargo acct:7311 amt:2617.73
+[06/10/2019 08:22:31] trying to add txn 173 to request queue
+[06/10/2019 08:22:31] success adding txn 173 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 174 Bank: Bank of America acct:8297 amt:3516.49
+[06/10/2019 08:22:32] trying to add txn 174 to request queue
+[06/10/2019 08:22:32] success adding txn 174 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 175 Bank: Bank of America acct:6837 amt:1842.82
+[06/10/2019 08:22:32] trying to add txn 175 to request queue
+[06/10/2019 08:22:32] success adding txn 175 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 176 Bank: Citibank acct:2235 amt:4583.21
+[06/10/2019 08:22:32] trying to add txn 176 to request queue
+[06/10/2019 08:22:32] success adding txn 176 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 177 Bank: Citibank acct:5776 amt:1964.49
+[06/10/2019 08:22:32] trying to add txn 177 to request queue
+[06/10/2019 08:22:32] success adding txn 177 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 178 Bank: Citibank acct:3449 amt:2331.68
+[06/10/2019 08:22:32] trying to add txn 178 to request queue
+[06/10/2019 08:22:32] success adding txn 178 to request queue
+[06/10/2019 08:22:32] Request 15 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:32] Request 15 placed in output queue.
+[06/10/2019 08:22:32] transaction ID: 15 Bank: Citibank acct:1906 amt:1834.25 completed.
+[06/10/2019 08:22:32] Worker 21 Processing Request: ID: 25 Bank: Citibank acct:4272 amt:4579.15
+[06/10/2019 08:22:32] worker: 21 Authorizing txn: 25 at: Citibank
+[06/10/2019 08:22:32] new transaction created: ID: 179 Bank: Chase acct:6025 amt:3820.18
+[06/10/2019 08:22:32] trying to add txn 179 to request queue
+[06/10/2019 08:22:32] success adding txn 179 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 180 Bank: Wells Fargo acct:193 amt:2415.16
+[06/10/2019 08:22:32] trying to add txn 180 to request queue
+[06/10/2019 08:22:32] success adding txn 180 to request queue
+[06/10/2019 08:22:32] new transaction created: ID: 181 Bank: Bank of America acct:7461 amt:1237.84
+[06/10/2019 08:22:32] trying to add txn 181 to request queue
+[06/10/2019 08:22:32] success adding txn 181 to request queue
+[06/10/2019 08:22:32] Request 12 returned in: 10 seconds. Result: true
+[06/10/2019 08:22:32] Request 12 placed in output queue.
+[06/10/2019 08:22:32] transaction ID: 12 Bank: Bank of America acct:734 amt:3382.43 completed.
+[06/10/2019 08:22:32] Worker 18 Processing Request: ID: 26 Bank: Bank of America acct:3590 amt:3079.32
+[06/10/2019 08:22:32] worker: 18 Authorizing txn: 26 at: Bank of America
+[06/10/2019 08:22:33] new transaction created: ID: 182 Bank: Bank of America acct:7028 amt:3496.97
+[06/10/2019 08:22:33] trying to add txn 182 to request queue
+[06/10/2019 08:22:33] success adding txn 182 to request queue
+[06/10/2019 08:22:33] new transaction created: ID: 183 Bank: Citibank acct:4776 amt:2199.89
+[06/10/2019 08:22:33] trying to add txn 183 to request queue
+[06/10/2019 08:22:33] success adding txn 183 to request queue
+[06/10/2019 08:22:33] new transaction created: ID: 184 Bank: Chase acct:9898 amt:3585.46
+[06/10/2019 08:22:33] trying to add txn 184 to request queue
+[06/10/2019 08:22:33] success adding txn 184 to request queue
+[06/10/2019 08:22:33] new transaction created: ID: 185 Bank: Citibank acct:377 amt:1406.09
+[06/10/2019 08:22:33] trying to add txn 185 to request queue
+[06/10/2019 08:22:33] success adding txn 185 to request queue
+[06/10/2019 08:22:33] new transaction created: ID: 186 Bank: Wells Fargo acct:1047 amt:784.54
+[06/10/2019 08:22:33] trying to add txn 186 to request queue
+[06/10/2019 08:22:33] success adding txn 186 to request queue
+[06/10/2019 08:22:33] new transaction created: ID: 187 Bank: Chase acct:633 amt:1575.98
+[06/10/2019 08:22:33] trying to add txn 187 to request queue
+[06/10/2019 08:22:33] success adding txn 187 to request queue
+[06/10/2019 08:22:33] Request 11 returned in: 11 seconds. Result: false
+[06/10/2019 08:22:33] Request 11 placed in output queue.
+[06/10/2019 08:22:33] transaction ID: 11 Bank: Citibank acct:9558 amt:635.27 completed.
+[06/10/2019 08:22:33] Worker 17 Processing Request: ID: 27 Bank: Citibank acct:867 amt:1504.23
+[06/10/2019 08:22:33] worker: 17 Authorizing txn: 27 at: Citibank
+[06/10/2019 08:22:33] new transaction created: ID: 188 Bank: Chase acct:7832 amt:2500.13
+[06/10/2019 08:22:33] trying to add txn 188 to request queue
+[06/10/2019 08:22:33] success adding txn 188 to request queue
+[06/10/2019 08:22:33] Request 16 returned in: 9 seconds. Result: true
+[06/10/2019 08:22:33] Request 16 placed in output queue.
+[06/10/2019 08:22:33] transaction ID: 16 Bank: Bank of America acct:5151 amt:2430.27 completed.
+[06/10/2019 08:22:33] Worker 22 Processing Request: ID: 28 Bank: Bank of America acct:3781 amt:1296.52
+[06/10/2019 08:22:33] worker: 22 Authorizing txn: 28 at: Bank of America
+[06/10/2019 08:22:33] new transaction created: ID: 189 Bank: Wells Fargo acct:7041 amt:3974.78
+[06/10/2019 08:22:33] trying to add txn 189 to request queue
+[06/10/2019 08:22:33] success adding txn 189 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 190 Bank: Chase acct:4080 amt:2639.07
+[06/10/2019 08:22:34] trying to add txn 190 to request queue
+[06/10/2019 08:22:34] success adding txn 190 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 191 Bank: Chase acct:8631 amt:3534.12
+[06/10/2019 08:22:34] trying to add txn 191 to request queue
+[06/10/2019 08:22:34] success adding txn 191 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 192 Bank: Citibank acct:4844 amt:4049.07
+[06/10/2019 08:22:34] trying to add txn 192 to request queue
+[06/10/2019 08:22:34] success adding txn 192 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 193 Bank: Citibank acct:197 amt:210.69
+[06/10/2019 08:22:34] trying to add txn 193 to request queue
+[06/10/2019 08:22:34] success adding txn 193 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 194 Bank: Citibank acct:7798 amt:4700.26
+[06/10/2019 08:22:34] trying to add txn 194 to request queue
+[06/10/2019 08:22:34] success adding txn 194 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 195 Bank: Citibank acct:8597 amt:1329.34
+[06/10/2019 08:22:34] trying to add txn 195 to request queue
+[06/10/2019 08:22:34] success adding txn 195 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 196 Bank: Wells Fargo acct:8565 amt:30.52
+[06/10/2019 08:22:34] trying to add txn 196 to request queue
+[06/10/2019 08:22:34] success adding txn 196 to request queue
+[06/10/2019 08:22:34] new transaction created: ID: 197 Bank: Chase acct:1305 amt:3079.79
+[06/10/2019 08:22:34] trying to add txn 197 to request queue
+[06/10/2019 08:22:34] success adding txn 197 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 198 Bank: Wells Fargo acct:6207 amt:4351.96
+[06/10/2019 08:22:35] trying to add txn 198 to request queue
+[06/10/2019 08:22:35] success adding txn 198 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 199 Bank: Citibank acct:8068 amt:2178.32
+[06/10/2019 08:22:35] trying to add txn 199 to request queue
+[06/10/2019 08:22:35] success adding txn 199 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 200 Bank: Citibank acct:9610 amt:3273.69
+[06/10/2019 08:22:35] trying to add txn 200 to request queue
+[06/10/2019 08:22:35] success adding txn 200 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 201 Bank: Bank of America acct:3530 amt:4329.11
+[06/10/2019 08:22:35] trying to add txn 201 to request queue
+[06/10/2019 08:22:35] success adding txn 201 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 202 Bank: Citibank acct:7420 amt:4867.22
+[06/10/2019 08:22:35] trying to add txn 202 to request queue
+[06/10/2019 08:22:35] success adding txn 202 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 203 Bank: Wells Fargo acct:2584 amt:4929.65
+[06/10/2019 08:22:35] trying to add txn 203 to request queue
+[06/10/2019 08:22:35] success adding txn 203 to request queue
+[06/10/2019 08:22:35] new transaction created: ID: 204 Bank: Chase acct:1309 amt:1341.16
+[06/10/2019 08:22:35] trying to add txn 204 to request queue
+[06/10/2019 08:22:35] success adding txn 204 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 205 Bank: Citibank acct:7273 amt:489.40
+[06/10/2019 08:22:36] trying to add txn 205 to request queue
+[06/10/2019 08:22:36] success adding txn 205 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 206 Bank: Wells Fargo acct:200 amt:1081.14
+[06/10/2019 08:22:36] trying to add txn 206 to request queue
+[06/10/2019 08:22:36] success adding txn 206 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 207 Bank: Bank of America acct:3688 amt:2804.92
+[06/10/2019 08:22:36] trying to add txn 207 to request queue
+[06/10/2019 08:22:36] success adding txn 207 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 208 Bank: Bank of America acct:2988 amt:4522.41
+[06/10/2019 08:22:36] trying to add txn 208 to request queue
+[06/10/2019 08:22:36] success adding txn 208 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 209 Bank: Wells Fargo acct:1603 amt:2220.51
+[06/10/2019 08:22:36] trying to add txn 209 to request queue
+[06/10/2019 08:22:36] success adding txn 209 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 210 Bank: Citibank acct:2140 amt:330.51
+[06/10/2019 08:22:36] trying to add txn 210 to request queue
+[06/10/2019 08:22:36] success adding txn 210 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 211 Bank: Wells Fargo acct:7969 amt:4196.25
+[06/10/2019 08:22:36] trying to add txn 211 to request queue
+[06/10/2019 08:22:36] success adding txn 211 to request queue
+[06/10/2019 08:22:36] new transaction created: ID: 212 Bank: Chase acct:6292 amt:499.64
+[06/10/2019 08:22:36] trying to add txn 212 to request queue
+[06/10/2019 08:22:36] success adding txn 212 to request queue
+[06/10/2019 08:22:36] Request 14 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:36] Request 14 placed in output queue.
+[06/10/2019 08:22:36] transaction ID: 14 Bank: Wells Fargo acct:2787 amt:2884.14 completed.
+[06/10/2019 08:22:36] Worker 20 Processing Request: ID: 29 Bank: Wells Fargo acct:647 amt:1926.17
+[06/10/2019 08:22:36] worker: 20 Authorizing txn: 29 at: Wells Fargo
+[06/10/2019 08:22:37] new transaction created: ID: 213 Bank: Citibank acct:6960 amt:4043.12
+[06/10/2019 08:22:37] trying to add txn 213 to request queue
+[06/10/2019 08:22:37] success adding txn 213 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 214 Bank: Bank of America acct:721 amt:2570.74
+[06/10/2019 08:22:37] trying to add txn 214 to request queue
+[06/10/2019 08:22:37] success adding txn 214 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 215 Bank: Chase acct:2889 amt:1636.91
+[06/10/2019 08:22:37] trying to add txn 215 to request queue
+[06/10/2019 08:22:37] success adding txn 215 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 216 Bank: Citibank acct:5053 amt:2787.11
+[06/10/2019 08:22:37] trying to add txn 216 to request queue
+[06/10/2019 08:22:37] success adding txn 216 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 217 Bank: Chase acct:6973 amt:4255.44
+[06/10/2019 08:22:37] trying to add txn 217 to request queue
+[06/10/2019 08:22:37] success adding txn 217 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 218 Bank: Citibank acct:1032 amt:755.20
+[06/10/2019 08:22:37] trying to add txn 218 to request queue
+[06/10/2019 08:22:37] success adding txn 218 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 219 Bank: Chase acct:6123 amt:506.85
+[06/10/2019 08:22:37] trying to add txn 219 to request queue
+[06/10/2019 08:22:37] success adding txn 219 to request queue
+[06/10/2019 08:22:37] new transaction created: ID: 220 Bank: Bank of America acct:9377 amt:4725.31
+[06/10/2019 08:22:37] trying to add txn 220 to request queue
+[06/10/2019 08:22:37] success adding txn 220 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 221 Bank: Wells Fargo acct:596 amt:859.23
+[06/10/2019 08:22:38] trying to add txn 221 to request queue
+[06/10/2019 08:22:38] success adding txn 221 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 222 Bank: Chase acct:8201 amt:3078.82
+[06/10/2019 08:22:38] trying to add txn 222 to request queue
+[06/10/2019 08:22:38] success adding txn 222 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 223 Bank: Chase acct:8148 amt:484.28
+[06/10/2019 08:22:38] trying to add txn 223 to request queue
+[06/10/2019 08:22:38] success adding txn 223 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 224 Bank: Chase acct:8590 amt:685.62
+[06/10/2019 08:22:38] trying to add txn 224 to request queue
+[06/10/2019 08:22:38] success adding txn 224 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 225 Bank: Chase acct:9636 amt:4410.77
+[06/10/2019 08:22:38] trying to add txn 225 to request queue
+[06/10/2019 08:22:38] success adding txn 225 to request queue
+[06/10/2019 08:22:38] Request 19 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:38] Request 19 placed in output queue.
+[06/10/2019 08:22:38] transaction ID: 19 Bank: Citibank acct:7915 amt:2978.47 completed.
+[06/10/2019 08:22:38] Worker 16 Processing Request: ID: 30 Bank: Citibank acct:3333 amt:3388.19
+[06/10/2019 08:22:38] worker: 16 Authorizing txn: 30 at: Citibank
+[06/10/2019 08:22:38] new transaction created: ID: 226 Bank: Citibank acct:7750 amt:52.23
+[06/10/2019 08:22:38] trying to add txn 226 to request queue
+[06/10/2019 08:22:38] success adding txn 226 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 227 Bank: Wells Fargo acct:6095 amt:86.49
+[06/10/2019 08:22:38] trying to add txn 227 to request queue
+[06/10/2019 08:22:38] success adding txn 227 to request queue
+[06/10/2019 08:22:38] new transaction created: ID: 228 Bank: Bank of America acct:3380 amt:4972.10
+[06/10/2019 08:22:38] trying to add txn 228 to request queue
+[06/10/2019 08:22:38] success adding txn 228 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 229 Bank: Chase acct:6952 amt:2898.52
+[06/10/2019 08:22:39] trying to add txn 229 to request queue
+[06/10/2019 08:22:39] success adding txn 229 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 230 Bank: Chase acct:4772 amt:4223.83
+[06/10/2019 08:22:39] trying to add txn 230 to request queue
+[06/10/2019 08:22:39] success adding txn 230 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 231 Bank: Wells Fargo acct:3458 amt:808.71
+[06/10/2019 08:22:39] trying to add txn 231 to request queue
+[06/10/2019 08:22:39] success adding txn 231 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 232 Bank: Chase acct:7020 amt:767.06
+[06/10/2019 08:22:39] trying to add txn 232 to request queue
+[06/10/2019 08:22:39] success adding txn 232 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 233 Bank: Wells Fargo acct:7219 amt:701.74
+[06/10/2019 08:22:39] trying to add txn 233 to request queue
+[06/10/2019 08:22:39] success adding txn 233 to request queue
+[06/10/2019 08:22:39] Request 25 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:39] Request 25 placed in output queue.
+[06/10/2019 08:22:39] transaction ID: 25 Bank: Citibank acct:4272 amt:4579.15 completed.
+[06/10/2019 08:22:39] Worker 21 Processing Request: ID: 31 Bank: Bank of America acct:1947 amt:551.67
+[06/10/2019 08:22:39] worker: 21 Authorizing txn: 31 at: Bank of America
+[06/10/2019 08:22:39] new transaction created: ID: 234 Bank: Chase acct:4698 amt:1285.03
+[06/10/2019 08:22:39] trying to add txn 234 to request queue
+[06/10/2019 08:22:39] success adding txn 234 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 235 Bank: Citibank acct:4329 amt:4524.27
+[06/10/2019 08:22:39] trying to add txn 235 to request queue
+[06/10/2019 08:22:39] success adding txn 235 to request queue
+[06/10/2019 08:22:39] new transaction created: ID: 236 Bank: Bank of America acct:1889 amt:1515.87
+[06/10/2019 08:22:39] trying to add txn 236 to request queue
+[06/10/2019 08:22:39] success adding txn 236 to request queue
+[06/10/2019 08:22:39] Request 26 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:39] Request 26 placed in output queue.
+[06/10/2019 08:22:39] transaction ID: 26 Bank: Bank of America acct:3590 amt:3079.32 completed.
+[06/10/2019 08:22:39] Worker 18 Processing Request: ID: 32 Bank: Bank of America acct:4062 amt:4035.35
+[06/10/2019 08:22:39] worker: 18 Authorizing txn: 32 at: Bank of America
+[06/10/2019 08:22:40] Request 17 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:40] Request 17 placed in output queue.
+[06/10/2019 08:22:40] transaction ID: 17 Bank: Chase acct:223 amt:4551.17 completed.
+[06/10/2019 08:22:40] Worker 15 Processing Request: ID: 33 Bank: Chase acct:135 amt:2110.39
+[06/10/2019 08:22:40] worker: 15 Authorizing txn: 33 at: Chase
+[06/10/2019 08:22:40] new transaction created: ID: 237 Bank: Chase acct:4960 amt:349.95
+[06/10/2019 08:22:40] trying to add txn 237 to request queue
+[06/10/2019 08:22:40] success adding txn 237 to request queue
+[06/10/2019 08:22:40] new transaction created: ID: 238 Bank: Chase acct:4072 amt:2922.38
+[06/10/2019 08:22:40] trying to add txn 238 to request queue
+[06/10/2019 08:22:40] success adding txn 238 to request queue
+[06/10/2019 08:22:40] new transaction created: ID: 239 Bank: Wells Fargo acct:4221 amt:2427.02
+[06/10/2019 08:22:40] trying to add txn 239 to request queue
+[06/10/2019 08:22:40] success adding txn 239 to request queue
+[06/10/2019 08:22:40] new transaction created: ID: 240 Bank: Bank of America acct:2969 amt:4623.94
+[06/10/2019 08:22:40] trying to add txn 240 to request queue
+[06/10/2019 08:22:40] success adding txn 240 to request queue
+[06/10/2019 08:22:40] new transaction created: ID: 241 Bank: Bank of America acct:7518 amt:374.45
+[06/10/2019 08:22:40] trying to add txn 241 to request queue
+[06/10/2019 08:22:40] success adding txn 241 to request queue
+[06/10/2019 08:22:40] Request 18 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:40] Request 18 placed in output queue.
+[06/10/2019 08:22:40] transaction ID: 18 Bank: Citibank acct:6304 amt:2901.10 completed.
+[06/10/2019 08:22:40] Worker 23 Processing Request: ID: 34 Bank: Wells Fargo acct:202 amt:2583.84
+[06/10/2019 08:22:40] worker: 23 Authorizing txn: 34 at: Wells Fargo
+[06/10/2019 08:22:40] new transaction created: ID: 242 Bank: Citibank acct:2132 amt:194.13
+[06/10/2019 08:22:40] trying to add txn 242 to request queue
+[06/10/2019 08:22:40] success adding txn 242 to request queue
+[06/10/2019 08:22:40] new transaction created: ID: 243 Bank: Wells Fargo acct:985 amt:2787.86
+[06/10/2019 08:22:40] trying to add txn 243 to request queue
+[06/10/2019 08:22:40] success adding txn 243 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 244 Bank: Citibank acct:3923 amt:3362.50
+[06/10/2019 08:22:41] trying to add txn 244 to request queue
+[06/10/2019 08:22:41] success adding txn 244 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 245 Bank: Chase acct:9950 amt:4215.42
+[06/10/2019 08:22:41] trying to add txn 245 to request queue
+[06/10/2019 08:22:41] success adding txn 245 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 246 Bank: Bank of America acct:2916 amt:3590.90
+[06/10/2019 08:22:41] trying to add txn 246 to request queue
+[06/10/2019 08:22:41] success adding txn 246 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 247 Bank: Citibank acct:9194 amt:3749.99
+[06/10/2019 08:22:41] trying to add txn 247 to request queue
+[06/10/2019 08:22:41] success adding txn 247 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 248 Bank: Chase acct:6126 amt:2361.69
+[06/10/2019 08:22:41] trying to add txn 248 to request queue
+[06/10/2019 08:22:41] success adding txn 248 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 249 Bank: Bank of America acct:4309 amt:2809.67
+[06/10/2019 08:22:41] trying to add txn 249 to request queue
+[06/10/2019 08:22:41] success adding txn 249 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 250 Bank: Citibank acct:1780 amt:4018.15
+[06/10/2019 08:22:41] trying to add txn 250 to request queue
+[06/10/2019 08:22:41] success adding txn 250 to request queue
+[06/10/2019 08:22:41] new transaction created: ID: 251 Bank: Chase acct:1377 amt:616.79
+[06/10/2019 08:22:41] trying to add txn 251 to request queue
+[06/10/2019 08:22:41] success adding txn 251 to request queue
+[06/10/2019 08:22:42] new transaction created: ID: 252 Bank: Chase acct:4140 amt:3607.68
+[06/10/2019 08:22:42] trying to add txn 252 to request queue
+[06/10/2019 08:22:42] success adding txn 252 to request queue
+[06/10/2019 08:22:42] Request 20 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:42] Request 20 placed in output queue.
+[06/10/2019 08:22:42] transaction ID: 20 Bank: Bank of America acct:4208 amt:4381.14 completed.
+[06/10/2019 08:22:42] Worker 24 Processing Request: ID: 35 Bank: Chase acct:6485 amt:511.70
+[06/10/2019 08:22:42] worker: 24 Authorizing txn: 35 at: Chase
+[06/10/2019 08:22:42] new transaction created: ID: 253 Bank: Citibank acct:9525 amt:3871.80
+[06/10/2019 08:22:42] trying to add txn 253 to request queue
+[06/10/2019 08:22:42] success adding txn 253 to request queue
+[06/10/2019 08:22:42] Request 21 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:42] Request 21 placed in output queue.
+[06/10/2019 08:22:42] transaction ID: 21 Bank: Chase acct:1212 amt:3352.98 completed.
+[06/10/2019 08:22:42] Worker 25 Processing Request: ID: 36 Bank: Wells Fargo acct:757 amt:444.79
+[06/10/2019 08:22:42] worker: 25 Authorizing txn: 36 at: Wells Fargo
+[06/10/2019 08:22:42] new transaction created: ID: 254 Bank: Bank of America acct:5200 amt:2977.11
+[06/10/2019 08:22:42] trying to add txn 254 to request queue
+[06/10/2019 08:22:42] success adding txn 254 to request queue
+[06/10/2019 08:22:42] new transaction created: ID: 255 Bank: Chase acct:2885 amt:1369.96
+[06/10/2019 08:22:42] trying to add txn 255 to request queue
+[06/10/2019 08:22:42] success adding txn 255 to request queue
+[06/10/2019 08:22:42] new transaction created: ID: 256 Bank: Wells Fargo acct:8310 amt:2599.04
+[06/10/2019 08:22:42] trying to add txn 256 to request queue
+[06/10/2019 08:22:42] success adding txn 256 to request queue
+[06/10/2019 08:22:42] new transaction created: ID: 257 Bank: Citibank acct:8570 amt:976.69
+[06/10/2019 08:22:42] trying to add txn 257 to request queue
+[06/10/2019 08:22:42] success adding txn 257 to request queue
+[06/10/2019 08:22:42] new transaction created: ID: 258 Bank: Citibank acct:7040 amt:2165.81
+[06/10/2019 08:22:42] trying to add txn 258 to request queue
+[06/10/2019 08:22:42] success adding txn 258 to request queue
+[06/10/2019 08:22:42] Request 24 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:42] Request 24 placed in output queue.
+[06/10/2019 08:22:42] transaction ID: 24 Bank: Wells Fargo acct:2286 amt:4797.98 completed.
+[06/10/2019 08:22:42] Worker 19 Processing Request: ID: 37 Bank: Wells Fargo acct:6999 amt:3566.45
+[06/10/2019 08:22:42] worker: 19 Authorizing txn: 37 at: Wells Fargo
+[06/10/2019 08:22:42] new transaction created: ID: 259 Bank: Bank of America acct:5569 amt:4735.87
+[06/10/2019 08:22:42] trying to add txn 259 to request queue
+[06/10/2019 08:22:42] success adding txn 259 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 260 Bank: Citibank acct:6717 amt:3138.42
+[06/10/2019 08:22:43] trying to add txn 260 to request queue
+[06/10/2019 08:22:43] success adding txn 260 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 261 Bank: Wells Fargo acct:9374 amt:2156.74
+[06/10/2019 08:22:43] trying to add txn 261 to request queue
+[06/10/2019 08:22:43] success adding txn 261 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 262 Bank: Chase acct:3289 amt:4948.94
+[06/10/2019 08:22:43] trying to add txn 262 to request queue
+[06/10/2019 08:22:43] success adding txn 262 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 263 Bank: Bank of America acct:4507 amt:4990.05
+[06/10/2019 08:22:43] trying to add txn 263 to request queue
+[06/10/2019 08:22:43] success adding txn 263 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 264 Bank: Wells Fargo acct:7139 amt:4656.89
+[06/10/2019 08:22:43] trying to add txn 264 to request queue
+[06/10/2019 08:22:43] success adding txn 264 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 265 Bank: Chase acct:4586 amt:2382.52
+[06/10/2019 08:22:43] trying to add txn 265 to request queue
+[06/10/2019 08:22:43] success adding txn 265 to request queue
+[06/10/2019 08:22:43] Request 23 returned in: 12 seconds. Result: false
+[06/10/2019 08:22:43] Request 23 placed in output queue.
+[06/10/2019 08:22:43] transaction ID: 23 Bank: Chase acct:4166 amt:2728.13 completed.
+[06/10/2019 08:22:43] Worker 27 Processing Request: ID: 38 Bank: Chase acct:7835 amt:2061.93
+[06/10/2019 08:22:43] worker: 27 Authorizing txn: 38 at: Chase
+[06/10/2019 08:22:43] new transaction created: ID: 266 Bank: Chase acct:2930 amt:3762.63
+[06/10/2019 08:22:43] trying to add txn 266 to request queue
+[06/10/2019 08:22:43] success adding txn 266 to request queue
+[06/10/2019 08:22:43] new transaction created: ID: 267 Bank: Chase acct:582 amt:3934.85
+[06/10/2019 08:22:43] trying to add txn 267 to request queue
+[06/10/2019 08:22:43] success adding txn 267 to request queue
+[06/10/2019 08:22:44] Starting worker thread: 28
+[06/10/2019 08:22:44] Worker 28 Processing Request: ID: 39 Bank: Wells Fargo acct:2562 amt:3554.33
+[06/10/2019 08:22:44] worker: 28 Authorizing txn: 39 at: Wells Fargo
+[06/10/2019 08:22:44] new transaction created: ID: 268 Bank: Chase acct:6372 amt:2469.13
+[06/10/2019 08:22:44] trying to add txn 268 to request queue
+[06/10/2019 08:22:44] success adding txn 268 to request queue
+[06/10/2019 08:22:44] new transaction created: ID: 269 Bank: Bank of America acct:9614 amt:845.32
+[06/10/2019 08:22:44] trying to add txn 269 to request queue
+[06/10/2019 08:22:44] success adding txn 269 to request queue
+[06/10/2019 08:22:44] Starting worker thread: 29
+[06/10/2019 08:22:44] Worker 29 Processing Request: ID: 40 Bank: Wells Fargo acct:1694 amt:2054.63
+[06/10/2019 08:22:44] worker: 29 Authorizing txn: 40 at: Wells Fargo
+[06/10/2019 08:22:44] new transaction created: ID: 270 Bank: Bank of America acct:3678 amt:677.04
+[06/10/2019 08:22:44] trying to add txn 270 to request queue
+[06/10/2019 08:22:44] success adding txn 270 to request queue
+[06/10/2019 08:22:44] new transaction created: ID: 271 Bank: Wells Fargo acct:177 amt:868.41
+[06/10/2019 08:22:44] trying to add txn 271 to request queue
+[06/10/2019 08:22:44] success adding txn 271 to request queue
+[06/10/2019 08:22:44] Starting worker thread: 30
+[06/10/2019 08:22:44] Worker 30 Processing Request: ID: 41 Bank: Wells Fargo acct:1874 amt:2354.68
+[06/10/2019 08:22:44] worker: 30 Authorizing txn: 41 at: Wells Fargo
+[06/10/2019 08:22:44] Request 22 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:44] Request 22 placed in output queue.
+[06/10/2019 08:22:44] transaction ID: 22 Bank: Citibank acct:3152 amt:4761.10 completed.
+[06/10/2019 08:22:44] Worker 26 Processing Request: ID: 42 Bank: Bank of America acct:7595 amt:4030.18
+[06/10/2019 08:22:44] worker: 26 Authorizing txn: 42 at: Bank of America
+[06/10/2019 08:22:44] new transaction created: ID: 272 Bank: Chase acct:8496 amt:692.13
+[06/10/2019 08:22:44] trying to add txn 272 to request queue
+[06/10/2019 08:22:44] success adding txn 272 to request queue
+[06/10/2019 08:22:44] Starting worker thread: 31
+[06/10/2019 08:22:44] Worker 31 Processing Request: ID: 43 Bank: Wells Fargo acct:3368 amt:2604.68
+[06/10/2019 08:22:44] worker: 31 Authorizing txn: 43 at: Wells Fargo
+[06/10/2019 08:22:44] new transaction created: ID: 273 Bank: Citibank acct:1873 amt:4157.44
+[06/10/2019 08:22:44] trying to add txn 273 to request queue
+[06/10/2019 08:22:44] success adding txn 273 to request queue
+[06/10/2019 08:22:44] new transaction created: ID: 274 Bank: Wells Fargo acct:7730 amt:3614.07
+[06/10/2019 08:22:44] trying to add txn 274 to request queue
+[06/10/2019 08:22:44] success adding txn 274 to request queue
+[06/10/2019 08:22:44] Starting worker thread: 32
+[06/10/2019 08:22:44] Worker 32 Processing Request: ID: 44 Bank: Wells Fargo acct:5841 amt:3407.57
+[06/10/2019 08:22:44] worker: 32 Authorizing txn: 44 at: Wells Fargo
+[06/10/2019 08:22:44] Request 28 returned in: 11 seconds. Result: false
+[06/10/2019 08:22:44] Request 28 placed in output queue.
+[06/10/2019 08:22:44] transaction ID: 28 Bank: Bank of America acct:3781 amt:1296.52 completed.
+[06/10/2019 08:22:44] Worker 22 Processing Request: ID: 45 Bank: Wells Fargo acct:7651 amt:187.12
+[06/10/2019 08:22:44] worker: 22 Authorizing txn: 45 at: Wells Fargo
+[06/10/2019 08:22:44] new transaction created: ID: 275 Bank: Wells Fargo acct:3413 amt:3653.55
+[06/10/2019 08:22:44] trying to add txn 275 to request queue
+[06/10/2019 08:22:44] success adding txn 275 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 276 Bank: Chase acct:3722 amt:464.13
+[06/10/2019 08:22:45] trying to add txn 276 to request queue
+[06/10/2019 08:22:45] success adding txn 276 to request queue
+[06/10/2019 08:22:45] Starting worker thread: 33
+[06/10/2019 08:22:45] Worker 33 Processing Request: ID: 46 Bank: Citibank acct:605 amt:1600.60
+[06/10/2019 08:22:45] worker: 33 Authorizing txn: 46 at: Citibank
+[06/10/2019 08:22:45] new transaction created: ID: 277 Bank: Citibank acct:9099 amt:1462.74
+[06/10/2019 08:22:45] trying to add txn 277 to request queue
+[06/10/2019 08:22:45] success adding txn 277 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 278 Bank: Bank of America acct:2402 amt:738.60
+[06/10/2019 08:22:45] trying to add txn 278 to request queue
+[06/10/2019 08:22:45] success adding txn 278 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 279 Bank: Wells Fargo acct:6947 amt:748.57
+[06/10/2019 08:22:45] trying to add txn 279 to request queue
+[06/10/2019 08:22:45] success adding txn 279 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 280 Bank: Chase acct:1771 amt:1199.54
+[06/10/2019 08:22:45] trying to add txn 280 to request queue
+[06/10/2019 08:22:45] success adding txn 280 to request queue
+[06/10/2019 08:22:45] Starting worker thread: 34
+[06/10/2019 08:22:45] Worker 34 Processing Request: ID: 47 Bank: Bank of America acct:922 amt:4273.09
+[06/10/2019 08:22:45] worker: 34 Authorizing txn: 47 at: Bank of America
+[06/10/2019 08:22:45] new transaction created: ID: 281 Bank: Chase acct:3098 amt:3337.76
+[06/10/2019 08:22:45] trying to add txn 281 to request queue
+[06/10/2019 08:22:45] success adding txn 281 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 282 Bank: Wells Fargo acct:7085 amt:3402.27
+[06/10/2019 08:22:45] trying to add txn 282 to request queue
+[06/10/2019 08:22:45] success adding txn 282 to request queue
+[06/10/2019 08:22:45] new transaction created: ID: 283 Bank: Bank of America acct:3230 amt:2031.02
+[06/10/2019 08:22:45] trying to add txn 283 to request queue
+[06/10/2019 08:22:45] success adding txn 283 to request queue
+[06/10/2019 08:22:45] Request 29 returned in: 9 seconds. Result: true
+[06/10/2019 08:22:45] Request 29 placed in output queue.
+[06/10/2019 08:22:45] transaction ID: 29 Bank: Wells Fargo acct:647 amt:1926.17 completed.
+[06/10/2019 08:22:45] Worker 20 Processing Request: ID: 48 Bank: Chase acct:1413 amt:4861.72
+[06/10/2019 08:22:45] worker: 20 Authorizing txn: 48 at: Chase
+[06/10/2019 08:22:46] new transaction created: ID: 284 Bank: Citibank acct:4818 amt:3281.21
+[06/10/2019 08:22:46] trying to add txn 284 to request queue
+[06/10/2019 08:22:46] success adding txn 284 to request queue
+[06/10/2019 08:22:46] new transaction created: ID: 285 Bank: Citibank acct:4770 amt:1278.33
+[06/10/2019 08:22:46] trying to add txn 285 to request queue
+[06/10/2019 08:22:46] success adding txn 285 to request queue
+[06/10/2019 08:22:46] new transaction created: ID: 286 Bank: Bank of America acct:252 amt:2853.67
+[06/10/2019 08:22:46] trying to add txn 286 to request queue
+[06/10/2019 08:22:46] success adding txn 286 to request queue
+[06/10/2019 08:22:46] new transaction created: ID: 287 Bank: Chase acct:8411 amt:928.86
+[06/10/2019 08:22:46] trying to add txn 287 to request queue
+[06/10/2019 08:22:46] success adding txn 287 to request queue
+[06/10/2019 08:22:46] Request 30 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:46] Request 30 placed in output queue.
+[06/10/2019 08:22:46] transaction ID: 30 Bank: Citibank acct:3333 amt:3388.19 completed.
+[06/10/2019 08:22:46] Worker 16 Processing Request: ID: 49 Bank: Bank of America acct:7373 amt:781.43
+[06/10/2019 08:22:46] worker: 16 Authorizing txn: 49 at: Bank of America
+[06/10/2019 08:22:46] new transaction created: ID: 288 Bank: Wells Fargo acct:6291 amt:431.08
+[06/10/2019 08:22:46] trying to add txn 288 to request queue
+[06/10/2019 08:22:46] success adding txn 288 to request queue
+[06/10/2019 08:22:46] new transaction created: ID: 289 Bank: Citibank acct:4380 amt:2690.55
+[06/10/2019 08:22:46] trying to add txn 289 to request queue
+[06/10/2019 08:22:46] success adding txn 289 to request queue
+[06/10/2019 08:22:46] Request 27 returned in: 13 seconds. Result: false
+[06/10/2019 08:22:46] Request 27 placed in output queue.
+[06/10/2019 08:22:46] transaction ID: 27 Bank: Citibank acct:867 amt:1504.23 completed.
+[06/10/2019 08:22:46] Worker 17 Processing Request: ID: 50 Bank: Citibank acct:5806 amt:3814.45
+[06/10/2019 08:22:46] worker: 17 Authorizing txn: 50 at: Citibank
+[06/10/2019 08:22:46] new transaction created: ID: 290 Bank: Wells Fargo acct:1252 amt:2471.59
+[06/10/2019 08:22:46] trying to add txn 290 to request queue
+[06/10/2019 08:22:46] success adding txn 290 to request queue
+[06/10/2019 08:22:46] Request 32 returned in: 7 seconds. Result: false
+[06/10/2019 08:22:46] Request 32 placed in output queue.
+[06/10/2019 08:22:46] transaction ID: 32 Bank: Bank of America acct:4062 amt:4035.35 completed.
+[06/10/2019 08:22:46] Worker 18 Processing Request: ID: 51 Bank: Chase acct:3301 amt:859.00
+[06/10/2019 08:22:46] worker: 18 Authorizing txn: 51 at: Chase
+[06/10/2019 08:22:47] new transaction created: ID: 291 Bank: Citibank acct:2973 amt:3790.81
+[06/10/2019 08:22:47] trying to add txn 291 to request queue
+[06/10/2019 08:22:47] success adding txn 291 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 292 Bank: Citibank acct:8279 amt:2763.04
+[06/10/2019 08:22:47] trying to add txn 292 to request queue
+[06/10/2019 08:22:47] success adding txn 292 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 293 Bank: Citibank acct:8727 amt:3927.07
+[06/10/2019 08:22:47] trying to add txn 293 to request queue
+[06/10/2019 08:22:47] success adding txn 293 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 294 Bank: Bank of America acct:8829 amt:3885.73
+[06/10/2019 08:22:47] trying to add txn 294 to request queue
+[06/10/2019 08:22:47] success adding txn 294 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 295 Bank: Citibank acct:2275 amt:4005.84
+[06/10/2019 08:22:47] trying to add txn 295 to request queue
+[06/10/2019 08:22:47] success adding txn 295 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 296 Bank: Chase acct:9614 amt:2810.09
+[06/10/2019 08:22:47] trying to add txn 296 to request queue
+[06/10/2019 08:22:47] success adding txn 296 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 297 Bank: Bank of America acct:3240 amt:2247.07
+[06/10/2019 08:22:47] trying to add txn 297 to request queue
+[06/10/2019 08:22:47] success adding txn 297 to request queue
+[06/10/2019 08:22:47] new transaction created: ID: 298 Bank: Citibank acct:1038 amt:3396.22
+[06/10/2019 08:22:47] trying to add txn 298 to request queue
+[06/10/2019 08:22:47] success adding txn 298 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 299 Bank: Bank of America acct:1897 amt:3300.41
+[06/10/2019 08:22:48] trying to add txn 299 to request queue
+[06/10/2019 08:22:48] success adding txn 299 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 300 Bank: Bank of America acct:9200 amt:975.11
+[06/10/2019 08:22:48] trying to add txn 300 to request queue
+[06/10/2019 08:22:48] success adding txn 300 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 301 Bank: Citibank acct:5595 amt:3794.46
+[06/10/2019 08:22:48] trying to add txn 301 to request queue
+[06/10/2019 08:22:48] success adding txn 301 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 302 Bank: Citibank acct:5943 amt:202.64
+[06/10/2019 08:22:48] trying to add txn 302 to request queue
+[06/10/2019 08:22:48] success adding txn 302 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 303 Bank: Chase acct:3558 amt:1621.62
+[06/10/2019 08:22:48] trying to add txn 303 to request queue
+[06/10/2019 08:22:48] success adding txn 303 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 304 Bank: Citibank acct:8197 amt:2156.64
+[06/10/2019 08:22:48] trying to add txn 304 to request queue
+[06/10/2019 08:22:48] success adding txn 304 to request queue
+[06/10/2019 08:22:48] Request 34 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:48] Request 34 placed in output queue.
+[06/10/2019 08:22:48] transaction ID: 34 Bank: Wells Fargo acct:202 amt:2583.84 completed.
+[06/10/2019 08:22:48] Worker 23 Processing Request: ID: 52 Bank: Citibank acct:5860 amt:634.52
+[06/10/2019 08:22:48] worker: 23 Authorizing txn: 52 at: Citibank
+[06/10/2019 08:22:48] new transaction created: ID: 305 Bank: Wells Fargo acct:3899 amt:2674.79
+[06/10/2019 08:22:48] trying to add txn 305 to request queue
+[06/10/2019 08:22:48] success adding txn 305 to request queue
+[06/10/2019 08:22:48] new transaction created: ID: 306 Bank: Bank of America acct:1090 amt:1591.10
+[06/10/2019 08:22:48] trying to add txn 306 to request queue
+[06/10/2019 08:22:48] success adding txn 306 to request queue
+[06/10/2019 08:22:49] new transaction created: ID: 307 Bank: Bank of America acct:2713 amt:3824.03
+[06/10/2019 08:22:49] trying to add txn 307 to request queue
+[06/10/2019 08:22:49] success adding txn 307 to request queue
+[06/10/2019 08:22:49] Request 35 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:49] Request 35 placed in output queue.
+[06/10/2019 08:22:49] transaction ID: 35 Bank: Chase acct:6485 amt:511.70 completed.
+[06/10/2019 08:22:49] Worker 24 Processing Request: ID: 53 Bank: Chase acct:9298 amt:679.76
+[06/10/2019 08:22:49] worker: 24 Authorizing txn: 53 at: Chase
+[06/10/2019 08:22:49] new transaction created: ID: 308 Bank: Citibank acct:5967 amt:3959.40
+[06/10/2019 08:22:49] trying to add txn 308 to request queue
+[06/10/2019 08:22:49] success adding txn 308 to request queue
+[06/10/2019 08:22:49] Request 36 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:49] Request 36 placed in output queue.
+[06/10/2019 08:22:49] transaction ID: 36 Bank: Wells Fargo acct:757 amt:444.79 completed.
+[06/10/2019 08:22:49] Worker 25 Processing Request: ID: 54 Bank: Citibank acct:9509 amt:2390.04
+[06/10/2019 08:22:49] worker: 25 Authorizing txn: 54 at: Citibank
+[06/10/2019 08:22:49] new transaction created: ID: 309 Bank: Citibank acct:7565 amt:3342.74
+[06/10/2019 08:22:49] trying to add txn 309 to request queue
+[06/10/2019 08:22:49] success adding txn 309 to request queue
+[06/10/2019 08:22:49] new transaction created: ID: 310 Bank: Bank of America acct:3134 amt:4475.52
+[06/10/2019 08:22:49] trying to add txn 310 to request queue
+[06/10/2019 08:22:49] success adding txn 310 to request queue
+[06/10/2019 08:22:49] new transaction created: ID: 311 Bank: Bank of America acct:1064 amt:1299.46
+[06/10/2019 08:22:49] trying to add txn 311 to request queue
+[06/10/2019 08:22:49] success adding txn 311 to request queue
+[06/10/2019 08:22:49] Request 31 returned in: 10 seconds. Result: true
+[06/10/2019 08:22:49] Request 31 placed in output queue.
+[06/10/2019 08:22:49] transaction ID: 31 Bank: Bank of America acct:1947 amt:551.67 completed.
+[06/10/2019 08:22:49] Worker 21 Processing Request: ID: 55 Bank: Citibank acct:5942 amt:4593.00
+[06/10/2019 08:22:49] worker: 21 Authorizing txn: 55 at: Citibank
+[06/10/2019 08:22:49] new transaction created: ID: 312 Bank: Chase acct:5669 amt:965.77
+[06/10/2019 08:22:49] trying to add txn 312 to request queue
+[06/10/2019 08:22:49] success adding txn 312 to request queue
+[06/10/2019 08:22:49] new transaction created: ID: 313 Bank: Bank of America acct:5261 amt:576.07
+[06/10/2019 08:22:49] trying to add txn 313 to request queue
+[06/10/2019 08:22:49] success adding txn 313 to request queue
+[06/10/2019 08:22:49] new transaction created: ID: 314 Bank: Bank of America acct:1342 amt:4020.54
+[06/10/2019 08:22:49] trying to add txn 314 to request queue
+[06/10/2019 08:22:49] success adding txn 314 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 315 Bank: Bank of America acct:7918 amt:4275.66
+[06/10/2019 08:22:50] trying to add txn 315 to request queue
+[06/10/2019 08:22:50] success adding txn 315 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 316 Bank: Bank of America acct:9710 amt:942.03
+[06/10/2019 08:22:50] trying to add txn 316 to request queue
+[06/10/2019 08:22:50] success adding txn 316 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 317 Bank: Citibank acct:145 amt:3499.31
+[06/10/2019 08:22:50] trying to add txn 317 to request queue
+[06/10/2019 08:22:50] success adding txn 317 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 318 Bank: Citibank acct:7883 amt:1174.83
+[06/10/2019 08:22:50] trying to add txn 318 to request queue
+[06/10/2019 08:22:50] success adding txn 318 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 319 Bank: Chase acct:5713 amt:4987.81
+[06/10/2019 08:22:50] trying to add txn 319 to request queue
+[06/10/2019 08:22:50] success adding txn 319 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 320 Bank: Wells Fargo acct:1118 amt:1439.02
+[06/10/2019 08:22:50] trying to add txn 320 to request queue
+[06/10/2019 08:22:50] success adding txn 320 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 321 Bank: Bank of America acct:5069 amt:3328.16
+[06/10/2019 08:22:50] trying to add txn 321 to request queue
+[06/10/2019 08:22:50] success adding txn 321 to request queue
+[06/10/2019 08:22:50] new transaction created: ID: 322 Bank: Citibank acct:1023 amt:2812.06
+[06/10/2019 08:22:50] trying to add txn 322 to request queue
+[06/10/2019 08:22:50] success adding txn 322 to request queue
+[06/10/2019 08:22:51] Request 33 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:51] Request 33 placed in output queue.
+[06/10/2019 08:22:51] transaction ID: 33 Bank: Chase acct:135 amt:2110.39 completed.
+[06/10/2019 08:22:51] worker thread 15 finishing.
+[06/10/2019 08:22:51] new transaction created: ID: 323 Bank: Bank of America acct:417 amt:2510.17
+[06/10/2019 08:22:51] trying to add txn 323 to request queue
+[06/10/2019 08:22:51] success adding txn 323 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 324 Bank: Bank of America acct:5903 amt:3215.88
+[06/10/2019 08:22:51] trying to add txn 324 to request queue
+[06/10/2019 08:22:51] success adding txn 324 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 325 Bank: Bank of America acct:6254 amt:152.71
+[06/10/2019 08:22:51] trying to add txn 325 to request queue
+[06/10/2019 08:22:51] success adding txn 325 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 326 Bank: Chase acct:3777 amt:1529.49
+[06/10/2019 08:22:51] trying to add txn 326 to request queue
+[06/10/2019 08:22:51] success adding txn 326 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 327 Bank: Chase acct:2614 amt:1298.49
+[06/10/2019 08:22:51] trying to add txn 327 to request queue
+[06/10/2019 08:22:51] success adding txn 327 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 328 Bank: Chase acct:9556 amt:637.72
+[06/10/2019 08:22:51] trying to add txn 328 to request queue
+[06/10/2019 08:22:51] success adding txn 328 to request queue
+[06/10/2019 08:22:51] new transaction created: ID: 329 Bank: Citibank acct:2223 amt:2160.37
+[06/10/2019 08:22:51] trying to add txn 329 to request queue
+[06/10/2019 08:22:51] success adding txn 329 to request queue
+[06/10/2019 08:22:51] Request 45 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:51] Request 45 placed in output queue.
+[06/10/2019 08:22:51] transaction ID: 45 Bank: Wells Fargo acct:7651 amt:187.12 completed.
+[06/10/2019 08:22:51] worker thread 22 finishing.
+[06/10/2019 08:22:51] new transaction created: ID: 330 Bank: Wells Fargo acct:8883 amt:3850.86
+[06/10/2019 08:22:51] trying to add txn 330 to request queue
+[06/10/2019 08:22:51] success adding txn 330 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 331 Bank: Bank of America acct:6952 amt:1102.33
+[06/10/2019 08:22:52] trying to add txn 331 to request queue
+[06/10/2019 08:22:52] success adding txn 331 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 332 Bank: Wells Fargo acct:3052 amt:2848.97
+[06/10/2019 08:22:52] trying to add txn 332 to request queue
+[06/10/2019 08:22:52] success adding txn 332 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 333 Bank: Chase acct:6354 amt:3561.14
+[06/10/2019 08:22:52] trying to add txn 333 to request queue
+[06/10/2019 08:22:52] success adding txn 333 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 334 Bank: Bank of America acct:2999 amt:1262.88
+[06/10/2019 08:22:52] trying to add txn 334 to request queue
+[06/10/2019 08:22:52] success adding txn 334 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 335 Bank: Wells Fargo acct:3149 amt:3437.20
+[06/10/2019 08:22:52] trying to add txn 335 to request queue
+[06/10/2019 08:22:52] success adding txn 335 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 336 Bank: Citibank acct:6780 amt:1846.58
+[06/10/2019 08:22:52] trying to add txn 336 to request queue
+[06/10/2019 08:22:52] success adding txn 336 to request queue
+[06/10/2019 08:22:52] Request 37 returned in: 10 seconds. Result: true
+[06/10/2019 08:22:52] Request 37 placed in output queue.
+[06/10/2019 08:22:52] transaction ID: 37 Bank: Wells Fargo acct:6999 amt:3566.45 completed.
+[06/10/2019 08:22:52] worker thread 19 finishing.
+[06/10/2019 08:22:52] new transaction created: ID: 337 Bank: Bank of America acct:9589 amt:1291.13
+[06/10/2019 08:22:52] trying to add txn 337 to request queue
+[06/10/2019 08:22:52] success adding txn 337 to request queue
+[06/10/2019 08:22:52] new transaction created: ID: 338 Bank: Chase acct:8471 amt:3996.32
+[06/10/2019 08:22:52] trying to add txn 338 to request queue
+[06/10/2019 08:22:52] success adding txn 338 to request queue
+[06/10/2019 08:22:53] Request 39 returned in: 9 seconds. Result: false
+[06/10/2019 08:22:53] Request 39 placed in output queue.
+[06/10/2019 08:22:53] transaction ID: 39 Bank: Wells Fargo acct:2562 amt:3554.33 completed.
+[06/10/2019 08:22:53] Worker 28 Processing Request: ID: 56 Bank: Chase acct:703 amt:1371.67
+[06/10/2019 08:22:53] worker: 28 Authorizing txn: 56 at: Chase
+[06/10/2019 08:22:53] new transaction created: ID: 339 Bank: Bank of America acct:4871 amt:4459.73
+[06/10/2019 08:22:53] trying to add txn 339 to request queue
+[06/10/2019 08:22:53] success adding txn 339 to request queue
+[06/10/2019 08:22:53] Request 46 returned in: 8 seconds. Result: true
+[06/10/2019 08:22:53] Request 46 placed in output queue.
+[06/10/2019 08:22:53] transaction ID: 46 Bank: Citibank acct:605 amt:1600.60 completed.
+[06/10/2019 08:22:53] Worker 33 Processing Request: ID: 57 Bank: Wells Fargo acct:1251 amt:3132.15
+[06/10/2019 08:22:53] worker: 33 Authorizing txn: 57 at: Wells Fargo
+[06/10/2019 08:22:53] new transaction created: ID: 340 Bank: Chase acct:5 amt:3508.04
+[06/10/2019 08:22:53] trying to add txn 340 to request queue
+[06/10/2019 08:22:53] success adding txn 340 to request queue
+[06/10/2019 08:22:53] Request 40 returned in: 9 seconds. Result: true
+[06/10/2019 08:22:53] Request 40 placed in output queue.
+[06/10/2019 08:22:53] transaction ID: 40 Bank: Wells Fargo acct:1694 amt:2054.63 completed.
+[06/10/2019 08:22:53] Worker 29 Processing Request: ID: 58 Bank: Bank of America acct:1939 amt:1441.76
+[06/10/2019 08:22:53] worker: 29 Authorizing txn: 58 at: Bank of America
+[06/10/2019 08:22:53] new transaction created: ID: 341 Bank: Wells Fargo acct:1208 amt:2646.38
+[06/10/2019 08:22:53] trying to add txn 341 to request queue
+[06/10/2019 08:22:53] success adding txn 341 to request queue
+[06/10/2019 08:22:53] Request 41 returned in: 9 seconds. Result: true
+[06/10/2019 08:22:53] Request 41 placed in output queue.
+[06/10/2019 08:22:53] transaction ID: 41 Bank: Wells Fargo acct:1874 amt:2354.68 completed.
+[06/10/2019 08:22:53] Worker 30 Processing Request: ID: 59 Bank: Citibank acct:1297 amt:925.52
+[06/10/2019 08:22:53] worker: 30 Authorizing txn: 59 at: Citibank
+[06/10/2019 08:22:53] new transaction created: ID: 342 Bank: Chase acct:9832 amt:4540.98
+[06/10/2019 08:22:53] trying to add txn 342 to request queue
+[06/10/2019 08:22:53] success adding txn 342 to request queue
+[06/10/2019 08:22:53] new transaction created: ID: 343 Bank: Wells Fargo acct:3067 amt:4585.78
+[06/10/2019 08:22:53] trying to add txn 343 to request queue
+[06/10/2019 08:22:53] success adding txn 343 to request queue
+[06/10/2019 08:22:53] new transaction created: ID: 344 Bank: Bank of America acct:7751 amt:3036.61
+[06/10/2019 08:22:53] trying to add txn 344 to request queue
+[06/10/2019 08:22:53] success adding txn 344 to request queue
+[06/10/2019 08:22:53] new transaction created: ID: 345 Bank: Bank of America acct:534 amt:137.67
+[06/10/2019 08:22:53] trying to add txn 345 to request queue
+[06/10/2019 08:22:53] success adding txn 345 to request queue
+[06/10/2019 08:22:53] Request 51 returned in: 7 seconds. Result: false
+[06/10/2019 08:22:53] Request 51 placed in output queue.
+[06/10/2019 08:22:54] transaction ID: 51 Bank: Chase acct:3301 amt:859.00 completed.
+[06/10/2019 08:22:54] worker thread 18 finishing.
+[06/10/2019 08:22:54] new transaction created: ID: 346 Bank: Wells Fargo acct:2602 amt:1448.64
+[06/10/2019 08:22:54] trying to add txn 346 to request queue
+[06/10/2019 08:22:54] success adding txn 346 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 347 Bank: Wells Fargo acct:6534 amt:4581.42
+[06/10/2019 08:22:54] trying to add txn 347 to request queue
+[06/10/2019 08:22:54] success adding txn 347 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 348 Bank: Bank of America acct:4713 amt:4350.12
+[06/10/2019 08:22:54] trying to add txn 348 to request queue
+[06/10/2019 08:22:54] success adding txn 348 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 349 Bank: Citibank acct:5825 amt:2306.44
+[06/10/2019 08:22:54] trying to add txn 349 to request queue
+[06/10/2019 08:22:54] success adding txn 349 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 350 Bank: Wells Fargo acct:5848 amt:719.74
+[06/10/2019 08:22:54] trying to add txn 350 to request queue
+[06/10/2019 08:22:54] success adding txn 350 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 351 Bank: Chase acct:5290 amt:902.83
+[06/10/2019 08:22:54] trying to add txn 351 to request queue
+[06/10/2019 08:22:54] success adding txn 351 to request queue
+[06/10/2019 08:22:54] Request 38 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:54] Request 38 placed in output queue.
+[06/10/2019 08:22:54] transaction ID: 38 Bank: Chase acct:7835 amt:2061.93 completed.
+[06/10/2019 08:22:54] Worker 27 Processing Request: ID: 60 Bank: Citibank acct:3753 amt:764.02
+[06/10/2019 08:22:54] worker: 27 Authorizing txn: 60 at: Citibank
+[06/10/2019 08:22:54] new transaction created: ID: 352 Bank: Chase acct:7461 amt:762.22
+[06/10/2019 08:22:54] trying to add txn 352 to request queue
+[06/10/2019 08:22:54] success adding txn 352 to request queue
+[06/10/2019 08:22:54] new transaction created: ID: 353 Bank: Chase acct:241 amt:1021.96
+[06/10/2019 08:22:54] trying to add txn 353 to request queue
+[06/10/2019 08:22:54] success adding txn 353 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 354 Bank: Chase acct:2610 amt:2152.54
+[06/10/2019 08:22:55] trying to add txn 354 to request queue
+[06/10/2019 08:22:55] success adding txn 354 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 355 Bank: Chase acct:5604 amt:2608.01
+[06/10/2019 08:22:55] trying to add txn 355 to request queue
+[06/10/2019 08:22:55] success adding txn 355 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 356 Bank: Wells Fargo acct:3662 amt:2535.05
+[06/10/2019 08:22:55] trying to add txn 356 to request queue
+[06/10/2019 08:22:55] success adding txn 356 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 357 Bank: Citibank acct:2635 amt:248.15
+[06/10/2019 08:22:55] trying to add txn 357 to request queue
+[06/10/2019 08:22:55] success adding txn 357 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 358 Bank: Wells Fargo acct:6030 amt:681.91
+[06/10/2019 08:22:55] trying to add txn 358 to request queue
+[06/10/2019 08:22:55] success adding txn 358 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 359 Bank: Wells Fargo acct:6351 amt:1787.09
+[06/10/2019 08:22:55] trying to add txn 359 to request queue
+[06/10/2019 08:22:55] success adding txn 359 to request queue
+[06/10/2019 08:22:55] new transaction created: ID: 360 Bank: Citibank acct:8975 amt:494.62
+[06/10/2019 08:22:55] trying to add txn 360 to request queue
+[06/10/2019 08:22:55] success adding txn 360 to request queue
+[06/10/2019 08:22:55] Request 44 returned in: 11 seconds. Result: false
+[06/10/2019 08:22:55] Request 44 placed in output queue.
+[06/10/2019 08:22:55] transaction ID: 44 Bank: Wells Fargo acct:5841 amt:3407.57 completed.
+[06/10/2019 08:22:55] Worker 32 Processing Request: ID: 61 Bank: Wells Fargo acct:3016 amt:3727.72
+[06/10/2019 08:22:55] worker: 32 Authorizing txn: 61 at: Wells Fargo
+[06/10/2019 08:22:55] new transaction created: ID: 361 Bank: Citibank acct:9362 amt:3596.18
+[06/10/2019 08:22:55] trying to add txn 361 to request queue
+[06/10/2019 08:22:55] success adding txn 361 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 362 Bank: Bank of America acct:6750 amt:872.68
+[06/10/2019 08:22:56] trying to add txn 362 to request queue
+[06/10/2019 08:22:56] success adding txn 362 to request queue
+[06/10/2019 08:22:56] Request 53 returned in: 7 seconds. Result: true
+[06/10/2019 08:22:56] Request 53 placed in output queue.
+[06/10/2019 08:22:56] transaction ID: 53 Bank: Chase acct:9298 amt:679.76 completed.
+[06/10/2019 08:22:56] worker thread 24 finishing.
+[06/10/2019 08:22:56] new transaction created: ID: 363 Bank: Wells Fargo acct:7220 amt:1761.91
+[06/10/2019 08:22:56] trying to add txn 363 to request queue
+[06/10/2019 08:22:56] success adding txn 363 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 364 Bank: Wells Fargo acct:6495 amt:864.03
+[06/10/2019 08:22:56] trying to add txn 364 to request queue
+[06/10/2019 08:22:56] success adding txn 364 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 365 Bank: Citibank acct:4308 amt:2000.87
+[06/10/2019 08:22:56] trying to add txn 365 to request queue
+[06/10/2019 08:22:56] success adding txn 365 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 366 Bank: Chase acct:3892 amt:3017.33
+[06/10/2019 08:22:56] trying to add txn 366 to request queue
+[06/10/2019 08:22:56] success adding txn 366 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 367 Bank: Wells Fargo acct:6382 amt:4601.30
+[06/10/2019 08:22:56] trying to add txn 367 to request queue
+[06/10/2019 08:22:56] success adding txn 367 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 368 Bank: Chase acct:9171 amt:1840.72
+[06/10/2019 08:22:56] trying to add txn 368 to request queue
+[06/10/2019 08:22:56] success adding txn 368 to request queue
+[06/10/2019 08:22:56] new transaction created: ID: 369 Bank: Bank of America acct:9342 amt:3685.27
+[06/10/2019 08:22:56] trying to add txn 369 to request queue
+[06/10/2019 08:22:56] success adding txn 369 to request queue
+[06/10/2019 08:22:56] Request 48 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:56] Request 48 placed in output queue.
+[06/10/2019 08:22:56] transaction ID: 48 Bank: Chase acct:1413 amt:4861.72 completed.
+[06/10/2019 08:22:56] worker thread 20 finishing.
+[06/10/2019 08:22:57] new transaction created: ID: 370 Bank: Wells Fargo acct:8614 amt:664.75
+[06/10/2019 08:22:57] trying to add txn 370 to request queue
+[06/10/2019 08:22:57] success adding txn 370 to request queue
+[06/10/2019 08:22:57] new transaction created: ID: 371 Bank: Bank of America acct:6712 amt:3980.53
+[06/10/2019 08:22:57] trying to add txn 371 to request queue
+[06/10/2019 08:22:57] success adding txn 371 to request queue
+[06/10/2019 08:22:57] new transaction created: ID: 372 Bank: Bank of America acct:7852 amt:2690.21
+[06/10/2019 08:22:57] trying to add txn 372 to request queue
+[06/10/2019 08:22:57] success adding txn 372 to request queue
+[06/10/2019 08:22:57] new transaction created: ID: 373 Bank: Citibank acct:9610 amt:1393.76
+[06/10/2019 08:22:57] trying to add txn 373 to request queue
+[06/10/2019 08:22:57] success adding txn 373 to request queue
+[06/10/2019 08:22:57] Request 42 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:57] Request 42 placed in output queue.
+[06/10/2019 08:22:57] transaction ID: 42 Bank: Bank of America acct:7595 amt:4030.18 completed.
+[06/10/2019 08:22:57] worker thread 26 finishing.
+[06/10/2019 08:22:57] new transaction created: ID: 374 Bank: Bank of America acct:9170 amt:2763.05
+[06/10/2019 08:22:57] trying to add txn 374 to request queue
+[06/10/2019 08:22:57] success adding txn 374 to request queue
+[06/10/2019 08:22:57] Request 47 returned in: 12 seconds. Result: false
+[06/10/2019 08:22:57] Request 47 placed in output queue.
+[06/10/2019 08:22:57] transaction ID: 47 Bank: Bank of America acct:922 amt:4273.09 completed.
+[06/10/2019 08:22:57] Worker 34 Processing Request: ID: 62 Bank: Bank of America acct:7826 amt:4514.33
+[06/10/2019 08:22:57] worker: 34 Authorizing txn: 62 at: Bank of America
+[06/10/2019 08:22:57] Request 43 returned in: 13 seconds. Result: true
+[06/10/2019 08:22:57] Request 43 placed in output queue.
+[06/10/2019 08:22:57] transaction ID: 43 Bank: Wells Fargo acct:3368 amt:2604.68 completed.
+[06/10/2019 08:22:57] Worker 31 Processing Request: ID: 63 Bank: Citibank acct:203 amt:1609.97
+[06/10/2019 08:22:57] worker: 31 Authorizing txn: 63 at: Citibank
+[06/10/2019 08:22:57] new transaction created: ID: 375 Bank: Bank of America acct:5599 amt:4803.64
+[06/10/2019 08:22:57] trying to add txn 375 to request queue
+[06/10/2019 08:22:57] success adding txn 375 to request queue
+[06/10/2019 08:22:57] Request 50 returned in: 11 seconds. Result: false
+[06/10/2019 08:22:57] Request 50 placed in output queue.
+[06/10/2019 08:22:57] transaction ID: 50 Bank: Citibank acct:5806 amt:3814.45 completed.
+[06/10/2019 08:22:57] worker thread 17 finishing.
+[06/10/2019 08:22:57] new transaction created: ID: 376 Bank: Bank of America acct:6366 amt:3628.00
+[06/10/2019 08:22:57] trying to add txn 376 to request queue
+[06/10/2019 08:22:57] success adding txn 376 to request queue
+[06/10/2019 08:22:57] new transaction created: ID: 377 Bank: Bank of America acct:738 amt:4265.27
+[06/10/2019 08:22:57] trying to add txn 377 to request queue
+[06/10/2019 08:22:57] success adding txn 377 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 378 Bank: Bank of America acct:1574 amt:2360.24
+[06/10/2019 08:22:58] trying to add txn 378 to request queue
+[06/10/2019 08:22:58] success adding txn 378 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 379 Bank: Bank of America acct:5350 amt:3760.48
+[06/10/2019 08:22:58] trying to add txn 379 to request queue
+[06/10/2019 08:22:58] success adding txn 379 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 380 Bank: Chase acct:4845 amt:4900.67
+[06/10/2019 08:22:58] trying to add txn 380 to request queue
+[06/10/2019 08:22:58] success adding txn 380 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 381 Bank: Chase acct:3640 amt:4289.80
+[06/10/2019 08:22:58] trying to add txn 381 to request queue
+[06/10/2019 08:22:58] success adding txn 381 to request queue
+[06/10/2019 08:22:58] Request 49 returned in: 12 seconds. Result: true
+[06/10/2019 08:22:58] new transaction created: ID: 382 Bank: Wells Fargo acct:6804 amt:4833.56
+[06/10/2019 08:22:58] transaction ID: 49 Bank: Bank of America acct:7373 amt:781.43 completed.
+[06/10/2019 08:22:58] Request 49 placed in output queue.
+[06/10/2019 08:22:58] worker thread 16 finishing.
+[06/10/2019 08:22:58] trying to add txn 382 to request queue
+[06/10/2019 08:22:58] success adding txn 382 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 383 Bank: Bank of America acct:1818 amt:4333.57
+[06/10/2019 08:22:58] trying to add txn 383 to request queue
+[06/10/2019 08:22:58] success adding txn 383 to request queue
+[06/10/2019 08:22:58] new transaction created: ID: 384 Bank: Bank of America acct:2934 amt:615.97
+[06/10/2019 08:22:58] trying to add txn 384 to request queue
+[06/10/2019 08:22:58] success adding txn 384 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 385 Bank: Bank of America acct:4523 amt:2207.68
+[06/10/2019 08:22:59] trying to add txn 385 to request queue
+[06/10/2019 08:22:59] success adding txn 385 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 386 Bank: Wells Fargo acct:2400 amt:2313.65
+[06/10/2019 08:22:59] trying to add txn 386 to request queue
+[06/10/2019 08:22:59] success adding txn 386 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 387 Bank: Bank of America acct:3826 amt:1782.42
+[06/10/2019 08:22:59] trying to add txn 387 to request queue
+[06/10/2019 08:22:59] success adding txn 387 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 388 Bank: Citibank acct:7775 amt:1997.42
+[06/10/2019 08:22:59] trying to add txn 388 to request queue
+[06/10/2019 08:22:59] success adding txn 388 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 389 Bank: Bank of America acct:5722 amt:4456.24
+[06/10/2019 08:22:59] trying to add txn 389 to request queue
+[06/10/2019 08:22:59] success adding txn 389 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 390 Bank: Chase acct:2832 amt:1173.84
+[06/10/2019 08:22:59] trying to add txn 390 to request queue
+[06/10/2019 08:22:59] success adding txn 390 to request queue
+[06/10/2019 08:22:59] Request 52 returned in: 11 seconds. Result: true
+[06/10/2019 08:22:59] Request 52 placed in output queue.
+[06/10/2019 08:22:59] worker thread 23 finishing.
+[06/10/2019 08:22:59] transaction ID: 52 Bank: Citibank acct:5860 amt:634.52 completed.
+[06/10/2019 08:22:59] new transaction created: ID: 391 Bank: Bank of America acct:142 amt:1721.68
+[06/10/2019 08:22:59] trying to add txn 391 to request queue
+[06/10/2019 08:22:59] success adding txn 391 to request queue
+[06/10/2019 08:22:59] new transaction created: ID: 392 Bank: Chase acct:1248 amt:4281.25
+[06/10/2019 08:22:59] trying to add txn 392 to request queue
+[06/10/2019 08:22:59] success adding txn 392 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 393 Bank: Bank of America acct:7084 amt:2408.66
+[06/10/2019 08:23:00] trying to add txn 393 to request queue
+[06/10/2019 08:23:00] success adding txn 393 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 394 Bank: Citibank acct:5125 amt:4532.01
+[06/10/2019 08:23:00] trying to add txn 394 to request queue
+[06/10/2019 08:23:00] success adding txn 394 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 395 Bank: Wells Fargo acct:305 amt:1080.57
+[06/10/2019 08:23:00] trying to add txn 395 to request queue
+[06/10/2019 08:23:00] success adding txn 395 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 396 Bank: Chase acct:6364 amt:1503.86
+[06/10/2019 08:23:00] trying to add txn 396 to request queue
+[06/10/2019 08:23:00] success adding txn 396 to request queue
+[06/10/2019 08:23:00] Request 59 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:00] Request 59 placed in output queue.
+[06/10/2019 08:23:00] transaction ID: 59 Bank: Citibank acct:1297 amt:925.52 completed.
+[06/10/2019 08:23:00] Worker 30 Processing Request: ID: 64 Bank: Chase acct:4058 amt:2600.91
+[06/10/2019 08:23:00] worker: 30 Authorizing txn: 64 at: Chase
+[06/10/2019 08:23:00] new transaction created: ID: 397 Bank: Citibank acct:606 amt:1403.19
+[06/10/2019 08:23:00] trying to add txn 397 to request queue
+[06/10/2019 08:23:00] success adding txn 397 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 398 Bank: Citibank acct:4008 amt:238.04
+[06/10/2019 08:23:00] trying to add txn 398 to request queue
+[06/10/2019 08:23:00] success adding txn 398 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 399 Bank: Citibank acct:5097 amt:1568.14
+[06/10/2019 08:23:00] trying to add txn 399 to request queue
+[06/10/2019 08:23:00] success adding txn 399 to request queue
+[06/10/2019 08:23:00] new transaction created: ID: 400 Bank: Chase acct:7471 amt:3445.40
+[06/10/2019 08:23:00] trying to add txn 400 to request queue
+[06/10/2019 08:23:00] success adding txn 400 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 401 Bank: Chase acct:1391 amt:3104.63
+[06/10/2019 08:23:01] trying to add txn 401 to request queue
+[06/10/2019 08:23:01] success adding txn 401 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 402 Bank: Citibank acct:9901 amt:2720.11
+[06/10/2019 08:23:01] trying to add txn 402 to request queue
+[06/10/2019 08:23:01] success adding txn 402 to request queue
+[06/10/2019 08:23:01] Request 58 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:01] Request 58 placed in output queue.
+[06/10/2019 08:23:01] transaction ID: 58 Bank: Bank of America acct:1939 amt:1441.76 completed.
+[06/10/2019 08:23:01] worker thread 29 finishing.
+[06/10/2019 08:23:01] Request 54 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:01] Request 54 placed in output queue.
+[06/10/2019 08:23:01] transaction ID: 54 Bank: Citibank acct:9509 amt:2390.04 completed.
+[06/10/2019 08:23:01] worker thread 25 finishing.
+[06/10/2019 08:23:01] new transaction created: ID: 403 Bank: Chase acct:6075 amt:4605.29
+[06/10/2019 08:23:01] trying to add txn 403 to request queue
+[06/10/2019 08:23:01] success adding txn 403 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 404 Bank: Bank of America acct:1147 amt:1272.61
+[06/10/2019 08:23:01] trying to add txn 404 to request queue
+[06/10/2019 08:23:01] success adding txn 404 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 405 Bank: Wells Fargo acct:5444 amt:943.40
+[06/10/2019 08:23:01] trying to add txn 405 to request queue
+[06/10/2019 08:23:01] success adding txn 405 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 406 Bank: Citibank acct:5569 amt:4025.46
+[06/10/2019 08:23:01] trying to add txn 406 to request queue
+[06/10/2019 08:23:01] success adding txn 406 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 407 Bank: Citibank acct:3635 amt:364.81
+[06/10/2019 08:23:01] trying to add txn 407 to request queue
+[06/10/2019 08:23:01] success adding txn 407 to request queue
+[06/10/2019 08:23:01] new transaction created: ID: 408 Bank: Bank of America acct:6480 amt:4541.41
+[06/10/2019 08:23:01] trying to add txn 408 to request queue
+[06/10/2019 08:23:01] success adding txn 408 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 409 Bank: Citibank acct:4644 amt:60.99
+[06/10/2019 08:23:02] trying to add txn 409 to request queue
+[06/10/2019 08:23:02] success adding txn 409 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 410 Bank: Citibank acct:2151 amt:4334.79
+[06/10/2019 08:23:02] trying to add txn 410 to request queue
+[06/10/2019 08:23:02] success adding txn 410 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 411 Bank: Chase acct:9755 amt:204.19
+[06/10/2019 08:23:02] trying to add txn 411 to request queue
+[06/10/2019 08:23:02] success adding txn 411 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 412 Bank: Bank of America acct:6265 amt:2858.79
+[06/10/2019 08:23:02] trying to add txn 412 to request queue
+[06/10/2019 08:23:02] success adding txn 412 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 413 Bank: Bank of America acct:5972 amt:1137.19
+[06/10/2019 08:23:02] trying to add txn 413 to request queue
+[06/10/2019 08:23:02] success adding txn 413 to request queue
+[06/10/2019 08:23:02] Request 55 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:02] Request 55 placed in output queue.
+[06/10/2019 08:23:02] transaction ID: 55 Bank: Citibank acct:5942 amt:4593.00 completed.
+[06/10/2019 08:23:02] worker thread 21 finishing.
+[06/10/2019 08:23:02] Request 60 returned in: 8 seconds. Result: false
+[06/10/2019 08:23:02] Request 60 placed in output queue.
+[06/10/2019 08:23:02] transaction ID: 60 Bank: Citibank acct:3753 amt:764.02 completed.
+[06/10/2019 08:23:02] worker thread 27 finishing.
+[06/10/2019 08:23:02] new transaction created: ID: 414 Bank: Bank of America acct:5698 amt:1411.35
+[06/10/2019 08:23:02] trying to add txn 414 to request queue
+[06/10/2019 08:23:02] success adding txn 414 to request queue
+[06/10/2019 08:23:02] new transaction created: ID: 415 Bank: Bank of America acct:2847 amt:324.75
+[06/10/2019 08:23:02] trying to add txn 415 to request queue
+[06/10/2019 08:23:02] success adding txn 415 to request queue
+[06/10/2019 08:23:03] new transaction created: ID: 416 Bank: Chase acct:2873 amt:1162.87
+[06/10/2019 08:23:03] trying to add txn 416 to request queue
+[06/10/2019 08:23:03] success adding txn 416 to request queue
+[06/10/2019 08:23:03] Request 57 returned in: 10 seconds. Result: false
+[06/10/2019 08:23:03] Request 57 placed in output queue.
+[06/10/2019 08:23:03] transaction ID: 57 Bank: Wells Fargo acct:1251 amt:3132.15 completed.
+[06/10/2019 08:23:03] Worker 33 Processing Request: ID: 65 Bank: Wells Fargo acct:7434 amt:3051.14
+[06/10/2019 08:23:03] worker: 33 Authorizing txn: 65 at: Wells Fargo
+[06/10/2019 08:23:03] new transaction created: ID: 417 Bank: Bank of America acct:5332 amt:207.22
+[06/10/2019 08:23:03] trying to add txn 417 to request queue
+[06/10/2019 08:23:03] success adding txn 417 to request queue
+[06/10/2019 08:23:03] new transaction created: ID: 418 Bank: Citibank acct:5320 amt:477.85
+[06/10/2019 08:23:03] trying to add txn 418 to request queue
+[06/10/2019 08:23:03] success adding txn 418 to request queue
+[06/10/2019 08:23:03] new transaction created: ID: 419 Bank: Chase acct:3328 amt:4094.20
+[06/10/2019 08:23:03] trying to add txn 419 to request queue
+[06/10/2019 08:23:03] success adding txn 419 to request queue
+[06/10/2019 08:23:04] Request 56 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:04] Request 56 placed in output queue.
+[06/10/2019 08:23:04] transaction ID: 56 Bank: Chase acct:703 amt:1371.67 completed.
+[06/10/2019 08:23:04] worker thread 28 finishing.
+[06/10/2019 08:23:04] new transaction created: ID: 420 Bank: Bank of America acct:8946 amt:4489.00
+[06/10/2019 08:23:04] trying to add txn 420 to request queue
+[06/10/2019 08:23:04] success adding txn 420 to request queue
+[06/10/2019 08:23:04] new transaction created: ID: 421 Bank: Chase acct:828 amt:2360.76
+[06/10/2019 08:23:04] trying to add txn 421 to request queue
+[06/10/2019 08:23:04] success adding txn 421 to request queue
+[06/10/2019 08:23:04] Request 61 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:04] Request 61 placed in output queue.
+[06/10/2019 08:23:04] transaction ID: 61 Bank: Wells Fargo acct:3016 amt:3727.72 completed.
+[06/10/2019 08:23:04] Worker 32 Processing Request: ID: 66 Bank: Bank of America acct:7901 amt:4626.68
+[06/10/2019 08:23:04] worker: 32 Authorizing txn: 66 at: Bank of America
+[06/10/2019 08:23:04] new transaction created: ID: 422 Bank: Citibank acct:3782 amt:2121.06
+[06/10/2019 08:23:04] trying to add txn 422 to request queue
+[06/10/2019 08:23:04] success adding txn 422 to request queue
+[06/10/2019 08:23:05] new transaction created: ID: 423 Bank: Citibank acct:4429 amt:4204.37
+[06/10/2019 08:23:05] trying to add txn 423 to request queue
+[06/10/2019 08:23:05] success adding txn 423 to request queue
+[06/10/2019 08:23:05] Starting worker thread: 35
+[06/10/2019 08:23:05] Worker 35 Processing Request: ID: 67 Bank: Bank of America acct:3712 amt:1309.93
+[06/10/2019 08:23:05] worker: 35 Authorizing txn: 67 at: Bank of America
+[06/10/2019 08:23:05] new transaction created: ID: 424 Bank: Bank of America acct:1732 amt:159.80
+[06/10/2019 08:23:05] trying to add txn 424 to request queue
+[06/10/2019 08:23:05] success adding txn 424 to request queue
+[06/10/2019 08:23:05] new transaction created: ID: 425 Bank: Chase acct:2469 amt:549.20
+[06/10/2019 08:23:05] trying to add txn 425 to request queue
+[06/10/2019 08:23:05] success adding txn 425 to request queue
+[06/10/2019 08:23:05] Starting worker thread: 36
+[06/10/2019 08:23:05] Worker 36 Processing Request: ID: 68 Bank: Bank of America acct:4660 amt:3367.74
+[06/10/2019 08:23:05] worker: 36 Authorizing txn: 68 at: Bank of America
+[06/10/2019 08:23:06] new transaction created: ID: 426 Bank: Wells Fargo acct:8813 amt:1083.02
+[06/10/2019 08:23:06] trying to add txn 426 to request queue
+[06/10/2019 08:23:06] success adding txn 426 to request queue
+[06/10/2019 08:23:06] new transaction created: ID: 427 Bank: Wells Fargo acct:5796 amt:3803.74
+[06/10/2019 08:23:06] trying to add txn 427 to request queue
+[06/10/2019 08:23:06] success adding txn 427 to request queue
+[06/10/2019 08:23:06] new transaction created: ID: 428 Bank: Wells Fargo acct:3523 amt:2338.10
+[06/10/2019 08:23:06] trying to add txn 428 to request queue
+[06/10/2019 08:23:06] success adding txn 428 to request queue
+[06/10/2019 08:23:07] new transaction created: ID: 429 Bank: Bank of America acct:8294 amt:999.53
+[06/10/2019 08:23:07] trying to add txn 429 to request queue
+[06/10/2019 08:23:07] success adding txn 429 to request queue
+[06/10/2019 08:23:07] new transaction created: ID: 430 Bank: Bank of America acct:7551 amt:3046.61
+[06/10/2019 08:23:07] trying to add txn 430 to request queue
+[06/10/2019 08:23:07] success adding txn 430 to request queue
+[06/10/2019 08:23:07] new transaction created: ID: 431 Bank: Chase acct:6009 amt:2052.49
+[06/10/2019 08:23:07] trying to add txn 431 to request queue
+[06/10/2019 08:23:07] success adding txn 431 to request queue
+[06/10/2019 08:23:08] new transaction created: ID: 432 Bank: Wells Fargo acct:7220 amt:2952.79
+[06/10/2019 08:23:08] trying to add txn 432 to request queue
+[06/10/2019 08:23:08] success adding txn 432 to request queue
+[06/10/2019 08:23:08] Request 62 returned in: 11 seconds. Result: false
+[06/10/2019 08:23:08] Request 62 placed in output queue.
+[06/10/2019 08:23:08] transaction ID: 62 Bank: Bank of America acct:7826 amt:4514.33 completed.
+[06/10/2019 08:23:08] Worker 34 Processing Request: ID: 69 Bank: Wells Fargo acct:1812 amt:2613.08
+[06/10/2019 08:23:08] worker: 34 Authorizing txn: 69 at: Wells Fargo
+[06/10/2019 08:23:08] new transaction created: ID: 433 Bank: Chase acct:5905 amt:1217.52
+[06/10/2019 08:23:08] trying to add txn 433 to request queue
+[06/10/2019 08:23:08] success adding txn 433 to request queue
+[06/10/2019 08:23:08] new transaction created: ID: 434 Bank: Citibank acct:1211 amt:4479.99
+[06/10/2019 08:23:08] trying to add txn 434 to request queue
+[06/10/2019 08:23:08] success adding txn 434 to request queue
+[06/10/2019 08:23:09] new transaction created: ID: 435 Bank: Wells Fargo acct:2609 amt:1221.71
+[06/10/2019 08:23:09] trying to add txn 435 to request queue
+[06/10/2019 08:23:09] success adding txn 435 to request queue
+[06/10/2019 08:23:09] Request 64 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:09] Request 64 placed in output queue.
+[06/10/2019 08:23:09] transaction ID: 64 Bank: Chase acct:4058 amt:2600.91 completed.
+[06/10/2019 08:23:09] Worker 30 Processing Request: ID: 70 Bank: Citibank acct:7815 amt:839.76
+[06/10/2019 08:23:09] worker: 30 Authorizing txn: 70 at: Citibank
+[06/10/2019 08:23:09] new transaction created: ID: 436 Bank: Chase acct:5115 amt:2594.88
+[06/10/2019 08:23:09] trying to add txn 436 to request queue
+[06/10/2019 08:23:09] success adding txn 436 to request queue
+[06/10/2019 08:23:09] new transaction created: ID: 437 Bank: Chase acct:6867 amt:578.71
+[06/10/2019 08:23:09] trying to add txn 437 to request queue
+[06/10/2019 08:23:09] success adding txn 437 to request queue
+[06/10/2019 08:23:10] new transaction created: ID: 438 Bank: Citibank acct:9822 amt:3495.31
+[06/10/2019 08:23:10] trying to add txn 438 to request queue
+[06/10/2019 08:23:10] success adding txn 438 to request queue
+[06/10/2019 08:23:10] new transaction created: ID: 439 Bank: Wells Fargo acct:6973 amt:2648.27
+[06/10/2019 08:23:10] trying to add txn 439 to request queue
+[06/10/2019 08:23:10] success adding txn 439 to request queue
+[06/10/2019 08:23:10] Request 63 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:10] Request 63 placed in output queue.
+[06/10/2019 08:23:10] transaction ID: 63 Bank: Citibank acct:203 amt:1609.97 completed.
+[06/10/2019 08:23:10] Worker 31 Processing Request: ID: 71 Bank: Bank of America acct:3119 amt:1934.59
+[06/10/2019 08:23:10] worker: 31 Authorizing txn: 71 at: Bank of America
+[06/10/2019 08:23:10] new transaction created: ID: 440 Bank: Chase acct:5605 amt:4110.58
+[06/10/2019 08:23:10] trying to add txn 440 to request queue
+[06/10/2019 08:23:10] success adding txn 440 to request queue
+[06/10/2019 08:23:11] new transaction created: ID: 441 Bank: Wells Fargo acct:4559 amt:1063.17
+[06/10/2019 08:23:11] trying to add txn 441 to request queue
+[06/10/2019 08:23:11] success adding txn 441 to request queue
+[06/10/2019 08:23:11] new transaction created: ID: 442 Bank: Wells Fargo acct:7515 amt:1467.52
+[06/10/2019 08:23:11] trying to add txn 442 to request queue
+[06/10/2019 08:23:11] success adding txn 442 to request queue
+[06/10/2019 08:23:11] Request 66 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:11] Request 66 placed in output queue.
+[06/10/2019 08:23:11] transaction ID: 66 Bank: Bank of America acct:7901 amt:4626.68 completed.
+[06/10/2019 08:23:11] Worker 32 Processing Request: ID: 72 Bank: Chase acct:9356 amt:1604.84
+[06/10/2019 08:23:11] worker: 32 Authorizing txn: 72 at: Chase
+[06/10/2019 08:23:12] new transaction created: ID: 443 Bank: Wells Fargo acct:2141 amt:4502.38
+[06/10/2019 08:23:12] trying to add txn 443 to request queue
+[06/10/2019 08:23:12] success adding txn 443 to request queue
+[06/10/2019 08:23:12] Request 65 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:12] Request 65 placed in output queue.
+[06/10/2019 08:23:12] transaction ID: 65 Bank: Wells Fargo acct:7434 amt:3051.14 completed.
+[06/10/2019 08:23:12] Worker 33 Processing Request: ID: 73 Bank: Wells Fargo acct:5792 amt:3266.06
+[06/10/2019 08:23:12] worker: 33 Authorizing txn: 73 at: Wells Fargo
+[06/10/2019 08:23:12] new transaction created: ID: 444 Bank: Bank of America acct:3213 amt:4043.54
+[06/10/2019 08:23:12] trying to add txn 444 to request queue
+[06/10/2019 08:23:12] success adding txn 444 to request queue
+[06/10/2019 08:23:12] new transaction created: ID: 445 Bank: Chase acct:5848 amt:4835.35
+[06/10/2019 08:23:12] trying to add txn 445 to request queue
+[06/10/2019 08:23:12] success adding txn 445 to request queue
+[06/10/2019 08:23:13] new transaction created: ID: 446 Bank: Bank of America acct:4254 amt:1976.43
+[06/10/2019 08:23:13] trying to add txn 446 to request queue
+[06/10/2019 08:23:13] success adding txn 446 to request queue
+[06/10/2019 08:23:13] new transaction created: ID: 447 Bank: Bank of America acct:3970 amt:1899.21
+[06/10/2019 08:23:13] trying to add txn 447 to request queue
+[06/10/2019 08:23:13] success adding txn 447 to request queue
+[06/10/2019 08:23:13] new transaction created: ID: 448 Bank: Bank of America acct:6936 amt:605.74
+[06/10/2019 08:23:13] trying to add txn 448 to request queue
+[06/10/2019 08:23:13] success adding txn 448 to request queue
+[06/10/2019 08:23:14] new transaction created: ID: 449 Bank: Bank of America acct:6515 amt:206.99
+[06/10/2019 08:23:14] trying to add txn 449 to request queue
+[06/10/2019 08:23:14] success adding txn 449 to request queue
+[06/10/2019 08:23:14] Request 67 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:14] Request 67 placed in output queue.
+[06/10/2019 08:23:14] transaction ID: 67 Bank: Bank of America acct:3712 amt:1309.93 completed.
+[06/10/2019 08:23:14] Worker 35 Processing Request: ID: 74 Bank: Chase acct:493 amt:3725.05
+[06/10/2019 08:23:14] worker: 35 Authorizing txn: 74 at: Chase
+[06/10/2019 08:23:14] new transaction created: ID: 450 Bank: Chase acct:2106 amt:3337.25
+[06/10/2019 08:23:14] trying to add txn 450 to request queue
+[06/10/2019 08:23:14] success adding txn 450 to request queue
+[06/10/2019 08:23:15] new transaction created: ID: 451 Bank: Bank of America acct:7650 amt:251.75
+[06/10/2019 08:23:15] trying to add txn 451 to request queue
+[06/10/2019 08:23:15] success adding txn 451 to request queue
+[06/10/2019 08:23:15] new transaction created: ID: 452 Bank: Wells Fargo acct:223 amt:299.90
+[06/10/2019 08:23:15] trying to add txn 452 to request queue
+[06/10/2019 08:23:15] success adding txn 452 to request queue
+[06/10/2019 08:23:16] new transaction created: ID: 453 Bank: Bank of America acct:9064 amt:566.52
+[06/10/2019 08:23:16] trying to add txn 453 to request queue
+[06/10/2019 08:23:16] success adding txn 453 to request queue
+[06/10/2019 08:23:16] Request 70 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:16] Request 70 placed in output queue.
+[06/10/2019 08:23:16] transaction ID: 70 Bank: Citibank acct:7815 amt:839.76 completed.
+[06/10/2019 08:23:16] Worker 30 Processing Request: ID: 75 Bank: Chase acct:5012 amt:576.70
+[06/10/2019 08:23:16] worker: 30 Authorizing txn: 75 at: Chase
+[06/10/2019 08:23:16] new transaction created: ID: 454 Bank: Bank of America acct:2404 amt:2604.56
+[06/10/2019 08:23:16] trying to add txn 454 to request queue
+[06/10/2019 08:23:16] success adding txn 454 to request queue
+[06/10/2019 08:23:16] Request 68 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:16] Request 68 placed in output queue.
+[06/10/2019 08:23:16] transaction ID: 68 Bank: Bank of America acct:4660 amt:3367.74 completed.
+[06/10/2019 08:23:16] Worker 36 Processing Request: ID: 76 Bank: Bank of America acct:143 amt:690.69
+[06/10/2019 08:23:16] worker: 36 Authorizing txn: 76 at: Bank of America
+[06/10/2019 08:23:17] new transaction created: ID: 455 Bank: Citibank acct:3294 amt:1782.00
+[06/10/2019 08:23:17] trying to add txn 455 to request queue
+[06/10/2019 08:23:17] success adding txn 455 to request queue
+[06/10/2019 08:23:17] Starting worker thread: 37
+[06/10/2019 08:23:17] Worker 37 Processing Request: ID: 77 Bank: Citibank acct:3245 amt:4151.85
+[06/10/2019 08:23:17] worker: 37 Authorizing txn: 77 at: Citibank
+[06/10/2019 08:23:17] new transaction created: ID: 456 Bank: Chase acct:8594 amt:2393.26
+[06/10/2019 08:23:17] trying to add txn 456 to request queue
+[06/10/2019 08:23:17] success adding txn 456 to request queue
+[06/10/2019 08:23:17] Starting worker thread: 38
+[06/10/2019 08:23:17] Worker 38 Processing Request: ID: 78 Bank: Wells Fargo acct:8398 amt:598.71
+[06/10/2019 08:23:17] worker: 38 Authorizing txn: 78 at: Wells Fargo
+[06/10/2019 08:23:18] new transaction created: ID: 457 Bank: Chase acct:8173 amt:3142.32
+[06/10/2019 08:23:18] trying to add txn 457 to request queue
+[06/10/2019 08:23:18] success adding txn 457 to request queue
+[06/10/2019 08:23:18] new transaction created: ID: 458 Bank: Bank of America acct:2489 amt:3902.93
+[06/10/2019 08:23:18] trying to add txn 458 to request queue
+[06/10/2019 08:23:18] success adding txn 458 to request queue
+[06/10/2019 08:23:19] new transaction created: ID: 459 Bank: Wells Fargo acct:2035 amt:1029.84
+[06/10/2019 08:23:19] trying to add txn 459 to request queue
+[06/10/2019 08:23:19] success adding txn 459 to request queue
+[06/10/2019 08:23:19] Starting worker thread: 39
+[06/10/2019 08:23:19] Worker 39 Processing Request: ID: 79 Bank: Chase acct:521 amt:4687.75
+[06/10/2019 08:23:19] worker: 39 Authorizing txn: 79 at: Chase
+[06/10/2019 08:23:19] new transaction created: ID: 460 Bank: Bank of America acct:8065 amt:1537.64
+[06/10/2019 08:23:19] trying to add txn 460 to request queue
+[06/10/2019 08:23:19] success adding txn 460 to request queue
+[06/10/2019 08:23:20] new transaction created: ID: 461 Bank: Citibank acct:8316 amt:3469.72
+[06/10/2019 08:23:20] trying to add txn 461 to request queue
+[06/10/2019 08:23:20] success adding txn 461 to request queue
+[06/10/2019 08:23:20] Request 71 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:20] Request 71 placed in output queue.
+[06/10/2019 08:23:20] transaction ID: 71 Bank: Bank of America acct:3119 amt:1934.59 completed.
+[06/10/2019 08:23:20] Worker 31 Processing Request: ID: 80 Bank: Chase acct:574 amt:1795.54
+[06/10/2019 08:23:20] worker: 31 Authorizing txn: 80 at: Chase
+[06/10/2019 08:23:20] new transaction created: ID: 462 Bank: Chase acct:1730 amt:2393.38
+[06/10/2019 08:23:20] trying to add txn 462 to request queue
+[06/10/2019 08:23:20] success adding txn 462 to request queue
+[06/10/2019 08:23:21] new transaction created: ID: 463 Bank: Bank of America acct:5805 amt:4443.22
+[06/10/2019 08:23:21] trying to add txn 463 to request queue
+[06/10/2019 08:23:21] success adding txn 463 to request queue
+[06/10/2019 08:23:21] Request 69 returned in: 13 seconds. Result: false
+[06/10/2019 08:23:21] Request 69 placed in output queue.
+[06/10/2019 08:23:21] transaction ID: 69 Bank: Wells Fargo acct:1812 amt:2613.08 completed.
+[06/10/2019 08:23:21] Worker 34 Processing Request: ID: 81 Bank: Citibank acct:6072 amt:4645.47
+[06/10/2019 08:23:21] worker: 34 Authorizing txn: 81 at: Citibank
+[06/10/2019 08:23:21] new transaction created: ID: 464 Bank: Wells Fargo acct:3548 amt:3268.67
+[06/10/2019 08:23:21] trying to add txn 464 to request queue
+[06/10/2019 08:23:21] success adding txn 464 to request queue
+[06/10/2019 08:23:22] new transaction created: ID: 465 Bank: Citibank acct:9270 amt:3570.56
+[06/10/2019 08:23:22] trying to add txn 465 to request queue
+[06/10/2019 08:23:22] success adding txn 465 to request queue
+[06/10/2019 08:23:22] Request 74 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:22] Request 74 placed in output queue.
+[06/10/2019 08:23:22] transaction ID: 74 Bank: Chase acct:493 amt:3725.05 completed.
+[06/10/2019 08:23:22] Worker 35 Processing Request: ID: 82 Bank: Bank of America acct:9906 amt:453.17
+[06/10/2019 08:23:22] worker: 35 Authorizing txn: 82 at: Bank of America
+[06/10/2019 08:23:22] Request 72 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:22] Request 72 placed in output queue.
+[06/10/2019 08:23:22] transaction ID: 72 Bank: Chase acct:9356 amt:1604.84 completed.
+[06/10/2019 08:23:22] Worker 32 Processing Request: ID: 83 Bank: Citibank acct:3710 amt:4652.93
+[06/10/2019 08:23:22] worker: 32 Authorizing txn: 83 at: Citibank
+[06/10/2019 08:23:22] new transaction created: ID: 466 Bank: Chase acct:7837 amt:233.95
+[06/10/2019 08:23:22] trying to add txn 466 to request queue
+[06/10/2019 08:23:22] success adding txn 466 to request queue
+[06/10/2019 08:23:23] new transaction created: ID: 467 Bank: Bank of America acct:5878 amt:4401.33
+[06/10/2019 08:23:23] trying to add txn 467 to request queue
+[06/10/2019 08:23:23] success adding txn 467 to request queue
+[06/10/2019 08:23:23] new transaction created: ID: 468 Bank: Citibank acct:5374 amt:3966.33
+[06/10/2019 08:23:23] trying to add txn 468 to request queue
+[06/10/2019 08:23:23] success adding txn 468 to request queue
+[06/10/2019 08:23:24] new transaction created: ID: 469 Bank: Chase acct:4656 amt:4491.44
+[06/10/2019 08:23:24] trying to add txn 469 to request queue
+[06/10/2019 08:23:24] success adding txn 469 to request queue
+[06/10/2019 08:23:24] new transaction created: ID: 470 Bank: Bank of America acct:4274 amt:4684.06
+[06/10/2019 08:23:24] trying to add txn 470 to request queue
+[06/10/2019 08:23:24] success adding txn 470 to request queue
+[06/10/2019 08:23:25] Request 73 returned in: 13 seconds. Result: false
+[06/10/2019 08:23:25] Request 73 placed in output queue.
+[06/10/2019 08:23:25] transaction ID: 73 Bank: Wells Fargo acct:5792 amt:3266.06 completed.
+[06/10/2019 08:23:25] Worker 33 Processing Request: ID: 84 Bank: Wells Fargo acct:9682 amt:3053.25
+[06/10/2019 08:23:25] worker: 33 Authorizing txn: 84 at: Wells Fargo
+[06/10/2019 08:23:25] new transaction created: ID: 471 Bank: Wells Fargo acct:4596 amt:306.05
+[06/10/2019 08:23:25] trying to add txn 471 to request queue
+[06/10/2019 08:23:25] success adding txn 471 to request queue
+[06/10/2019 08:23:25] Request 77 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:25] Request 77 placed in output queue.
+[06/10/2019 08:23:25] transaction ID: 77 Bank: Citibank acct:3245 amt:4151.85 completed.
+[06/10/2019 08:23:25] Worker 37 Processing Request: ID: 85 Bank: Chase acct:1547 amt:1648.59
+[06/10/2019 08:23:25] worker: 37 Authorizing txn: 85 at: Chase
+[06/10/2019 08:23:25] new transaction created: ID: 472 Bank: Chase acct:4488 amt:2073.91
+[06/10/2019 08:23:25] trying to add txn 472 to request queue
+[06/10/2019 08:23:25] success adding txn 472 to request queue
+[06/10/2019 08:23:25] Request 76 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:25] Request 76 placed in output queue.
+[06/10/2019 08:23:25] transaction ID: 76 Bank: Bank of America acct:143 amt:690.69 completed.
+[06/10/2019 08:23:25] Worker 36 Processing Request: ID: 86 Bank: Wells Fargo acct:7672 amt:4304.77
+[06/10/2019 08:23:25] worker: 36 Authorizing txn: 86 at: Wells Fargo
+[06/10/2019 08:23:26] new transaction created: ID: 473 Bank: Wells Fargo acct:2627 amt:1154.39
+[06/10/2019 08:23:26] trying to add txn 473 to request queue
+[06/10/2019 08:23:26] success adding txn 473 to request queue
+[06/10/2019 08:23:26] Request 75 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:26] Request 75 placed in output queue.
+[06/10/2019 08:23:26] transaction ID: 75 Bank: Chase acct:5012 amt:576.70 completed.
+[06/10/2019 08:23:26] Worker 30 Processing Request: ID: 87 Bank: Bank of America acct:8310 amt:3425.97
+[06/10/2019 08:23:26] worker: 30 Authorizing txn: 87 at: Bank of America
+[06/10/2019 08:23:26] new transaction created: ID: 474 Bank: Chase acct:4974 amt:3083.31
+[06/10/2019 08:23:26] trying to add txn 474 to request queue
+[06/10/2019 08:23:26] success adding txn 474 to request queue
+[06/10/2019 08:23:27] new transaction created: ID: 475 Bank: Bank of America acct:7032 amt:1221.14
+[06/10/2019 08:23:27] trying to add txn 475 to request queue
+[06/10/2019 08:23:27] success adding txn 475 to request queue
+[06/10/2019 08:23:27] Request 78 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:27] Request 78 placed in output queue.
+[06/10/2019 08:23:27] transaction ID: 78 Bank: Wells Fargo acct:8398 amt:598.71 completed.
+[06/10/2019 08:23:27] Worker 38 Processing Request: ID: 88 Bank: Wells Fargo acct:1572 amt:4519.66
+[06/10/2019 08:23:27] worker: 38 Authorizing txn: 88 at: Wells Fargo
+[06/10/2019 08:23:27] new transaction created: ID: 476 Bank: Bank of America acct:1985 amt:345.14
+[06/10/2019 08:23:27] trying to add txn 476 to request queue
+[06/10/2019 08:23:27] success adding txn 476 to request queue
+[06/10/2019 08:23:28] new transaction created: ID: 477 Bank: Citibank acct:8402 amt:301.86
+[06/10/2019 08:23:28] trying to add txn 477 to request queue
+[06/10/2019 08:23:28] success adding txn 477 to request queue
+[06/10/2019 08:23:28] new transaction created: ID: 478 Bank: Chase acct:3844 amt:759.53
+[06/10/2019 08:23:28] trying to add txn 478 to request queue
+[06/10/2019 08:23:28] success adding txn 478 to request queue
+[06/10/2019 08:23:29] new transaction created: ID: 479 Bank: Chase acct:4396 amt:4600.93
+[06/10/2019 08:23:29] trying to add txn 479 to request queue
+[06/10/2019 08:23:29] success adding txn 479 to request queue
+[06/10/2019 08:23:29] new transaction created: ID: 480 Bank: Bank of America acct:9411 amt:1916.14
+[06/10/2019 08:23:29] trying to add txn 480 to request queue
+[06/10/2019 08:23:29] success adding txn 480 to request queue
+[06/10/2019 08:23:30] new transaction created: ID: 481 Bank: Bank of America acct:1370 amt:3078.43
+[06/10/2019 08:23:30] trying to add txn 481 to request queue
+[06/10/2019 08:23:30] success adding txn 481 to request queue
+[06/10/2019 08:23:30] Starting worker thread: 40
+[06/10/2019 08:23:30] Worker 40 Processing Request: ID: 89 Bank: Bank of America acct:2045 amt:4941.38
+[06/10/2019 08:23:30] worker: 40 Authorizing txn: 89 at: Bank of America
+[06/10/2019 08:23:30] Request 81 returned in: 9 seconds. Result: false
+[06/10/2019 08:23:30] Request 81 placed in output queue.
+[06/10/2019 08:23:30] transaction ID: 81 Bank: Citibank acct:6072 amt:4645.47 completed.
+[06/10/2019 08:23:30] Worker 34 Processing Request: ID: 90 Bank: Bank of America acct:6491 amt:4180.19
+[06/10/2019 08:23:30] worker: 34 Authorizing txn: 90 at: Bank of America
+[06/10/2019 08:23:30] Starting worker thread: 41
+[06/10/2019 08:23:30] Worker 41 Processing Request: ID: 91 Bank: Citibank acct:4636 amt:349.41
+[06/10/2019 08:23:30] worker: 41 Authorizing txn: 91 at: Citibank
+[06/10/2019 08:23:30] new transaction created: ID: 482 Bank: Bank of America acct:9139 amt:283.26
+[06/10/2019 08:23:30] trying to add txn 482 to request queue
+[06/10/2019 08:23:30] success adding txn 482 to request queue
+[06/10/2019 08:23:30] Starting worker thread: 42
+[06/10/2019 08:23:30] Worker 42 Processing Request: ID: 92 Bank: Wells Fargo acct:7066 amt:1225.20
+[06/10/2019 08:23:30] worker: 42 Authorizing txn: 92 at: Wells Fargo
+[06/10/2019 08:23:31] Starting worker thread: 43
+[06/10/2019 08:23:31] Worker 43 Processing Request: ID: 93 Bank: Bank of America acct:6636 amt:4127.42
+[06/10/2019 08:23:31] worker: 43 Authorizing txn: 93 at: Bank of America
+[06/10/2019 08:23:31] Starting worker thread: 44
+[06/10/2019 08:23:31] Worker 44 Processing Request: ID: 94 Bank: Chase acct:3716 amt:3188.68
+[06/10/2019 08:23:31] worker: 44 Authorizing txn: 94 at: Chase
+[06/10/2019 08:23:31] new transaction created: ID: 483 Bank: Bank of America acct:3036 amt:3829.33
+[06/10/2019 08:23:31] trying to add txn 483 to request queue
+[06/10/2019 08:23:31] success adding txn 483 to request queue
+[06/10/2019 08:23:31] Starting worker thread: 45
+[06/10/2019 08:23:31] Worker 45 Processing Request: ID: 95 Bank: Wells Fargo acct:9650 amt:1720.70
+[06/10/2019 08:23:31] worker: 45 Authorizing txn: 95 at: Wells Fargo
+[06/10/2019 08:23:31] Starting worker thread: 46
+[06/10/2019 08:23:31] Worker 46 Processing Request: ID: 96 Bank: Wells Fargo acct:6129 amt:3587.11
+[06/10/2019 08:23:31] worker: 46 Authorizing txn: 96 at: Wells Fargo
+[06/10/2019 08:23:31] Request 83 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:31] Request 83 placed in output queue.
+[06/10/2019 08:23:31] transaction ID: 83 Bank: Citibank acct:3710 amt:4652.93 completed.
+[06/10/2019 08:23:31] Worker 32 Processing Request: ID: 97 Bank: Citibank acct:8072 amt:1999.83
+[06/10/2019 08:23:31] worker: 32 Authorizing txn: 97 at: Citibank
+[06/10/2019 08:23:31] Starting worker thread: 47
+[06/10/2019 08:23:31] Worker 47 Processing Request: ID: 98 Bank: Citibank acct:6788 amt:69.09
+[06/10/2019 08:23:31] worker: 47 Authorizing txn: 98 at: Citibank
+[06/10/2019 08:23:31] new transaction created: ID: 484 Bank: Bank of America acct:1087 amt:4243.95
+[06/10/2019 08:23:31] trying to add txn 484 to request queue
+[06/10/2019 08:23:31] success adding txn 484 to request queue
+[06/10/2019 08:23:32] Starting worker thread: 48
+[06/10/2019 08:23:32] Worker 48 Processing Request: ID: 99 Bank: Bank of America acct:2657 amt:4067.56
+[06/10/2019 08:23:32] worker: 48 Authorizing txn: 99 at: Bank of America
+[06/10/2019 08:23:32] Request 84 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:32] Request 84 placed in output queue.
+[06/10/2019 08:23:32] transaction ID: 84 Bank: Wells Fargo acct:9682 amt:3053.25 completed.
+[06/10/2019 08:23:32] Worker 33 Processing Request: ID: 100 Bank: Bank of America acct:2939 amt:623.88
+[06/10/2019 08:23:32] worker: 33 Authorizing txn: 100 at: Bank of America
+[06/10/2019 08:23:32] Starting worker thread: 49
+[06/10/2019 08:23:32] Worker 49 Processing Request: ID: 101 Bank: Chase acct:3423 amt:4929.56
+[06/10/2019 08:23:32] worker: 49 Authorizing txn: 101 at: Chase
+[06/10/2019 08:23:32] new transaction created: ID: 485 Bank: Wells Fargo acct:1387 amt:1094.60
+[06/10/2019 08:23:32] trying to add txn 485 to request queue
+[06/10/2019 08:23:32] success adding txn 485 to request queue
+[06/10/2019 08:23:32] Request 79 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:32] Request 79 placed in output queue.
+[06/10/2019 08:23:32] transaction ID: 79 Bank: Chase acct:521 amt:4687.75 completed.
+[06/10/2019 08:23:32] Worker 39 Processing Request: ID: 102 Bank: Chase acct:4936 amt:2619.67
+[06/10/2019 08:23:32] worker: 39 Authorizing txn: 102 at: Chase
+[06/10/2019 08:23:32] Starting worker thread: 50
+[06/10/2019 08:23:32] Worker 50 Processing Request: ID: 103 Bank: Citibank acct:3619 amt:1724.16
+[06/10/2019 08:23:32] worker: 50 Authorizing txn: 103 at: Citibank
+[06/10/2019 08:23:32] Request 82 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:32] Request 82 placed in output queue.
+[06/10/2019 08:23:32] transaction ID: 82 Bank: Bank of America acct:9906 amt:453.17 completed.
+[06/10/2019 08:23:32] Worker 35 Processing Request: ID: 104 Bank: Bank of America acct:4868 amt:1937.09
+[06/10/2019 08:23:32] worker: 35 Authorizing txn: 104 at: Bank of America
+[06/10/2019 08:23:32] Starting worker thread: 51
+[06/10/2019 08:23:32] Worker 51 Processing Request: ID: 105 Bank: Citibank acct:5453 amt:594.47
+[06/10/2019 08:23:32] worker: 51 Authorizing txn: 105 at: Citibank
+[06/10/2019 08:23:32] Starting worker thread: 52
+[06/10/2019 08:23:32] Worker 52 Processing Request: ID: 106 Bank: Citibank acct:198 amt:3019.95
+[06/10/2019 08:23:32] worker: 52 Authorizing txn: 106 at: Citibank
+[06/10/2019 08:23:32] new transaction created: ID: 486 Bank: Citibank acct:9448 amt:1723.93
+[06/10/2019 08:23:32] trying to add txn 486 to request queue
+[06/10/2019 08:23:32] success adding txn 486 to request queue
+[06/10/2019 08:23:33] Starting worker thread: 53
+[06/10/2019 08:23:33] Worker 53 Processing Request: ID: 107 Bank: Citibank acct:4383 amt:1823.46
+[06/10/2019 08:23:33] worker: 53 Authorizing txn: 107 at: Citibank
+[06/10/2019 08:23:33] Starting worker thread: 54
+[06/10/2019 08:23:33] Worker 54 Processing Request: ID: 108 Bank: Bank of America acct:1729 amt:4504.61
+[06/10/2019 08:23:33] worker: 54 Authorizing txn: 108 at: Bank of America
+[06/10/2019 08:23:33] new transaction created: ID: 487 Bank: Bank of America acct:7646 amt:2767.97
+[06/10/2019 08:23:33] trying to add txn 487 to request queue
+[06/10/2019 08:23:33] success adding txn 487 to request queue
+[06/10/2019 08:23:33] Starting worker thread: 55
+[06/10/2019 08:23:33] Worker 55 Processing Request: ID: 109 Bank: Bank of America acct:8628 amt:1458.91
+[06/10/2019 08:23:33] worker: 55 Authorizing txn: 109 at: Bank of America
+[06/10/2019 08:23:33] Request 85 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:33] Request 85 placed in output queue.
+[06/10/2019 08:23:33] transaction ID: 85 Bank: Chase acct:1547 amt:1648.59 completed.
+[06/10/2019 08:23:33] Worker 37 Processing Request: ID: 110 Bank: Wells Fargo acct:7104 amt:2763.27
+[06/10/2019 08:23:33] worker: 37 Authorizing txn: 110 at: Wells Fargo
+[06/10/2019 08:23:33] Request 80 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:33] Request 80 placed in output queue.
+[06/10/2019 08:23:33] transaction ID: 80 Bank: Chase acct:574 amt:1795.54 completed.
+[06/10/2019 08:23:33] Worker 31 Processing Request: ID: 111 Bank: Chase acct:9649 amt:3770.57
+[06/10/2019 08:23:33] worker: 31 Authorizing txn: 111 at: Chase
+[06/10/2019 08:23:33] Starting worker thread: 56
+[06/10/2019 08:23:33] Worker 56 Processing Request: ID: 112 Bank: Citibank acct:5469 amt:3138.60
+[06/10/2019 08:23:33] worker: 56 Authorizing txn: 112 at: Citibank
+[06/10/2019 08:23:33] Starting worker thread: 57
+[06/10/2019 08:23:33] Worker 57 Processing Request: ID: 113 Bank: Citibank acct:1405 amt:2684.34
+[06/10/2019 08:23:33] worker: 57 Authorizing txn: 113 at: Citibank
+[06/10/2019 08:23:33] new transaction created: ID: 488 Bank: Citibank acct:6953 amt:412.40
+[06/10/2019 08:23:33] trying to add txn 488 to request queue
+[06/10/2019 08:23:33] success adding txn 488 to request queue
+[06/10/2019 08:23:34] Starting worker thread: 58
+[06/10/2019 08:23:34] Worker 58 Processing Request: ID: 114 Bank: Chase acct:1934 amt:4298.93
+[06/10/2019 08:23:34] worker: 58 Authorizing txn: 114 at: Chase
+[06/10/2019 08:23:34] Starting worker thread: 59
+[06/10/2019 08:23:34] Worker 59 Processing Request: ID: 115 Bank: Chase acct:5891 amt:3922.23
+[06/10/2019 08:23:34] worker: 59 Authorizing txn: 115 at: Chase
+[06/10/2019 08:23:34] new transaction created: ID: 489 Bank: Bank of America acct:7555 amt:1219.22
+[06/10/2019 08:23:34] trying to add txn 489 to request queue
+[06/10/2019 08:23:34] success adding txn 489 to request queue
+[06/10/2019 08:23:34] Starting worker thread: 60
+[06/10/2019 08:23:34] Worker 60 Processing Request: ID: 116 Bank: Chase acct:8571 amt:1978.74
+[06/10/2019 08:23:34] worker: 60 Authorizing txn: 116 at: Chase
+[06/10/2019 08:23:34] Starting worker thread: 61
+[06/10/2019 08:23:34] Worker 61 Processing Request: ID: 117 Bank: Chase acct:3979 amt:683.22
+[06/10/2019 08:23:34] worker: 61 Authorizing txn: 117 at: Chase
+[06/10/2019 08:23:34] new transaction created: ID: 490 Bank: Bank of America acct:3756 amt:2268.72
+[06/10/2019 08:23:34] trying to add txn 490 to request queue
+[06/10/2019 08:23:34] success adding txn 490 to request queue
+[06/10/2019 08:23:35] new transaction created: ID: 491 Bank: Wells Fargo acct:1259 amt:2794.95
+[06/10/2019 08:23:35] trying to add txn 491 to request queue
+[06/10/2019 08:23:35] success adding txn 491 to request queue
+[06/10/2019 08:23:36] new transaction created: ID: 492 Bank: Citibank acct:4434 amt:2087.23
+[06/10/2019 08:23:36] trying to add txn 492 to request queue
+[06/10/2019 08:23:36] success adding txn 492 to request queue
+[06/10/2019 08:23:36] new transaction created: ID: 493 Bank: Citibank acct:5132 amt:1152.69
+[06/10/2019 08:23:36] trying to add txn 493 to request queue
+[06/10/2019 08:23:36] success adding txn 493 to request queue
+[06/10/2019 08:23:36] Request 88 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:36] Request 88 placed in output queue.
+[06/10/2019 08:23:36] transaction ID: 88 Bank: Wells Fargo acct:1572 amt:4519.66 completed.
+[06/10/2019 08:23:36] Worker 38 Processing Request: ID: 118 Bank: Wells Fargo acct:5270 amt:4703.48
+[06/10/2019 08:23:36] worker: 38 Authorizing txn: 118 at: Wells Fargo
+[06/10/2019 08:23:37] new transaction created: ID: 494 Bank: Wells Fargo acct:8645 amt:4077.65
+[06/10/2019 08:23:37] trying to add txn 494 to request queue
+[06/10/2019 08:23:37] success adding txn 494 to request queue
+[06/10/2019 08:23:37] new transaction created: ID: 495 Bank: Citibank acct:7320 amt:2079.93
+[06/10/2019 08:23:37] trying to add txn 495 to request queue
+[06/10/2019 08:23:37] success adding txn 495 to request queue
+[06/10/2019 08:23:37] Request 90 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:37] Request 90 placed in output queue.
+[06/10/2019 08:23:37] transaction ID: 90 Bank: Bank of America acct:6491 amt:4180.19 completed.
+[06/10/2019 08:23:37] Worker 34 Processing Request: ID: 119 Bank: Wells Fargo acct:9387 amt:1828.28
+[06/10/2019 08:23:37] worker: 34 Authorizing txn: 119 at: Wells Fargo
+[06/10/2019 08:23:38] new transaction created: ID: 496 Bank: Citibank acct:3394 amt:635.08
+[06/10/2019 08:23:38] trying to add txn 496 to request queue
+[06/10/2019 08:23:38] success adding txn 496 to request queue
+[06/10/2019 08:23:38] Request 87 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:38] Request 87 placed in output queue.
+[06/10/2019 08:23:38] transaction ID: 87 Bank: Bank of America acct:8310 amt:3425.97 completed.
+[06/10/2019 08:23:38] Worker 30 Processing Request: ID: 120 Bank: Citibank acct:7767 amt:4953.69
+[06/10/2019 08:23:38] worker: 30 Authorizing txn: 120 at: Citibank
+[06/10/2019 08:23:38] new transaction created: ID: 497 Bank: Chase acct:1821 amt:3790.72
+[06/10/2019 08:23:38] trying to add txn 497 to request queue
+[06/10/2019 08:23:38] success adding txn 497 to request queue
+[06/10/2019 08:23:38] Request 92 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:38] Request 92 placed in output queue.
+[06/10/2019 08:23:38] Request 86 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:38] Worker 42 Processing Request: ID: 121 Bank: Citibank acct:4041 amt:3768.89
+[06/10/2019 08:23:38] worker: 42 Authorizing txn: 121 at: Citibank
+[06/10/2019 08:23:38] transaction ID: 92 Bank: Wells Fargo acct:7066 amt:1225.20 completed.
+[06/10/2019 08:23:38] Request 86 placed in output queue.
+[06/10/2019 08:23:38] transaction ID: 86 Bank: Wells Fargo acct:7672 amt:4304.77 completed.
+[06/10/2019 08:23:38] Worker 36 Processing Request: ID: 122 Bank: Bank of America acct:4397 amt:1180.56
+[06/10/2019 08:23:38] worker: 36 Authorizing txn: 122 at: Bank of America
+[06/10/2019 08:23:39] new transaction created: ID: 498 Bank: Wells Fargo acct:7926 amt:1702.90
+[06/10/2019 08:23:39] trying to add txn 498 to request queue
+[06/10/2019 08:23:39] success adding txn 498 to request queue
+[06/10/2019 08:23:39] Request 100 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:39] Request 100 placed in output queue.
+[06/10/2019 08:23:39] transaction ID: 100 Bank: Bank of America acct:2939 amt:623.88 completed.
+[06/10/2019 08:23:39] Worker 33 Processing Request: ID: 123 Bank: Bank of America acct:7633 amt:3973.85
+[06/10/2019 08:23:39] worker: 33 Authorizing txn: 123 at: Bank of America
+[06/10/2019 08:23:39] new transaction created: ID: 499 Bank: Citibank acct:5084 amt:3810.74
+[06/10/2019 08:23:39] trying to add txn 499 to request queue
+[06/10/2019 08:23:39] success adding txn 499 to request queue
+[06/10/2019 08:23:39] Request 106 returned in: 7 seconds. Result: false
+[06/10/2019 08:23:39] Request 106 placed in output queue.
+[06/10/2019 08:23:39] transaction ID: 106 Bank: Citibank acct:198 amt:3019.95 completed.
+[06/10/2019 08:23:39] Worker 52 Processing Request: ID: 124 Bank: Wells Fargo acct:3713 amt:2531.38
+[06/10/2019 08:23:39] worker: 52 Authorizing txn: 124 at: Wells Fargo
+[06/10/2019 08:23:40] new transaction created: ID: 500 Bank: Chase acct:5098 amt:2048.61
+[06/10/2019 08:23:40] trying to add txn 500 to request queue
+[06/10/2019 08:23:40] success adding txn 500 to request queue
+[06/10/2019 08:23:40] Request 101 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:40] Request 101 placed in output queue.
+[06/10/2019 08:23:40] transaction ID: 101 Bank: Chase acct:3423 amt:4929.56 completed.
+[06/10/2019 08:23:40] Worker 49 Processing Request: ID: 125 Bank: Citibank acct:8277 amt:1966.37
+[06/10/2019 08:23:40] worker: 49 Authorizing txn: 125 at: Citibank
+[06/10/2019 08:23:40] new transaction created: ID: 501 Bank: Bank of America acct:78 amt:1237.29
+[06/10/2019 08:23:40] trying to add txn 501 to request queue
+[06/10/2019 08:23:40] success adding txn 501 to request queue
+[06/10/2019 08:23:40] Request 109 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:40] Request 109 placed in output queue.
+[06/10/2019 08:23:40] transaction ID: 109 Bank: Bank of America acct:8628 amt:1458.91 completed.
+[06/10/2019 08:23:40] Worker 55 Processing Request: ID: 126 Bank: Bank of America acct:7313 amt:3439.47
+[06/10/2019 08:23:40] worker: 55 Authorizing txn: 126 at: Bank of America
+[06/10/2019 08:23:40] Request 112 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:40] Request 112 placed in output queue.
+[06/10/2019 08:23:40] Request 105 returned in: 8 seconds. Result: false
+[06/10/2019 08:23:40] Request 105 placed in output queue.
+[06/10/2019 08:23:40] Worker 56 Processing Request: ID: 127 Bank: Citibank acct:9518 amt:63.97
+[06/10/2019 08:23:40] transaction ID: 112 Bank: Citibank acct:5469 amt:3138.60 completed.
+[06/10/2019 08:23:40] worker: 56 Authorizing txn: 127 at: Citibank
+[06/10/2019 08:23:40] Worker 51 Processing Request: ID: 128 Bank: Bank of America acct:12 amt:4417.22
+[06/10/2019 08:23:40] transaction ID: 105 Bank: Citibank acct:5453 amt:594.47 completed.
+[06/10/2019 08:23:40] worker: 51 Authorizing txn: 128 at: Bank of America
+[06/10/2019 08:23:40] Request 113 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:40] Request 113 placed in output queue.
+[06/10/2019 08:23:40] transaction ID: 113 Bank: Citibank acct:1405 amt:2684.34 completed.
+[06/10/2019 08:23:40] Worker 57 Processing Request: ID: 129 Bank: Bank of America acct:652 amt:4798.61
+[06/10/2019 08:23:40] worker: 57 Authorizing txn: 129 at: Bank of America
+[06/10/2019 08:23:41] new transaction created: ID: 502 Bank: Citibank acct:5131 amt:1257.88
+[06/10/2019 08:23:41] trying to add txn 502 to request queue
+[06/10/2019 08:23:41] success adding txn 502 to request queue
+[06/10/2019 08:23:41] new transaction created: ID: 503 Bank: Wells Fargo acct:7599 amt:4905.82
+[06/10/2019 08:23:41] trying to add txn 503 to request queue
+[06/10/2019 08:23:41] success adding txn 503 to request queue
+[06/10/2019 08:23:41] Request 104 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:41] Request 104 placed in output queue.
+[06/10/2019 08:23:41] transaction ID: 104 Bank: Bank of America acct:4868 amt:1937.09 completed.
+[06/10/2019 08:23:41] Worker 35 Processing Request: ID: 130 Bank: Citibank acct:5102 amt:2909.83
+[06/10/2019 08:23:41] worker: 35 Authorizing txn: 130 at: Citibank
+[06/10/2019 08:23:42] new transaction created: ID: 504 Bank: Wells Fargo acct:9660 amt:2825.44
+[06/10/2019 08:23:42] trying to add txn 504 to request queue
+[06/10/2019 08:23:42] success adding txn 504 to request queue
+[06/10/2019 08:23:42] Request 94 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:42] Request 94 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 94 Bank: Chase acct:3716 amt:3188.68 completed.
+[06/10/2019 08:23:42] Worker 44 Processing Request: ID: 131 Bank: Bank of America acct:9434 amt:4965.58
+[06/10/2019 08:23:42] worker: 44 Authorizing txn: 131 at: Bank of America
+[06/10/2019 08:23:42] Request 103 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:42] Request 103 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 103 Bank: Citibank acct:3619 amt:1724.16 completed.
+[06/10/2019 08:23:42] Worker 50 Processing Request: ID: 132 Bank: Citibank acct:4695 amt:1649.30
+[06/10/2019 08:23:42] worker: 50 Authorizing txn: 132 at: Citibank
+[06/10/2019 08:23:42] new transaction created: ID: 505 Bank: Chase acct:639 amt:4901.33
+[06/10/2019 08:23:42] trying to add txn 505 to request queue
+[06/10/2019 08:23:42] success adding txn 505 to request queue
+[06/10/2019 08:23:42] Request 89 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:42] Request 89 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 89 Bank: Bank of America acct:2045 amt:4941.38 completed.
+[06/10/2019 08:23:42] Worker 40 Processing Request: ID: 133 Bank: Bank of America acct:2062 amt:176.73
+[06/10/2019 08:23:42] worker: 40 Authorizing txn: 133 at: Bank of America
+[06/10/2019 08:23:42] Request 117 returned in: 8 seconds. Result: false
+[06/10/2019 08:23:42] Request 117 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 117 Bank: Chase acct:3979 amt:683.22 completed.
+[06/10/2019 08:23:42] Worker 61 Processing Request: ID: 134 Bank: Citibank acct:9750 amt:246.96
+[06/10/2019 08:23:42] worker: 61 Authorizing txn: 134 at: Citibank
+[06/10/2019 08:23:42] Request 96 returned in: 11 seconds. Result: false
+[06/10/2019 08:23:42] Request 96 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 96 Bank: Wells Fargo acct:6129 amt:3587.11 completed.
+[06/10/2019 08:23:42] Worker 46 Processing Request: ID: 135 Bank: Wells Fargo acct:6994 amt:888.79
+[06/10/2019 08:23:42] worker: 46 Authorizing txn: 135 at: Wells Fargo
+[06/10/2019 08:23:42] Request 91 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:42] Request 91 placed in output queue.
+[06/10/2019 08:23:42] transaction ID: 91 Bank: Citibank acct:4636 amt:349.41 completed.
+[06/10/2019 08:23:42] Worker 41 Processing Request: ID: 136 Bank: Wells Fargo acct:9602 amt:4750.44
+[06/10/2019 08:23:42] worker: 41 Authorizing txn: 136 at: Wells Fargo
+[06/10/2019 08:23:43] new transaction created: ID: 506 Bank: Wells Fargo acct:1916 amt:2562.17
+[06/10/2019 08:23:43] trying to add txn 506 to request queue
+[06/10/2019 08:23:43] success adding txn 506 to request queue
+[06/10/2019 08:23:43] Request 93 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:43] Request 93 placed in output queue.
+[06/10/2019 08:23:43] transaction ID: 93 Bank: Bank of America acct:6636 amt:4127.42 completed.
+[06/10/2019 08:23:43] Worker 43 Processing Request: ID: 137 Bank: Wells Fargo acct:5618 amt:4319.39
+[06/10/2019 08:23:43] worker: 43 Authorizing txn: 137 at: Wells Fargo
+[06/10/2019 08:23:43] new transaction created: ID: 507 Bank: Citibank acct:2522 amt:107.58
+[06/10/2019 08:23:43] trying to add txn 507 to request queue
+[06/10/2019 08:23:43] success adding txn 507 to request queue
+[06/10/2019 08:23:43] Request 95 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:43] Request 95 placed in output queue.
+[06/10/2019 08:23:43] transaction ID: 95 Bank: Wells Fargo acct:9650 amt:1720.70 completed.
+[06/10/2019 08:23:43] Worker 45 Processing Request: ID: 138 Bank: Chase acct:4686 amt:4655.86
+[06/10/2019 08:23:43] worker: 45 Authorizing txn: 138 at: Chase
+[06/10/2019 08:23:43] Request 97 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:43] Request 97 placed in output queue.
+[06/10/2019 08:23:43] transaction ID: 97 Bank: Citibank acct:8072 amt:1999.83 completed.
+[06/10/2019 08:23:43] Worker 32 Processing Request: ID: 139 Bank: Citibank acct:7877 amt:643.07
+[06/10/2019 08:23:43] worker: 32 Authorizing txn: 139 at: Citibank
+[06/10/2019 08:23:43] Request 98 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:43] Request 98 placed in output queue.
+[06/10/2019 08:23:43] transaction ID: 98 Bank: Citibank acct:6788 amt:69.09 completed.
+[06/10/2019 08:23:43] Worker 47 Processing Request: ID: 140 Bank: Bank of America acct:5402 amt:3036.65
+[06/10/2019 08:23:43] worker: 47 Authorizing txn: 140 at: Bank of America
+[06/10/2019 08:23:44] new transaction created: ID: 508 Bank: Wells Fargo acct:5924 amt:3693.47
+[06/10/2019 08:23:44] trying to add txn 508 to request queue
+[06/10/2019 08:23:44] success adding txn 508 to request queue
+[06/10/2019 08:23:44] Request 99 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:44] Request 99 placed in output queue.
+[06/10/2019 08:23:44] transaction ID: 99 Bank: Bank of America acct:2657 amt:4067.56 completed.
+[06/10/2019 08:23:44] Worker 48 Processing Request: ID: 141 Bank: Bank of America acct:6943 amt:985.60
+[06/10/2019 08:23:44] worker: 48 Authorizing txn: 141 at: Bank of America
+[06/10/2019 08:23:44] new transaction created: ID: 509 Bank: Chase acct:5459 amt:2133.11
+[06/10/2019 08:23:44] trying to add txn 509 to request queue
+[06/10/2019 08:23:44] success adding txn 509 to request queue
+[06/10/2019 08:23:44] Request 110 returned in: 11 seconds. Result: false
+[06/10/2019 08:23:44] Request 110 placed in output queue.
+[06/10/2019 08:23:44] transaction ID: 110 Bank: Wells Fargo acct:7104 amt:2763.27 completed.
+[06/10/2019 08:23:44] Worker 37 Processing Request: ID: 142 Bank: Bank of America acct:9246 amt:4956.00
+[06/10/2019 08:23:44] worker: 37 Authorizing txn: 142 at: Bank of America
+[06/10/2019 08:23:44] Request 111 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:44] Request 111 placed in output queue.
+[06/10/2019 08:23:44] transaction ID: 111 Bank: Chase acct:9649 amt:3770.57 completed.
+[06/10/2019 08:23:44] Worker 31 Processing Request: ID: 143 Bank: Bank of America acct:9155 amt:2247.15
+[06/10/2019 08:23:44] worker: 31 Authorizing txn: 143 at: Bank of America
+[06/10/2019 08:23:45] new transaction created: ID: 510 Bank: Citibank acct:3219 amt:1724.01
+[06/10/2019 08:23:45] trying to add txn 510 to request queue
+[06/10/2019 08:23:45] success adding txn 510 to request queue
+[06/10/2019 08:23:45] Request 107 returned in: 12 seconds. Result: false
+[06/10/2019 08:23:45] Request 107 placed in output queue.
+[06/10/2019 08:23:45] transaction ID: 107 Bank: Citibank acct:4383 amt:1823.46 completed.
+[06/10/2019 08:23:45] Worker 53 Processing Request: ID: 144 Bank: Bank of America acct:5563 amt:1705.61
+[06/10/2019 08:23:45] worker: 53 Authorizing txn: 144 at: Bank of America
+[06/10/2019 08:23:45] Request 115 returned in: 11 seconds. Result: false
+[06/10/2019 08:23:45] Request 115 placed in output queue.
+[06/10/2019 08:23:45] transaction ID: 115 Bank: Chase acct:5891 amt:3922.23 completed.
+[06/10/2019 08:23:45] Worker 59 Processing Request: ID: 145 Bank: Wells Fargo acct:2435 amt:2406.61
+[06/10/2019 08:23:45] worker: 59 Authorizing txn: 145 at: Wells Fargo
+[06/10/2019 08:23:45] Request 120 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:45] Request 120 placed in output queue.
+[06/10/2019 08:23:45] transaction ID: 120 Bank: Citibank acct:7767 amt:4953.69 completed.
+[06/10/2019 08:23:45] Worker 30 Processing Request: ID: 146 Bank: Wells Fargo acct:9306 amt:4963.26
+[06/10/2019 08:23:45] worker: 30 Authorizing txn: 146 at: Wells Fargo
+[06/10/2019 08:23:45] Request 102 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:45] Request 102 placed in output queue.
+[06/10/2019 08:23:45] transaction ID: 102 Bank: Chase acct:4936 amt:2619.67 completed.
+[06/10/2019 08:23:45] Worker 39 Processing Request: ID: 147 Bank: Wells Fargo acct:1835 amt:3599.11
+[06/10/2019 08:23:45] worker: 39 Authorizing txn: 147 at: Wells Fargo
+[06/10/2019 08:23:45] new transaction created: ID: 511 Bank: Chase acct:6525 amt:4877.51
+[06/10/2019 08:23:45] trying to add txn 511 to request queue
+[06/10/2019 08:23:45] success adding txn 511 to request queue
+[06/10/2019 08:23:45] Request 119 returned in: 8 seconds. Result: false
+[06/10/2019 08:23:45] Request 119 placed in output queue.
+[06/10/2019 08:23:45] transaction ID: 119 Bank: Wells Fargo acct:9387 amt:1828.28 completed.
+[06/10/2019 08:23:45] Worker 34 Processing Request: ID: 148 Bank: Wells Fargo acct:7129 amt:2992.55
+[06/10/2019 08:23:45] worker: 34 Authorizing txn: 148 at: Wells Fargo
+[06/10/2019 08:23:46] Request 123 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:46] Request 123 placed in output queue.
+[06/10/2019 08:23:46] transaction ID: 123 Bank: Bank of America acct:7633 amt:3973.85 completed.
+[06/10/2019 08:23:46] Worker 33 Processing Request: ID: 149 Bank: Wells Fargo acct:7842 amt:4582.86
+[06/10/2019 08:23:46] worker: 33 Authorizing txn: 149 at: Wells Fargo
+[06/10/2019 08:23:46] Request 108 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:46] Request 108 placed in output queue.
+[06/10/2019 08:23:46] transaction ID: 108 Bank: Bank of America acct:1729 amt:4504.61 completed.
+[06/10/2019 08:23:46] Worker 54 Processing Request: ID: 150 Bank: Wells Fargo acct:1696 amt:860.94
+[06/10/2019 08:23:46] worker: 54 Authorizing txn: 150 at: Wells Fargo
+[06/10/2019 08:23:46] Request 116 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:46] Request 116 placed in output queue.
+[06/10/2019 08:23:46] transaction ID: 116 Bank: Chase acct:8571 amt:1978.74 completed.
+[06/10/2019 08:23:46] Worker 60 Processing Request: ID: 151 Bank: Bank of America acct:8241 amt:4411.19
+[06/10/2019 08:23:46] worker: 60 Authorizing txn: 151 at: Bank of America
+[06/10/2019 08:23:46] new transaction created: ID: 512 Bank: Chase acct:7207 amt:1384.94
+[06/10/2019 08:23:46] trying to add txn 512 to request queue
+[06/10/2019 08:23:46] success adding txn 512 to request queue
+[06/10/2019 08:23:46] Request 118 returned in: 10 seconds. Result: false
+[06/10/2019 08:23:46] Request 118 placed in output queue.
+[06/10/2019 08:23:46] transaction ID: 118 Bank: Wells Fargo acct:5270 amt:4703.48 completed.
+[06/10/2019 08:23:46] Worker 38 Processing Request: ID: 152 Bank: Chase acct:983 amt:3060.90
+[06/10/2019 08:23:46] worker: 38 Authorizing txn: 152 at: Chase
+[06/10/2019 08:23:47] Request 114 returned in: 13 seconds. Result: false
+[06/10/2019 08:23:47] Request 114 placed in output queue.
+[06/10/2019 08:23:47] transaction ID: 114 Bank: Chase acct:1934 amt:4298.93 completed.
+[06/10/2019 08:23:47] Worker 58 Processing Request: ID: 153 Bank: Bank of America acct:9259 amt:4614.86
+[06/10/2019 08:23:47] worker: 58 Authorizing txn: 153 at: Bank of America
+[06/10/2019 08:23:47] new transaction created: ID: 513 Bank: Citibank acct:6941 amt:3570.29
+[06/10/2019 08:23:47] trying to add txn 513 to request queue
+[06/10/2019 08:23:47] success adding txn 513 to request queue
+[06/10/2019 08:23:48] Request 122 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:48] Request 122 placed in output queue.
+[06/10/2019 08:23:48] transaction ID: 122 Bank: Bank of America acct:4397 amt:1180.56 completed.
+[06/10/2019 08:23:48] Worker 36 Processing Request: ID: 154 Bank: Citibank acct:6148 amt:2858.47
+[06/10/2019 08:23:48] worker: 36 Authorizing txn: 154 at: Citibank
+[06/10/2019 08:23:48] new transaction created: ID: 514 Bank: Wells Fargo acct:9640 amt:2165.88
+[06/10/2019 08:23:48] trying to add txn 514 to request queue
+[06/10/2019 08:23:48] success adding txn 514 to request queue
+[06/10/2019 08:23:48] Request 129 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:48] Request 129 placed in output queue.
+[06/10/2019 08:23:48] transaction ID: 129 Bank: Bank of America acct:652 amt:4798.61 completed.
+[06/10/2019 08:23:48] Worker 57 Processing Request: ID: 155 Bank: Chase acct:2975 amt:3008.30
+[06/10/2019 08:23:48] worker: 57 Authorizing txn: 155 at: Chase
+[06/10/2019 08:23:49] Request 126 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:49] Request 126 placed in output queue.
+[06/10/2019 08:23:49] transaction ID: 126 Bank: Bank of America acct:7313 amt:3439.47 completed.
+[06/10/2019 08:23:49] Worker 55 Processing Request: ID: 156 Bank: Citibank acct:7076 amt:4579.80
+[06/10/2019 08:23:49] worker: 55 Authorizing txn: 156 at: Citibank
+[06/10/2019 08:23:49] new transaction created: ID: 515 Bank: Citibank acct:8458 amt:324.72
+[06/10/2019 08:23:49] trying to add txn 515 to request queue
+[06/10/2019 08:23:49] success adding txn 515 to request queue
+[06/10/2019 08:23:49] Request 133 returned in: 7 seconds. Result: false
+[06/10/2019 08:23:49] Request 133 placed in output queue.
+[06/10/2019 08:23:49] transaction ID: 133 Bank: Bank of America acct:2062 amt:176.73 completed.
+[06/10/2019 08:23:49] Worker 40 Processing Request: ID: 157 Bank: Bank of America acct:797 amt:4607.98
+[06/10/2019 08:23:49] worker: 40 Authorizing txn: 157 at: Bank of America
+[06/10/2019 08:23:49] Request 128 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:49] Request 128 placed in output queue.
+[06/10/2019 08:23:49] transaction ID: 128 Bank: Bank of America acct:12 amt:4417.22 completed.
+[06/10/2019 08:23:49] Worker 51 Processing Request: ID: 158 Bank: Chase acct:2980 amt:2680.71
+[06/10/2019 08:23:49] worker: 51 Authorizing txn: 158 at: Chase
+[06/10/2019 08:23:49] Request 135 returned in: 7 seconds. Result: false
+[06/10/2019 08:23:49] Request 135 placed in output queue.
+[06/10/2019 08:23:49] transaction ID: 135 Bank: Wells Fargo acct:6994 amt:888.79 completed.
+[06/10/2019 08:23:49] Worker 46 Processing Request: ID: 159 Bank: Bank of America acct:9398 amt:1904.26
+[06/10/2019 08:23:49] worker: 46 Authorizing txn: 159 at: Bank of America
+[06/10/2019 08:23:50] Request 132 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:50] Request 132 placed in output queue.
+[06/10/2019 08:23:50] transaction ID: 132 Bank: Citibank acct:4695 amt:1649.30 completed.
+[06/10/2019 08:23:50] Worker 50 Processing Request: ID: 160 Bank: Bank of America acct:5934 amt:2805.79
+[06/10/2019 08:23:50] worker: 50 Authorizing txn: 160 at: Bank of America
+[06/10/2019 08:23:50] new transaction created: ID: 516 Bank: Chase acct:5576 amt:265.33
+[06/10/2019 08:23:50] trying to add txn 516 to request queue
+[06/10/2019 08:23:50] success adding txn 516 to request queue
+[06/10/2019 08:23:50] Request 136 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:50] Request 136 placed in output queue.
+[06/10/2019 08:23:50] transaction ID: 136 Bank: Wells Fargo acct:9602 amt:4750.44 completed.
+[06/10/2019 08:23:50] Worker 41 Processing Request: ID: 161 Bank: Citibank acct:5840 amt:1770.78
+[06/10/2019 08:23:50] worker: 41 Authorizing txn: 161 at: Citibank
+[06/10/2019 08:23:50] Request 124 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:50] Request 124 placed in output queue.
+[06/10/2019 08:23:50] transaction ID: 124 Bank: Wells Fargo acct:3713 amt:2531.38 completed.
+[06/10/2019 08:23:50] Worker 52 Processing Request: ID: 162 Bank: Citibank acct:8258 amt:2752.87
+[06/10/2019 08:23:50] worker: 52 Authorizing txn: 162 at: Citibank
+[06/10/2019 08:23:50] Request 121 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:50] Request 121 placed in output queue.
+[06/10/2019 08:23:50] transaction ID: 121 Bank: Citibank acct:4041 amt:3768.89 completed.
+[06/10/2019 08:23:50] Worker 42 Processing Request: ID: 163 Bank: Chase acct:3570 amt:1922.41
+[06/10/2019 08:23:50] worker: 42 Authorizing txn: 163 at: Chase
+[06/10/2019 08:23:51] Request 137 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:51] Request 137 placed in output queue.
+[06/10/2019 08:23:51] transaction ID: 137 Bank: Wells Fargo acct:5618 amt:4319.39 completed.
+[06/10/2019 08:23:51] Worker 43 Processing Request: ID: 164 Bank: Citibank acct:187 amt:1947.06
+[06/10/2019 08:23:51] worker: 43 Authorizing txn: 164 at: Citibank
+[06/10/2019 08:23:51] Request 131 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:51] Request 131 placed in output queue.
+[06/10/2019 08:23:51] transaction ID: 131 Bank: Bank of America acct:9434 amt:4965.58 completed.
+[06/10/2019 08:23:51] Worker 44 Processing Request: ID: 165 Bank: Citibank acct:5352 amt:3825.78
+[06/10/2019 08:23:51] worker: 44 Authorizing txn: 165 at: Citibank
+[06/10/2019 08:23:51] new transaction created: ID: 517 Bank: Citibank acct:5015 amt:106.26
+[06/10/2019 08:23:51] trying to add txn 517 to request queue
+[06/10/2019 08:23:51] success adding txn 517 to request queue
+[06/10/2019 08:23:51] Request 130 returned in: 10 seconds. Result: false
+[06/10/2019 08:23:51] Request 130 placed in output queue.
+[06/10/2019 08:23:51] transaction ID: 130 Bank: Citibank acct:5102 amt:2909.83 completed.
+[06/10/2019 08:23:51] Worker 35 Processing Request: ID: 166 Bank: Chase acct:2642 amt:3776.06
+[06/10/2019 08:23:51] worker: 35 Authorizing txn: 166 at: Chase
+[06/10/2019 08:23:51] Request 134 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:51] Request 134 placed in output queue.
+[06/10/2019 08:23:51] transaction ID: 134 Bank: Citibank acct:9750 amt:246.96 completed.
+[06/10/2019 08:23:51] Worker 61 Processing Request: ID: 167 Bank: Chase acct:3587 amt:1826.68
+[06/10/2019 08:23:51] worker: 61 Authorizing txn: 167 at: Chase
+[06/10/2019 08:23:51] Request 140 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:51] Request 140 placed in output queue.
+[06/10/2019 08:23:51] transaction ID: 140 Bank: Bank of America acct:5402 amt:3036.65 completed.
+[06/10/2019 08:23:51] Worker 47 Processing Request: ID: 168 Bank: Chase acct:9014 amt:4743.66
+[06/10/2019 08:23:51] worker: 47 Authorizing txn: 168 at: Chase
+[06/10/2019 08:23:52] Request 125 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:52] Request 125 placed in output queue.
+[06/10/2019 08:23:52] transaction ID: 125 Bank: Citibank acct:8277 amt:1966.37 completed.
+[06/10/2019 08:23:52] Worker 49 Processing Request: ID: 169 Bank: Wells Fargo acct:6631 amt:1198.58
+[06/10/2019 08:23:52] worker: 49 Authorizing txn: 169 at: Wells Fargo
+[06/10/2019 08:23:52] Request 138 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:52] Request 138 placed in output queue.
+[06/10/2019 08:23:52] transaction ID: 138 Bank: Chase acct:4686 amt:4655.86 completed.
+[06/10/2019 08:23:52] Worker 45 Processing Request: ID: 170 Bank: Chase acct:3463 amt:3418.65
+[06/10/2019 08:23:52] worker: 45 Authorizing txn: 170 at: Chase
+[06/10/2019 08:23:52] new transaction created: ID: 518 Bank: Chase acct:3819 amt:1424.55
+[06/10/2019 08:23:52] trying to add txn 518 to request queue
+[06/10/2019 08:23:52] success adding txn 518 to request queue
+[06/10/2019 08:23:52] Request 143 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:52] Request 143 placed in output queue.
+[06/10/2019 08:23:52] transaction ID: 143 Bank: Bank of America acct:9155 amt:2247.15 completed.
+[06/10/2019 08:23:52] worker thread 31 finishing.
+[06/10/2019 08:23:53] Request 151 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:53] Request 151 placed in output queue.
+[06/10/2019 08:23:53] transaction ID: 151 Bank: Bank of America acct:8241 amt:4411.19 completed.
+[06/10/2019 08:23:53] Worker 60 Processing Request: ID: 171 Bank: Bank of America acct:7208 amt:663.54
+[06/10/2019 08:23:53] worker: 60 Authorizing txn: 171 at: Bank of America
+[06/10/2019 08:23:53] new transaction created: ID: 519 Bank: Wells Fargo acct:9329 amt:1223.55
+[06/10/2019 08:23:53] trying to add txn 519 to request queue
+[06/10/2019 08:23:53] success adding txn 519 to request queue
+[06/10/2019 08:23:53] Request 148 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:53] Request 148 placed in output queue.
+[06/10/2019 08:23:53] transaction ID: 148 Bank: Wells Fargo acct:7129 amt:2992.55 completed.
+[06/10/2019 08:23:53] worker thread 34 finishing.
+[06/10/2019 08:23:53] Request 127 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:53] Request 127 placed in output queue.
+[06/10/2019 08:23:53] transaction ID: 127 Bank: Citibank acct:9518 amt:63.97 completed.
+[06/10/2019 08:23:53] Worker 56 Processing Request: ID: 172 Bank: Chase acct:3375 amt:481.88
+[06/10/2019 08:23:53] worker: 56 Authorizing txn: 172 at: Chase
+[06/10/2019 08:23:54] Request 150 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:54] Request 150 placed in output queue.
+[06/10/2019 08:23:54] transaction ID: 150 Bank: Wells Fargo acct:1696 amt:860.94 completed.
+[06/10/2019 08:23:54] Worker 54 Processing Request: ID: 173 Bank: Wells Fargo acct:7311 amt:2617.73
+[06/10/2019 08:23:54] worker: 54 Authorizing txn: 173 at: Wells Fargo
+[06/10/2019 08:23:54] Request 145 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:54] Request 145 placed in output queue.
+[06/10/2019 08:23:54] transaction ID: 145 Bank: Wells Fargo acct:2435 amt:2406.61 completed.
+[06/10/2019 08:23:54] Worker 59 Processing Request: ID: 174 Bank: Bank of America acct:8297 amt:3516.49
+[06/10/2019 08:23:54] worker: 59 Authorizing txn: 174 at: Bank of America
+[06/10/2019 08:23:54] Request 147 returned in: 9 seconds. Result: true
+[06/10/2019 08:23:54] Request 147 placed in output queue.
+[06/10/2019 08:23:54] worker thread 39 finishing.
+[06/10/2019 08:23:54] transaction ID: 147 Bank: Wells Fargo acct:1835 amt:3599.11 completed.
+[06/10/2019 08:23:54] new transaction created: ID: 520 Bank: Chase acct:6707 amt:550.44
+[06/10/2019 08:23:54] trying to add txn 520 to request queue
+[06/10/2019 08:23:54] success adding txn 520 to request queue
+[06/10/2019 08:23:54] Request 152 returned in: 8 seconds. Result: false
+[06/10/2019 08:23:54] Request 152 placed in output queue.
+[06/10/2019 08:23:54] transaction ID: 152 Bank: Chase acct:983 amt:3060.90 completed.
+[06/10/2019 08:23:54] worker thread 38 finishing.
+[06/10/2019 08:23:55] new transaction created: ID: 521 Bank: Chase acct:746 amt:1526.60
+[06/10/2019 08:23:55] trying to add txn 521 to request queue
+[06/10/2019 08:23:55] success adding txn 521 to request queue
+[06/10/2019 08:23:55] Request 139 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:55] Request 139 placed in output queue.
+[06/10/2019 08:23:55] transaction ID: 139 Bank: Citibank acct:7877 amt:643.07 completed.
+[06/10/2019 08:23:55] worker thread 32 finishing.
+[06/10/2019 08:23:56] Request 146 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:56] Request 146 placed in output queue.
+[06/10/2019 08:23:56] transaction ID: 146 Bank: Wells Fargo acct:9306 amt:4963.26 completed.
+[06/10/2019 08:23:56] worker thread 30 finishing.
+[06/10/2019 08:23:56] Request 156 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:56] Request 156 placed in output queue.
+[06/10/2019 08:23:56] transaction ID: 156 Bank: Citibank acct:7076 amt:4579.80 completed.
+[06/10/2019 08:23:56] worker thread 55 finishing.
+[06/10/2019 08:23:56] new transaction created: ID: 522 Bank: Bank of America acct:8488 amt:1679.70
+[06/10/2019 08:23:56] trying to add txn 522 to request queue
+[06/10/2019 08:23:56] success adding txn 522 to request queue
+[06/10/2019 08:23:56] Request 142 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:56] Request 142 placed in output queue.
+[06/10/2019 08:23:56] transaction ID: 142 Bank: Bank of America acct:9246 amt:4956.00 completed.
+[06/10/2019 08:23:56] worker thread 37 finishing.
+[06/10/2019 08:23:57] Request 153 returned in: 10 seconds. Result: true
+[06/10/2019 08:23:57] Request 153 placed in output queue.
+[06/10/2019 08:23:57] transaction ID: 153 Bank: Bank of America acct:9259 amt:4614.86 completed.
+[06/10/2019 08:23:57] Worker 58 Processing Request: ID: 175 Bank: Bank of America acct:6837 amt:1842.82
+[06/10/2019 08:23:57] worker: 58 Authorizing txn: 175 at: Bank of America
+[06/10/2019 08:23:57] Request 144 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:57] Request 144 placed in output queue.
+[06/10/2019 08:23:57] worker thread 53 finishing.
+[06/10/2019 08:23:57] Request 141 returned in: 13 seconds. Result: true
+[06/10/2019 08:23:57] transaction ID: 144 Bank: Bank of America acct:5563 amt:1705.61 completed.
+[06/10/2019 08:23:57] Request 141 placed in output queue.
+[06/10/2019 08:23:57] worker thread 48 finishing.
+[06/10/2019 08:23:57] transaction ID: 141 Bank: Bank of America acct:6943 amt:985.60 completed.
+[06/10/2019 08:23:57] new transaction created: ID: 523 Bank: Bank of America acct:2183 amt:369.82
+[06/10/2019 08:23:57] trying to add txn 523 to request queue
+[06/10/2019 08:23:57] success adding txn 523 to request queue
+[06/10/2019 08:23:58] Request 149 returned in: 12 seconds. Result: true
+[06/10/2019 08:23:58] Request 149 placed in output queue.
+[06/10/2019 08:23:58] transaction ID: 149 Bank: Wells Fargo acct:7842 amt:4582.86 completed.
+[06/10/2019 08:23:58] worker thread 33 finishing.
+[06/10/2019 08:23:58] Request 160 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:58] Request 160 placed in output queue.
+[06/10/2019 08:23:58] transaction ID: 160 Bank: Bank of America acct:5934 amt:2805.79 completed.
+[06/10/2019 08:23:58] worker thread 50 finishing.
+[06/10/2019 08:23:58] new transaction created: ID: 524 Bank: Wells Fargo acct:8037 amt:2744.70
+[06/10/2019 08:23:58] trying to add txn 524 to request queue
+[06/10/2019 08:23:58] success adding txn 524 to request queue
+[06/10/2019 08:23:58] Request 166 returned in: 7 seconds. Result: true
+[06/10/2019 08:23:58] Request 166 placed in output queue.
+[06/10/2019 08:23:58] transaction ID: 166 Bank: Chase acct:2642 amt:3776.06 completed.
+[06/10/2019 08:23:58] worker thread 35 finishing.
+[06/10/2019 08:23:59] Request 163 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:59] Request 154 returned in: 11 seconds. Result: true
+[06/10/2019 08:23:59] Request 154 placed in output queue.
+[06/10/2019 08:23:59] worker thread 36 finishing.
+[06/10/2019 08:23:59] transaction ID: 163 Bank: Chase acct:3570 amt:1922.41 completed.
+[06/10/2019 08:23:59] Request 163 placed in output queue.
+[06/10/2019 08:23:59] worker thread 42 finishing.
+[06/10/2019 08:23:59] transaction ID: 154 Bank: Citibank acct:6148 amt:2858.47 completed.
+[06/10/2019 08:23:59] Request 165 returned in: 8 seconds. Result: true
+[06/10/2019 08:23:59] Request 165 placed in output queue.
+[06/10/2019 08:23:59] transaction ID: 165 Bank: Citibank acct:5352 amt:3825.78 completed.
+[06/10/2019 08:23:59] worker thread 44 finishing.
+[06/10/2019 08:23:59] Request 157 returned in: 10 seconds. Result: false
+[06/10/2019 08:23:59] new transaction created: ID: 525 Bank: Chase acct:5103 amt:4528.02
+[06/10/2019 08:23:59] trying to add txn 525 to request queue
+[06/10/2019 08:23:59] success adding txn 525 to request queue
+[06/10/2019 08:23:59] transaction ID: 157 Bank: Bank of America acct:797 amt:4607.98 completed.
+[06/10/2019 08:23:59] Request 157 placed in output queue.
+[06/10/2019 08:23:59] worker thread 40 finishing.
+[06/10/2019 08:24:00] new transaction created: ID: 526 Bank: Citibank acct:1461 amt:2040.92
+[06/10/2019 08:24:00] trying to add txn 526 to request queue
+[06/10/2019 08:24:00] success adding txn 526 to request queue
+[06/10/2019 08:24:00] Request 167 returned in: 9 seconds. Result: false
+[06/10/2019 08:24:00] Request 167 placed in output queue.
+[06/10/2019 08:24:00] transaction ID: 167 Bank: Chase acct:3587 amt:1826.68 completed.
+[06/10/2019 08:24:00] Worker 61 Processing Request: ID: 176 Bank: Citibank acct:2235 amt:4583.21
+[06/10/2019 08:24:00] worker: 61 Authorizing txn: 176 at: Citibank
+[06/10/2019 08:24:01] new transaction created: ID: 527 Bank: Citibank acct:2502 amt:2153.28
+[06/10/2019 08:24:01] trying to add txn 527 to request queue
+[06/10/2019 08:24:01] success adding txn 527 to request queue
+[06/10/2019 08:24:01] Request 158 returned in: 12 seconds. Result: true
+[06/10/2019 08:24:01] Request 158 placed in output queue.
+[06/10/2019 08:24:01] transaction ID: 158 Bank: Chase acct:2980 amt:2680.71 completed.
+[06/10/2019 08:24:01] worker thread 51 finishing.
+[06/10/2019 08:24:01] Request 161 returned in: 11 seconds. Result: true
+[06/10/2019 08:24:01] Request 161 placed in output queue.
+[06/10/2019 08:24:01] worker thread 41 finishing.
+[06/10/2019 08:24:01] transaction ID: 161 Bank: Citibank acct:5840 amt:1770.78 completed.
+[06/10/2019 08:24:01] Request 155 returned in: 13 seconds. Result: true
+[06/10/2019 08:24:01] Request 155 placed in output queue.
+[06/10/2019 08:24:01] transaction ID: 155 Bank: Chase acct:2975 amt:3008.30 completed.
+[06/10/2019 08:24:01] Worker 57 Processing Request: ID: 177 Bank: Citibank acct:5776 amt:1964.49
+[06/10/2019 08:24:01] worker: 57 Authorizing txn: 177 at: Citibank
+[06/10/2019 08:24:02] new transaction created: ID: 528 Bank: Wells Fargo acct:7133 amt:4564.27
+[06/10/2019 08:24:02] trying to add txn 528 to request queue
+[06/10/2019 08:24:02] success adding txn 528 to request queue
+[06/10/2019 08:24:02] Request 159 returned in: 13 seconds. Result: true
+[06/10/2019 08:24:02] Request 159 placed in output queue.
+[06/10/2019 08:24:02] worker thread 46 finishing.
+[06/10/2019 08:24:02] transaction ID: 159 Bank: Bank of America acct:9398 amt:1904.26 completed.
+[06/10/2019 08:24:02] Request 162 returned in: 12 seconds. Result: true
+[06/10/2019 08:24:02] Request 162 placed in output queue.
+[06/10/2019 08:24:02] transaction ID: 162 Bank: Citibank acct:8258 amt:2752.87 completed.
+[06/10/2019 08:24:02] worker thread 52 finishing.
+[06/10/2019 08:24:03] Request 164 returned in: 12 seconds. Result: true
+[06/10/2019 08:24:03] Request 164 placed in output queue.
+[06/10/2019 08:24:03] worker thread 43 finishing.
+[06/10/2019 08:24:03] transaction ID: 164 Bank: Citibank acct:187 amt:1947.06 completed.
+[06/10/2019 08:24:03] Request 170 returned in: 11 seconds. Result: true
+[06/10/2019 08:24:03] Request 170 placed in output queue.
+[06/10/2019 08:24:03] worker thread 45 finishing.
+[06/10/2019 08:24:03] transaction ID: 170 Bank: Chase acct:3463 amt:3418.65 completed.
+[06/10/2019 08:24:03] new transaction created: ID: 529 Bank: Chase acct:2655 amt:3041.24
+[06/10/2019 08:24:03] trying to add txn 529 to request queue
+[06/10/2019 08:24:03] success adding txn 529 to request queue
+[06/10/2019 08:24:04] Request 175 returned in: 7 seconds. Result: true
+[06/10/2019 08:24:04] Request 175 placed in output queue.
+[06/10/2019 08:24:04] transaction ID: 175 Bank: Bank of America acct:6837 amt:1842.82 completed.
+[06/10/2019 08:24:04] Worker 58 Processing Request: ID: 178 Bank: Citibank acct:3449 amt:2331.68
+[06/10/2019 08:24:04] worker: 58 Authorizing txn: 178 at: Citibank
+[06/10/2019 08:24:04] Request 169 returned in: 12 seconds. Result: false
+[06/10/2019 08:24:04] Request 169 placed in output queue.
+[06/10/2019 08:24:04] transaction ID: 169 Bank: Wells Fargo acct:6631 amt:1198.58 completed.
+[06/10/2019 08:24:04] worker thread 49 finishing.
+[06/10/2019 08:24:04] Request 171 returned in: 11 seconds. Result: false
+[06/10/2019 08:24:04] Request 171 placed in output queue.
+[06/10/2019 08:24:04] transaction ID: 171 Bank: Bank of America acct:7208 amt:663.54 completed.
+[06/10/2019 08:24:04] Worker 60 Processing Request: ID: 179 Bank: Chase acct:6025 amt:3820.18
+[06/10/2019 08:24:04] worker: 60 Authorizing txn: 179 at: Chase
+[06/10/2019 08:24:04] new transaction created: ID: 530 Bank: Chase acct:9246 amt:35.40
+[06/10/2019 08:24:04] trying to add txn 530 to request queue
+[06/10/2019 08:24:04] success adding txn 530 to request queue
+[06/10/2019 08:24:04] Request 168 returned in: 13 seconds. Result: false
+[06/10/2019 08:24:04] Request 168 placed in output queue.
+[06/10/2019 08:24:04] transaction ID: 168 Bank: Chase acct:9014 amt:4743.66 completed.
+[06/10/2019 08:24:04] worker thread 47 finishing.
+[06/10/2019 08:24:05] Starting worker thread: 62
+[06/10/2019 08:24:05] Worker 62 Processing Request: ID: 180 Bank: Wells Fargo acct:193 amt:2415.16
+[06/10/2019 08:24:05] worker: 62 Authorizing txn: 180 at: Wells Fargo
+[06/10/2019 08:24:05] new transaction created: ID: 531 Bank: Citibank acct:3639 amt:790.76
+[06/10/2019 08:24:05] trying to add txn 531 to request queue
+[06/10/2019 08:24:05] success adding txn 531 to request queue
+[06/10/2019 08:24:05] Starting worker thread: 63
+[06/10/2019 08:24:05] Worker 63 Processing Request: ID: 181 Bank: Bank of America acct:7461 amt:1237.84
+[06/10/2019 08:24:05] worker: 63 Authorizing txn: 181 at: Bank of America
+[06/10/2019 08:24:05] Request 172 returned in: 12 seconds. Result: false
+[06/10/2019 08:24:05] Request 172 placed in output queue.
+[06/10/2019 08:24:05] transaction ID: 172 Bank: Chase acct:3375 amt:481.88 completed.
+[06/10/2019 08:24:05] worker thread 56 finishing.
+[06/10/2019 08:24:05] Starting worker thread: 64
+[06/10/2019 08:24:05] Worker 64 Processing Request: ID: 182 Bank: Bank of America acct:7028 amt:3496.97
+[06/10/2019 08:24:05] worker: 64 Authorizing txn: 182 at: Bank of America
+[06/10/2019 08:24:06] Starting worker thread: 65
+[06/10/2019 08:24:06] Worker 65 Processing Request: ID: 183 Bank: Citibank acct:4776 amt:2199.89
+[06/10/2019 08:24:06] worker: 65 Authorizing txn: 183 at: Citibank
+[06/10/2019 08:24:06] new transaction created: ID: 532 Bank: Chase acct:943 amt:4139.63
+[06/10/2019 08:24:06] trying to add txn 532 to request queue
+[06/10/2019 08:24:06] success adding txn 532 to request queue
+[06/10/2019 08:24:06] Starting worker thread: 66
+[06/10/2019 08:24:06] Worker 66 Processing Request: ID: 184 Bank: Chase acct:9898 amt:3585.46
+[06/10/2019 08:24:06] worker: 66 Authorizing txn: 184 at: Chase
+[06/10/2019 08:24:07] Request 173 returned in: 13 seconds. Result: true
+[06/10/2019 08:24:07] Request 173 placed in output queue.
+[06/10/2019 08:24:07] transaction ID: 173 Bank: Wells Fargo acct:7311 amt:2617.73 completed.
+[06/10/2019 08:24:07] worker thread 54 finishing.
+[06/10/2019 08:24:07] Request 174 returned in: 13 seconds. Result: true
+[06/10/2019 08:24:07] Request 174 placed in output queue.
+[06/10/2019 08:24:07] transaction ID: 174 Bank: Bank of America acct:8297 amt:3516.49 completed.
+[06/10/2019 08:24:07] Worker 59 Processing Request: ID: 185 Bank: Citibank acct:377 amt:1406.09
+[06/10/2019 08:24:07] worker: 59 Authorizing txn: 185 at: Citibank
+[06/10/2019 08:24:07] new transaction created: ID: 533 Bank: Wells Fargo acct:2935 amt:1856.62
+[06/10/2019 08:24:07] trying to add txn 533 to request queue
+[06/10/2019 08:24:07] success adding txn 533 to request queue
+[06/10/2019 08:24:08] new transaction created: ID: 534 Bank: Bank of America acct:1665 amt:2531.67
+[06/10/2019 08:24:08] trying to add txn 534 to request queue
+[06/10/2019 08:24:08] success adding txn 534 to request queue
+[06/10/2019 08:24:08] Request 176 returned in: 8 seconds. Result: true
+[06/10/2019 08:24:08] Request 176 placed in output queue.
+[06/10/2019 08:24:08] transaction ID: 176 Bank: Citibank acct:2235 amt:4583.21 completed.
+[06/10/2019 08:24:08] Worker 61 Processing Request: ID: 186 Bank: Wells Fargo acct:1047 amt:784.54
+[06/10/2019 08:24:08] worker: 61 Authorizing txn: 186 at: Wells Fargo
+[06/10/2019 08:24:08] Request 177 returned in: 7 seconds. Result: true
+[06/10/2019 08:24:08] Request 177 placed in output queue.
+[06/10/2019 08:24:08] transaction ID: 177 Bank: Citibank acct:5776 amt:1964.49 completed.
+[06/10/2019 08:24:08] Worker 57 Processing Request: ID: 187 Bank: Chase acct:633 amt:1575.98
+[06/10/2019 08:24:08] worker: 57 Authorizing txn: 187 at: Chase
+[06/10/2019 08:24:09] new transaction created: ID: 535 Bank: Citibank acct:1343 amt:3434.81
+[06/10/2019 08:24:09] trying to add txn 535 to request queue
+[06/10/2019 08:24:09] success adding txn 535 to request queue
+[06/10/2019 08:24:10] new transaction created: ID: 536 Bank: Chase acct:4824 amt:3381.12
+[06/10/2019 08:24:10] trying to add txn 536 to request queue
+[06/10/2019 08:24:10] success adding txn 536 to request queue
+[06/10/2019 08:24:11] new transaction created: ID: 537 Bank: Citibank acct:2513 amt:1989.26
+[06/10/2019 08:24:11] trying to add txn 537 to request queue
+[06/10/2019 08:24:11] success adding txn 537 to request queue
+[06/10/2019 08:24:12] Request 180 returned in: 7 seconds. Result: true
+[06/10/2019 08:24:12] Request 180 placed in output queue.
+[06/10/2019 08:24:12] transaction ID: 180 Bank: Wells Fargo acct:193 amt:2415.16 completed.
+[06/10/2019 08:24:12] Worker 62 Processing Request: ID: 188 Bank: Chase acct:7832 amt:2500.13
+[06/10/2019 08:24:12] worker: 62 Authorizing txn: 188 at: Chase
+[06/10/2019 08:24:12] new transaction created: ID: 538 Bank: Citibank acct:6312 amt:4630.93
+[06/10/2019 08:24:12] trying to add txn 538 to request queue
+[06/10/2019 08:24:12] success adding txn 538 to request queue
+[06/10/2019 08:24:12] Request 181 returned in: 7 seconds. Result: false
+[06/10/2019 08:24:12] Request 181 placed in output queue.
+[06/10/2019 08:24:12] transaction ID: 181 Bank: Bank of America acct:7461 amt:1237.84 completed.
+[06/10/2019 08:24:12] Worker 63 Processing Request: ID: 189 Bank: Wells Fargo acct:7041 amt:3974.78
+[06/10/2019 08:24:12] worker: 63 Authorizing txn: 189 at: Wells Fargo
+[06/10/2019 08:24:13] Request 183 returned in: 7 seconds. Result: true
+[06/10/2019 08:24:13] Request 183 placed in output queue.
+[06/10/2019 08:24:13] transaction ID: 183 Bank: Citibank acct:4776 amt:2199.89 completed.
+[06/10/2019 08:24:13] Worker 65 Processing Request: ID: 190 Bank: Chase acct:4080 amt:2639.07
+[06/10/2019 08:24:13] worker: 65 Authorizing txn: 190 at: Chase
+[06/10/2019 08:24:13] Request 178 returned in: 9 seconds. Result: true
+[06/10/2019 08:24:13] Request 178 placed in output queue.
+[06/10/2019 08:24:13] transaction ID: 178 Bank: Citibank acct:3449 amt:2331.68 completed.
+[06/10/2019 08:24:13] Worker 58 Processing Request: ID: 191 Bank: Chase acct:8631 amt:3534.12
+[06/10/2019 08:24:13] worker: 58 Authorizing txn: 191 at: Chase
+[06/10/2019 08:24:13] Request 179 returned in: 9 seconds. Result: true
+[06/10/2019 08:24:13] Request 179 placed in output queue.
+[06/10/2019 08:24:13] transaction ID: 179 Bank: Chase acct:6025 amt:3820.18 completed.
+[06/10/2019 08:24:13] Worker 60 Processing Request: ID: 192 Bank: Citibank acct:4844 amt:4049.07
+[06/10/2019 08:24:13] worker: 60 Authorizing txn: 192 at: Citibank
+[06/10/2019 08:24:13] new transaction created: ID: 539 Bank: Chase acct:5014 amt:1990.00
+[06/10/2019 08:24:13] trying to add txn 539 to request queue
+[06/10/2019 08:24:13] success adding txn 539 to request queue
+[06/10/2019 08:24:14] Request 184 returned in: 8 seconds. Result: false
+[06/10/2019 08:24:14] Request 184 placed in output queue.
+[06/10/2019 08:24:14] transaction ID: 184 Bank: Chase acct:9898 amt:3585.46 completed.
+[06/10/2019 08:24:14] new transaction created: ID: 540 Bank: Bank of America acct:7119 amt:1398.00
+[06/10/2019 08:24:14] trying to add txn 540 to request queue
+[06/10/2019 08:24:14] Worker 66 Processing Request: ID: 193 Bank: Citibank acct:197 amt:210.69
+[06/10/2019 08:24:14] worker: 66 Authorizing txn: 193 at: Citibank
+[06/10/2019 08:24:14] success adding txn 540 to request queue
+[06/10/2019 08:24:15] new transaction created: ID: 541 Bank: Bank of America acct:2253 amt:4677.78
+[06/10/2019 08:24:15] trying to add txn 541 to request queue
+[06/10/2019 08:24:15] success adding txn 541 to request queue
+[06/10/2019 08:24:16] Request 185 returned in: 9 seconds. Result: true
+[06/10/2019 08:24:16] Request 185 placed in output queue.
+[06/10/2019 08:24:16] transaction ID: 185 Bank: Citibank acct:377 amt:1406.09 completed.
+[06/10/2019 08:24:16] Worker 59 Processing Request: ID: 194 Bank: Citibank acct:7798 amt:4700.26
+[06/10/2019 08:24:16] worker: 59 Authorizing txn: 194 at: Citibank
+[06/10/2019 08:24:16] new transaction created: ID: 542 Bank: Bank of America acct:1251 amt:3010.79
+[06/10/2019 08:24:16] trying to add txn 542 to request queue
+[06/10/2019 08:24:16] success adding txn 542 to request queue

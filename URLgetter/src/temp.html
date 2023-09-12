@@ -1,0 +1,1346 @@
+<html lang="en">
+<head>
+    <title>Slashdot Poll</title>
+
+
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="//c.fsdn.com/s/css/application.css?alpha_20140408">
+    <script src="//c.fsdn.com/s/js/libs/modernizr-2.6.2.min.js?alpha_20140408"></script>
+    <script src="//c.fsdn.com/s/js/libs/jquery-1.10.2.min.js?alpha_20140408"></script>
+    <script src="//c.fsdn.com/s/js/plugins/slash-cookies.js?alpha_20140408"></script>
+    <script src="//c.fsdn.com/s/all-minified.js?alpha_20140408"></script>
+    <script>
+	var sd_basedomain    = window.location.hostname.split('.').slice(-2).join('.');
+	var sd_am_on_sandbox = /sb\.sf\.net$/.test(window.location.hostname);
+	var sd_api_key       = sd_am_on_sandbox
+	                    ? '54321'
+	                    : 'lAKljjdbRgUncL3FHmvQMpxQwyHdcrqnuMJLc6cQDx0'
+	                    ;
+	var sd_api_base      = '//' + window.location.hostname + '/api/v1/';
+    </script>
+
+
+
+<script type="text/javascript">
+(function() {
+    if (typeof window.janrain !== 'object') window.janrain = {};
+    if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
+
+    /* _______________ can edit below this line _______________ */
+
+    janrain.settings.tokenUrl = 'https://beta.slashdot.org/token_callback.pl';
+    janrain.settings.type = 'embed';
+    janrain.settings.appId = 'ggidemlconlmjciiohla';
+    janrain.settings.appUrl = 'https://login.slashdot.org';
+    janrain.settings.providers = ["google","twitter","facebook", "linkedin"];
+    janrain.settings.providersPerPage = '4';
+    janrain.settings.format = 'one column';
+    janrain.settings.actionText = 'Sign in using your account with';
+    janrain.settings.showAttribution = false;
+    janrain.settings.fontColor = '#666666';
+    janrain.settings.fontFamily = 'lucida grande, Helvetica, Verdana, sans-serif';
+    janrain.settings.backgroundColor = '#ffffff';
+    janrain.settings.width = '308';
+    janrain.settings.borderColor = '#C0C0C0';
+    janrain.settings.borderRadius = '5';    janrain.settings.buttonBorderColor = '#CCCCCC';
+    janrain.settings.buttonBorderRadius = '5';
+    janrain.settings.buttonBackgroundStyle = 'gradient';
+    janrain.settings.language = 'en';
+    janrain.settings.linkClass = 'janrainEngage';
+
+    /* _______________ can edit above this line _______________ */
+
+    function isReady() { janrain.ready = true; };
+    if (document.addEventListener) {
+      document.addEventListener("DOMContentLoaded", isReady, false);
+    } else {
+      window.attachEvent('onload', isReady);
+    }
+
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.id = 'janrainAuthWidget';
+
+    if (document.location.protocol === 'https:') {
+      e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/engage.js';
+    } else {
+      e.src = 'http://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/engage.js';
+    }
+
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(e, s);
+})();
+</script>
+
+<script type="text/javascript">
+(function() {
+    if (typeof window.janrain !== 'object') window.janrain = {};
+    if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};
+    if (typeof window.janrain.settings.share !== 'object') window.janrain.settings.share = {};
+    if (typeof window.janrain.settings.packages !== 'object') janrain.settings.packages = [];
+    janrain.settings.packages.push('share');
+
+    /* _______________ can edit below this line _______________ */
+
+    janrain.settings.share.providers = ["facebook","twitter","linkedin"];
+    janrain.settings.share.providersEmail = [];
+    janrain.settings.share.modes = ["broadcast","contact"];
+    janrain.settings.share.attributionDisplay = false;
+    janrain.settings.share.message = "";
+    janrain.settings.share.title = "";
+    janrain.settings.share.url = "";
+    janrain.settings.share.description = "";
+
+    // Modal Styles
+    janrain.settings.share.modalBackgroundColor = "#000000";
+    janrain.settings.share.modalBorderRadius = "5";
+    janrain.settings.share.modalOpacity = "0.5";
+    janrain.settings.share.modalWidth = "5";
+
+    // Body Styles
+    janrain.settings.share.bodyBackgroundColor = "#009DDC";
+    janrain.settings.share.bodyBackgroundColorOverride = false;
+    janrain.settings.share.bodyColor = "#333333";
+    janrain.settings.share.bodyContentBackgroundColor = "#ffffff";
+    janrain.settings.share.bodyFontFamily = "Helvetica";
+    janrain.settings.share.bodyTabBackgroundColor = "#f8f8f8";
+    janrain.settings.share.bodyTabColor = "#000000";
+
+    // Element Styles
+    janrain.settings.share.elementBackgroundColor = "#f6f6f6";
+    janrain.settings.share.elementBorderColor = "#cccccc";
+    janrain.settings.share.elementBorderRadius = "3";
+    janrain.settings.share.elementButtonBorderRadius = "6";
+    janrain.settings.share.elementButtonBoxShadow = "3";
+    janrain.settings.share.elementColor = "#333333";
+    janrain.settings.share.elementHoverBackgroundColor = "#eeeeee";
+    janrain.settings.share.elementLinkColor = "#009DDC";
+
+    /* _______________ can edit above this line _______________ */
+
+    function isReady() { janrain.ready = true; };
+    if (document.addEventListener) {
+        document.addEventListener("DOMContentLoaded", isReady, false);
+    } else {
+        window.attachEvent('onload', isReady);
+    }
+
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.id = 'janrainWidgets';
+
+    if (document.location.protocol === 'https:') {
+      e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/widget.js';
+    } else {
+      e.src = 'http://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/widget.js';
+    }
+
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(e, s);
+})();
+
+
+
+$(document).ready(function(){
+    if(janrain) {
+        $(document).on('click', "a.janrain", function () {
+
+            var $anchor = $(this);
+            var provider = $anchor.attr("data-provider");
+            var url = $anchor.attr("data-url");
+            var message = $anchor.attr("data-message");
+            var title = $anchor.attr("data-title");
+
+            janrain.engage.share.reset();
+            janrain.engage.share.showProvider(provider);
+            janrain.engage.share.setTitle(title);
+            janrain.engage.share.setMessage(message);
+            janrain.engage.share.setUrl(url);
+            janrain.engage.share.show();
+            return false;
+         });
+    }
+});
+
+
+</script>
+
+    <meta http-equiv="X-XRDS-Location" content="http://beta.slashdot.org/slashdot.xrds"><link rel="top"       title="News for nerds, stuff that matters" href="//beta.slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//beta.slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<div class="branddark sticky">
+    <div class="container brandbar">
+        <div class="row">
+            <a href="//beta.slashdot.org"><span class="beta-badge">Beta</span></a>
+            <!-- <nav class="nav-mobile">
+                <a href="#menu-mobile" class="menu-mobile"><i class="fa fa-align-justify"></i></a>
+                <div id="panel-menu">
+                    <ul>
+                        <li><a href="" class="open-login"><i class="icon-signin"></i>Sign in</a></li>
+                        <li><a href=""><i class="icon-sitemap"></i>Topics</a></li>
+                        <li><a href="//beta.slashdot.org/job_board.pl"><i></i>Tech Jobs</a></li>
+                    </ul>
+                </div>
+            </nav> -->
+            <div class="span5">
+                <h1><a href="//beta.slashdot.org">Slashdot: News for Nerds</a></h1>
+                <nav class="nav-desktop">
+                    <ul class="nav-primary">
+                        <li class="menu-trigger">
+                            <a href="/" id="waypoint_02" class="arrow-down" data-tour-id="tour-topics">Topics</a>
+                            <div class="menu menu-mega">
+                                <div class="menu-content">
+                                    <div class="news-content">
+                                        <h3>FEATURED TOPICS</h3>
+                                        <ul class="news-list">
+                                            <li><a class="tv" href="//tv.slashdot.org">SlashTV</a></li>
+                                            <li><a class="bi" href="////beta.slashdot.org/stories/business%20intelligence">SlashBI</a></li>
+                                            <li><a class="cloud"href="////beta.slashdot.org/stories/cloud">SlashCloud</a></li>
+                                            <li><a class="data-center"href="////beta.slashdot.org/stories/data%20center">SlashDataCenter</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="topics">
+                                        <h3>POPULAR TOPICS</h3>
+                                        <ul class="topic-list">
+                                            <li><a href="//beta.slashdot.org/stories/technology" class="technology">Technology</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/science" class="science">Science</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/cloud" class="cloud">Cloud</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/movies" class="movies">Movies</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/storage" class="data-storage">Data Storage</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/government" class="government">Government</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/games" class="games">Games</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/privacy" class="privacy">Privacy</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/space" class="space">Space</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/court" class="court">Court</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/security" class="security">Security</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/censorship" class="censorship">Censorship</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/open-source" class="open-source">Open Source</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/politics" class="politics">Politics</a></li>
+                                            <li><a href="//beta.slashdot.org/stories/biotech" class="biotech">Biotech</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-trigger">
+                            <a href="//beta.slashdot.org/job_board.pl" class="arrow-down">Tech Jobs</a>
+                            <div id="geojobs-nav" class="menu"></div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="span2">
+                <ul class="control-submit">
+                    <li class="menu-triggers" data-toggle="tooltip">
+                        <a href="//beta.slashdot.org/submission" class=" btn btn-vanilla">Submit a Story</a>
+                        <ul class="menu menu-submit">
+                            <li><a href="//beta.slashdot.org/submission">Story</a></li>
+                            <li ><a href="">Video</a></li>
+                            <li><a href="">Poll</a></li>
+                            <li><a href="">Event</a></li>
+                            <li><a href="">Book Review</a></li>
+                            <li><a href="">Ask Slashdot</a></li>
+                            <li><a href="">Journal Entry</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="span3 search">
+                <form id="search" method="get" action="//beta.slashdot.org/index2.pl">
+                    <label for="search">Search Slashdot</label>
+                    <input type="text" name="fhfilter" id="searchquery" placeholder="Search Slashdot">
+                    <button type="text" class="btn fa fa-search">Search</button>
+                </form>
+            </div>
+            <div class="span2">
+                <nav class="nav-access pull-right">
+                    <ul>
+	
+	
+		<li >
+			<a href="//beta.slashdot.org/my/login" class="open-login"  >Login</a>
+			
+		</li>
+	
+		<li >
+			<a href="/"   > or </a>
+			
+		</li>
+	
+		<li >
+			<a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" class="open-signup "  >Sign Up</a>
+			
+		</li>
+	
+</ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="messaging-nav container">
+    <span class="close-message">&times;</span>
+    <p><i class="fa fa-comments-o"></i> Welcome to the Slashdot Beta site -- <a href="/faq/index.shtml#betanews">learn more here.</a> Use the link in the footer or <a class="back_to_classic" href="//slashdot.org/?nobeta=1">click here</a> to return to the Classic version of Slashdot.</p>
+</div>
+<div id="optout">
+    <h3>Thank you!</h3>
+    <p>Before you choose to head back to the Classic look of the site, we'd appreciate it if you <a href="mailto:feedback@slashdot.org?subject=Feedback for Beta site">share your thoughts on the Beta</a>; your feedback is what drives our ongoing development.</p>
+    <p>Beta is different and we value you taking the time to try it out. Please take a look at the changes we've made in Beta and <a href="//beta.slashdot.org/faq/learnmore.shtml">??learn more about it</a>.??Thanks for reading, and for making the site better!</p>
+    <footer class="popover-navigation">
+        <button class="optoutconfirm btn btn-primary pull-right">Continue to classic site</button>
+        <a href="" class="btn close_modal pull-right">Stay on Beta</a>
+    </footer>
+</div>
+
+<script type="text/javascript">
+$(function(){
+    (function(){
+        var $message, $close;
+        $message = $( '.messaging-nav' );
+        $close   = $( '.close-message' );
+        $confirm = $( '.optoutconfirm' );
+        $back_to_classic = $( '.back_to_classic' );
+
+        //modal
+        $back_to_classic.slashModal({
+            content     : $('#optout'),
+            width       : 670,
+            top         : 70,
+            hide_overlay: false
+        });
+
+
+        if( !$.cookie('hide_sitenotice_2') ) {
+            $message.fadeIn('fast');
+        }
+        function hideNotice(evt) {
+            evt.preventDefault();
+            $message.fadeOut('fast', function() {
+                $.cookie('hide_sitenotice_2', 'true', { path: '/', expires: 14 });
+            });
+        }
+        function optOutBeta() {
+            window.location.href = "http://slashdot.org/?nobeta=1";
+        }
+        $close.on( 'click', hideNotice );
+        $confirm.on( 'click', optOutBeta );
+    })();
+});
+</script>
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+function safe_for_ads() {
+	var path = window.location.pathname;
+	if (path === '/'
+	|| path === ''
+	|| path.match(/^\/stories/)
+	|| path.match(/^\/blog/)
+	) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function yet_another_tpc() {
+	var skin_at_hostname = {
+   "" : "awards",
+   "tech-beta.slashdot.org" : "technology",
+   "slashdot.sourceforge.net" : "sfauth",
+   "amd.vendors-beta.slashdot.org" : "vendoramd",
+   "interviews-beta.slashdot.org" : "interviews",
+   "developers-beta.slashdot.org" : "developers",
+   "features-beta.slashdot.org" : "features",
+   "ask-beta.slashdot.org" : "askslashdot",
+   "games-beta.slashdot.org" : "games",
+   "intel.vendors-beta.slashdot.org" : "vendorintel",
+   "hardware-beta.slashdot.org" : "hardware",
+   "apache-beta.slashdot.org" : "apache",
+   "oracle.vendors-beta.slashdot.org" : "vendororacle",
+   "apple-beta.slashdot.org" : "apple",
+   "bsd-beta.slashdot.org" : "bsd",
+   "search-beta.slashdot.org" : "search",
+   "yro-beta.slashdot.org" : "yro",
+   "vendors-beta.slashdot.org" : "vendors",
+   "science-beta.slashdot.org" : "science",
+   "polls-beta.slashdot.org" : "polls",
+   "politics-beta.slashdot.org" : "politics",
+   "meta-beta.slashdot.org" : "meta",
+   "radio-beta.slashdot.org" : "radio",
+   "news-beta.slashdot.org" : "news",
+   "thinkgeek.shill-beta.slashdot.org" : "thinkgeek",
+   "beta.slashdot.org" : "slashdot",
+   "idle-beta.slashdot.org" : "idle",
+   "mobile-beta.slashdot.org" : "mobile",
+   "cmdrtaco-beta.slashdot.org" : "cmdrtaco",
+   "entertainment-beta.slashdot.org" : "entertainment",
+   "books-beta.slashdot.org" : "bookreview",
+   "it-beta.slashdot.org" : "it",
+   "linux-beta.slashdot.org" : "linux",
+   "backslash-beta.slashdot.org" : "backslash"
+}
+;
+
+	var stories = window.location.pathname.match(/stories\/([^\/#?]+)/);
+	var skin;
+	if (skin_at_hostname) {
+		skin = skin_at_hostname[window.location.hostname];
+	}
+
+	if (stories && stories.length) {
+		return matches[1];
+	} else if (skin) {
+		return skin;
+	} else {
+		return null;
+	}
+}
+
+dfp_ord=Math.random()*10000000000000000;
+dfp_tile = 1;
+dfp_page = safe_for_ads() ? 'index' : 'story';
+dfp_tpc = yet_another_tpc() || 'slashdot';
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-44495704-1";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-44495704-1']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+	
+
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','pollBooth', 3]);
+
+	
+
+
+
+// track beta behavior for user
+var betamatches = document.cookie.match(/betagroup=(-?\d+)/);
+
+if(betamatches && betamatches[1]) {
+  if(betamatches[1] == -1) {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-out', 3]);
+  } else if (betamatches[1] == 1) {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-in', 3]);
+  } else if (betamatches[1] >= 2 && betamatches[1] <= 26) {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','redirected', 3]);
+  } else {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','unredirected', 3]);
+  }
+} else {
+    _gaq.push(['_setCustomVar', 3, 'Beta-Usage','visitor-nogroup', 3]);
+}
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon pollBooth ">
+
+<!-- user.currentPage = 'pollBooth' -->
+
+    <div class="container leaderboard">
+        <div id="ad-wrapper">
+		<!-- ad position 1 -->
+	<!-- DoubleClick Ad Tag -->
+<div id="fad1" style="display: inline-block;">
+		
+			
+	
+	<script type="text/javascript">
+	//<![CDATA[
+
+		var hint   = 'mainpage';
+
+	document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/polls_p1_leader;pg=pollBooth;page='+dfp_page+';site=beta;logged_in=0;tile='+dfp_tile+';sz=728x90;tpc='+dfp_tpc+';u=;ord='+dfp_ord+'?"><\/script>');
+		dfp_tile++;
+	//]]>
+	</script>
+			
+		
+</div>
+<!-- End DoubleClick Ad Tag -->
+	       
+	</div>
+    </div><aside class="layout-rail">
+	<div class="rail-module">
+		<header id="-title">
+			<h4 class="icon--sm"></h4>
+	</header>
+		<li>$0 - $10 <em>(7474)</em></li>
+	   
+		<li>$10 - $20 <em>(1509)</em></li>
+	   
+		<li>$20 - $30 <em>(567)</em></li>
+	   
+		<li>$30 - $40 <em>(195)</em></li>
+	   
+		<li>$40 - $50 <em>(170)</em></li>
+	   
+		<li>$50+ <em>(408)</em></li>
+	   
+		<li>I don't own a mobile device <em>(888)</em></li>
+	   
+		<li>Too much oh god please help me <em>(161)</em></li>
+	   
+			(You've already voted.)
+			Voted on <strong>11372</strong> times.
+	</div>
+</aside>
+
+
+	<h1>
+	Slashdot Polls
+
+</h1>
+	
+                <div class="ad32 advertisement">
+                        <script type="text/javascript">
+                                var ad6 = 'inactive';
+                        </script>
+
+                        <div id="fad32">
+                                <script type="text/javascript">
+                                        //<![CDATA[
+                                        var hint   = 'mainpage';
+                                        document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/polls_p32_upper_poll_spons;pg=index;page='+dfp_page+';site=beta;logged_in=0;tile='+dfp_tile+';tpc='+dfp_tpc+';ord='+dfp_ord+'?"><\/script>');
+                                        dfp_tile++;
+                                        //]]>
+                                </script>
+                        </div>
+                </div>
+        
+
+		
+		<ul>
+		
+			<li><b><a href="//beta.slashdot.org/poll/2735/how-much-do-you-spend-yearly-on-mobile-apps">How much do you spend yearly on mobile apps?</a></b> on April  8th, 2014<br>
+			<small>11372 votes and 111 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2733/should-nasa-send-astronauts-on-voluntary-one-way-missions">Should NASA Send Astronauts On Voluntary One-Way Missions?</a></b> on April  3rd, 2014<br>
+			<small>20508 votes and 305 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2731/how-interested-are-you-in-virtual-reality-tech">How interested are you in Virtual Reality tech?</a></b> on March 29th, 2014<br>
+			<small>17020 votes and 202 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2729/i-prefer-my-peppers-">I prefer my peppers ... </a></b> on March 25th, 2014<br>
+			<small>18200 votes and 285 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2727/what-day-of-the-week-is-your-most-productive">What day of the week is your most productive?</a></b> on March 20th, 2014<br>
+			<small>15621 votes and 91 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2725/recent-news-events-re-bitcoin-">Recent news events re: Bitcoin ... </a></b> on March 13th, 2014<br>
+			<small>17879 votes and 192 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2723/daylight-saving-time-">Daylight Saving Time ... </a></b> on March  9th, 2014<br>
+			<small>18014 votes and 310 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2721/time-sucked-into-netflix-or-similar-weekly">Time sucked into Netflix or similar, weekly:</a></b> on March  5th, 2014<br>
+			<small>13417 votes and 146 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2719/should-programming-be-a-required-curriculum-in-public-schools">Should programming be a required curriculum in public schools?</a></b> on February 27th, 2014<br>
+			<small>18371 votes and 313 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2717/how-much-time-do-you-spend-gaming-compared-to-10-years-ago">How much time do you spend gaming compared to 10 years ago?</a></b> on February 21st, 2014<br>
+			<small>31654 votes and 270 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2715/id-prefer-military-fiction-books-that-are-">I'd prefer military fiction books that are ... </a></b> on February 17th, 2014<br>
+			<small>11469 votes and 236 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2713/best-valentines-day-gift-as-recipient">Best Valentine's Day gift (as recipient): </a></b> on February 12th, 2014<br>
+			<small>13546 votes and 197 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2711/old-cellphones-in-my-household-">Old cellphones, in my household ... </a></b> on February  9th, 2014<br>
+			<small>15291 votes and 171 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2709/at-my-current-workplace-ive-outlasted-">At my current workplace, I've outlasted ...</a></b> on February  4th, 2014<br>
+			<small>28318 votes and 177 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2707/how-loud-is-your-primary-computer">How loud is your primary computer?</a></b> on January 28th, 2014<br>
+			<small>34167 votes and 371 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2705/best-skywatching-equipment-at-my-disposal">Best skywatching equipment at my disposal:</a></b> on January 20th, 2014<br>
+			<small>20121 votes and 201 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2703/how-would-you-use-science-to-innovate-upon-sports">How would you use science to innovate upon sports?</a></b> on January 14th, 2014<br>
+			<small>16049 votes and 253 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2701/i-think-wearable-computing-will-take-off">I think wearable computing will take off...</a></b> on January  7th, 2014<br>
+			<small>24228 votes and 254 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2699/no-of-vehicle-license-types-i-hold">No. of vehicle license types I hold: </a></b> on January  2nd, 2014<br>
+			<small>21182 votes and 312 comments.
+				
+				</small>
+			</li>
+			
+		
+			<li><b><a href="//beta.slashdot.org/poll/2697/id-rather-pay-for-my-space-latte-with-">I'd rather pay for my space latte with ...</a></b> on December 29th, 2013<br>
+			<small>12402 votes and 265 comments.
+				
+				</small>
+			</li>
+			
+		
+		</ul>
+
+		<p>
+			<b>
+				<a href="//beta.slashdot.org/search.pl?op=polls">More Polls</a><br>
+				<a href="//beta.slashdot.org/submit.pl">Submit Poll</a>
+			</b>
+		</p><div  class="container">
+    <footer id="layout-footer">
+        <h1><a href="http://slashdot.org">Slashdot: News for Nerds</a></h1>
+        <nav>
+            
+            </ul>
+        </nav>
+        <div class="bucket-wrapper">
+            <div class="bucket">
+                <ul>
+                    <li><a href="//beta.slashdot.org/faq/index.shtml#about">About Slashdot</a></li>
+                    <li><a href="//beta.slashdot.org/faq/index.shtml#who_does_this">Staff</a></li>
+                    <li><a href="mailto:feedback@slashdot.org?subject=Beta Feedback">Contact Us</a></li>
+                    <li><a href="http://slashdotmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+                    <li><a href="http://slashdotmedia.com/terms-of-use/">Terms of Use</a></li>
+                    <li><a href="http://slashdotmedia.com/privacy-statement/">Privacy</a></li>
+                    <li id="teconsent"></li>
+                </ul>
+            </div>
+            <div class="bucket">
+                <ul>
+                    <li><a href="//beta.slashdot.org/faq/index.shtml">FAQ</a></li>
+                    <li><a href="//beta.slashdot.org/blog">Blog</a></li>
+                    <li><a href="http://slashdot.org/archive.pl">Archived Stories</a></li>
+                    <li><a href="#" class="open-newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+            <div class="bucket footer-sprite">
+                <ul>
+                    <li><a href="http://slashdot.org/?nobeta=1" class="back_to_classic sdc">Slashdot Classic</a></li>
+                    <li><a href="http://slashdot.org/hof.shtml" class="fame">Hall of Fame</a></li>
+                    <li><a href="http://www.sourceforge.net/?source=sd_beta_footer" class="sfg">Source Forge</a></li>
+                    <li><a href="http://slashdot.jp/" target="_blank" class="japan">Slashdot Japan</a></li>
+                </ul>
+            </div>
+            <div class="bucket social">
+                <span>Follow Slashdot</span>
+                <ul>
+                    <li><div class="fa fa-facebook circle icon-lg brand"><a href="http://www.facebook.com/slashdot" target="_blank" class="fb">Facebook</a></div></li>
+                    <li><div class="fa fa-google-plus circle icon-lg brand"><a href="https://plus.google.com/113450234747488780301" target="_blank"; class="gp">Google+</a></div></li>
+                    <li><div class="fa fa-twitter circle icon-lg brand"><a href="http://twitter.com/slashdot" target="_blank" class="tw">Twitter</a></div></li>
+                    <li><div class="fa fa-rss circle icon-lg brand"><a href="http://rss.slashdot.org/Slashdot/slashdot" target="_blank" class="rs">RSS</a></div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fancy">
+            <span>
+                <p>Riches:  A gift from Heaven signifying, "This is my beloved son, in whom I
+am well pleased."
+-- John D. Rockefeller, (slander by Ambrose Bierce)</p>
+            </span>
+        </div>
+        <p>
+            Trademarks property of their respective owners. Comments owned by the poster. <br>
+            Copyright ?? 2014 Dice. All Rights Reserved. Slashdot is a
+            <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> service
+        </p>
+    </footer>
+</div>
+
+<!-- Modal Content -->
+<div class="login-modal">
+    <div class="ui-form">
+        <form action="https://beta.slashdot.org/my/login" method="post" id="usr-login" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }">
+            <input type="hidden" name="returnto" value="">
+            <input type="hidden" name="op" value="userlogin">
+            <fieldset>
+                <legend>Slashdot Account</legend>
+                <ul>
+                    <li><label><input type="text" name="unickname" placeholder="nickname" required></label></li>
+                    <li><label><input type="password" name="upasswd" placeholder="password" required></label></li>
+                </ul>
+            </fieldset>
+            <div class="ui-form-controls">
+                <button class="btn btn-primary" name="userlogin">Login</button>
+
+                <p>Need an Account? <br> <a href="/" class="pop_signup_modal" id="foobar">Sign Up Now!</a></p>
+            </div>
+        </form>
+        <span><a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" class="pop_pwd_modal">Forgot your password?</a></span>
+    </div>
+    <div class="social-login">
+        <ul>
+            <li><a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="facebook" class="fb btn-social">Facebook</a></li>
+            <li><a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="google"   class="gp btn-social">Google+</a></li>
+            <li><a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="twitter"  class="tw btn-social">Twitter</a></li>
+            <li><a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="linkedin" class="ln btn-social">LinkedIn</a></li>
+            <!--<li><a href="" id="openid"   class="op btn-social">OpenID</a></li>-->
+        </ul>
+        <p>Don't worry, we never post anything without your permission.</p>
+    </div>
+    <footer><a href="http://slashdotmedia.com/privacy-statement/">Privacy Policy</a></footer>
+</div>
+
+<!-- Submission Info Modal -->
+<div class="submission-info">
+    <article class="submission-info-ui">
+        <h1>Submission Text Formatting Tips</h1>
+        <div class="clearfix">
+            <p>We support a small subset of HTML, namely these tags:</p>
+            <ul>
+                <li>b</li>
+                <li>i</li>
+                <li>p</li>
+                <li>br</li>
+                <li>a</li>
+                <li>ol</li>
+            </ul>
+            <ul>
+                <li>ul</li>
+                <li>li</li>
+                <li>dl</li>
+                <li>dt</li>
+                <li>dd</li>
+                <li>em</li>
+            </ul>
+            <ul>
+                <li>strong</li>
+                <li>tt</li>
+                <li>blockquote</li>
+                <li>div</li>
+                <li>quote</li>
+                <li>ecode</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <h3>"ecode" can be used for code snippets, for example:</h3>
+            <pre><code>&lt;ecode&gt;    while(1) { do_something(); } &lt;/ecode&gt;</code></pre>
+            <div>
+            </div>
+        </div>
+    </article>
+</div>
+
+<!-- Newsletter Content -->
+<div class="newsletter-modal ui-modal-form">
+    <form id="newsletter-signup">
+        <fieldset>
+            <legend>Sign up for Slashdot Newsletters</legend>
+            <div class="modal-flow">
+                <p>Get more Slashdot in your inbox. Check off the email newsletter you want to recieve and hit the Subscribe button at the bottom of the page.</p>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="slashdot_daily" name="slashdot_daily" checked>
+                        <label for="slashdot_daily" class="control-left">
+                            <i class="check-control"></i>Slashdot Headlines <span>Daily</span>
+                            <p>15 of the hottest Slashdot.org stories of the day</p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="weekly_slashback" name="weekly_slashback">
+                        <label for="weekly_slashback" class="control-left">
+                            <i class="check-control"></i>Slashback <span>Weekly</span>
+                            <p>A weekly roundup of the hottest stories from Slashdot</p>
+                        </label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="weekly_resource" name="weekly_resource">
+                        <label for="weekly_resource" class="control-left">
+                            <i class="check-control"></i>Slashdot Weekly Resource <span>Weekly</span>
+                            <p>Resources on technical topics including virtualization, storage, cloud, security &amp; more</p>
+                        </label>
+                    </li>
+                </ul>
+                <ul class="label-left">
+                    <li>
+                        <label>Email</label>
+                        <input type="email" id="realemail" name="realemail" placeholder="Please enter email address"  required>
+                    </li>
+                    <li>
+                        <label for="country">Country</label>
+                        <select id="country" name="country" required>
+                            <option value="">Please Select</option>
+                            <option value="USA">United States</option>
+                            <option value='NA'>I'd prefer not to say</option>
+                            <option value="AFG">Afghanistan</option>
+                            <option value="ALB">Albania</option>
+                            <option value="DZA">Algeria</option>
+                            <option value="ASM">American Samoa</option>
+                            <option value="AND">Andorra</option>
+                            <option value="AGO">Angola</option>
+                            <option value="AIA">Anguilla</option>
+                            <option value="ATA">Antarctica</option>
+                            <option value="ATG">Antigua and Barbuda</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="ARM">Armenia</option>
+                            <option value="ABW">Aruba</option>
+                            <option value="AUS">Australia</option>
+                            <option value="AUT">Austria</option>
+                            <option value="AZE">Azerbaijan</option>
+                            <option value="BHS">Bahamas</option>
+                            <option value="BHR">Bahrain</option>
+                            <option value="BGD">Bangladesh</option>
+                            <option value="BRB">Barbados</option>
+                            <option value="BLR">Belarus</option>
+                            <option value="BEL">Belgium</option>
+                            <option value="BLZ">Belize</option>
+                            <option value="BEN">Benin</option>
+                            <option value="BMU">Bermuda</option>
+                            <option value="BTN">Bhutan</option>
+                            <option value="BOL">Bolivia</option>
+                            <option value="BIH">Bosnia-Herseg</option>
+                            <option value="BWA">Botswana</option>
+                            <option value="BVT">Bouvet Island</option>
+                            <option value="BRA">Brazil</option>
+                            <option value="IOT">British Indian Ocean Territory</option>
+                            <option value="BRN">Brunei Darussalam</option>
+                            <option value="BGR">Bulgaria</option>
+                            <option value="BFA">Burkina Faso</option>
+                            <option value="BDI">Burundi</option>
+                            <option value="KHM">Cambodia</option>
+                            <option value="CMR">Cameroon</option>
+                            <option value="CAN">Canada</option>
+                            <option value="CPV">Cape Verde</option>
+                            <option value="CYM">Cayman Islands</option>
+                            <option value="CAF">Central African Republic</option>
+                            <option value="TCD">Chad</option>
+                            <option value="CHL">Chile</option>
+                            <option value="CHN">China</option>
+                            <option value="CXR">Christmas Island</option>
+                            <option value="CCK">Cocos (Keeling) Islands</option>
+                            <option value="COP">Columbia</option>
+                            <option value="COM">Comoros</option>
+                            <option value="COG">Congo</option>
+                            <option value="COK">Cook Islands</option>
+                            <option value="CRI">Costa Rica</option>
+                            <option value="CIV">Cote DIvoire (Ivory Coast)</option>
+                            <option value="HRV">Croatia</option>
+                            <option value="CUB">Cuba</option>
+                            <option value="CYP">Cyprus</option>
+                            <option value="CZE">Czech Republic</option>
+                            <option value="DNK">Denmark</option>
+                            <option value="DJI">Djibouti</option>
+                            <option value="DMA">Dominica</option>
+                            <option value="DOM">Dominican Republic</option>
+                            <option value="TMP">East Timor</option>
+                            <option value="ECU">Ecuador</option>
+                            <option value="EGY">Egypt</option>
+                            <option value="SLV">El Salvador</option>
+                            <option value="GNQ">Equatorial Guinea</option>
+                            <option value="ERI">Eritrea</option>
+                            <option value="EST">Estonia</option>
+                            <option value="ETH">Ethiopia</option>
+                            <option value="FLK">Falkland-Malvinas</option>
+                            <option value="FRO">Faroe Islands</option>
+                            <option value="FJI">Fiji</option>
+                            <option value="FIN">Finland</option>
+                            <option value="FRA">France</option>
+                            <option value="GUF">French Guiana</option>
+                            <option value="PYF">French Pacific Islands (French Polynesia)</option>
+                            <option value="ATF">French Southern Territories</option>
+                            <option value="GAB">Gabon</option>
+                            <option value="GMB">Gambia</option>
+                            <option value="GEO">Georgia</option>
+                            <option value="DEU">Germany</option>
+                            <option value="GHA">Ghana</option>
+                            <option value="GIB">Gibraltar</option>
+                            <option value="GBR">United Kingdom</option>
+                            <option value="GRC">Greece</option>
+                            <option value="GRL">Greenland</option>
+                            <option value="GRD">Grenada</option>
+                            <option value="GLP">Guadeloupe</option>
+                            <option value="GUM">Guam</option>
+                            <option value="GTM">Guatemala</option>
+                            <option value="GIN">Guinea</option>
+                            <option value="GNB">Guinea-Bissau</option>
+                            <option value="GUY">Guyana</option>
+                            <option value="HTI">Haiti</option>
+                            <option value="HMD">Heard and McDonald Islands</option>
+                            <option value="HND">Honduras</option>
+                            <option value="HKG">Hong Kong</option>
+                            <option value="HUN">Hungary</option>
+                            <option value="ISL">Iceland</option>
+                            <option value="IND">India</option>
+                            <option value="IDN">Indonesia</option>
+                            <option value="IRN">Iran</option>
+                            <option value="IRQ">Iraq</option>
+                            <option value="IRL">Ireland</option>
+                            <option value="ISR">Israel</option>
+                            <option value="ITA">Italy</option>
+                            <option value="JAM">Jamaica</option>
+                            <option value="JPN">Japan</option>
+                            <option value="JOR">Jordan</option>
+                            <option value="KAZ">Kazachstan</option>
+                            <option value="KEN">Kenya</option>
+                            <option value="KIR">Kiribati</option>
+                            <option value="RKS">Kosovo</option>
+                            <option value="KWT">Kuwait</option>
+                            <option value="KGZ">Kyrgyzstan</option>
+                            <option value="LAO">Laos</option>
+                            <option value="LVA">Latvia</option>
+                            <option value="LBN">Lebanon</option>
+                            <option value="LSO">Lesotho</option>
+                            <option value="LBR">Liberia</option>
+                            <option value="LBY">Libya</option>
+                            <option value="LIE">Liechtenstein</option>
+                            <option value="LTU">Lithuania</option>
+                            <option value="LUX">Luxembourg</option>
+                            <option value="MAC">Macau</option>
+                            <option value="MKG">Macedonia</option>
+                            <option value="MDG">Madagascar</option>
+                            <option value="MWI">Malawi</option>
+                            <option value="MYS">Malaysia</option>
+                            <option value="MDV">Maldives (Maldive Islands)</option>
+                            <option value="MLI">Mali</option>
+                            <option value="MLT">Malta</option>
+                            <option value="MHL">Marshall Islands</option>
+                            <option value="MTQ">Martinique</option>
+                            <option value="MRT">Mauritania</option>
+                            <option value="MUS">Mauritius</option>
+                            <option value="MYT">Mayotte</option>
+                            <option value="FXX">Metropolitan France</option>
+                            <option value="MEX">Mexico</option>
+                            <option value="FSM">Micronesia, Federated States of</option>
+                            <option value="MDA">Moldova</option>
+                            <option value="MCO">Monaco</option>
+                            <option value="MNG">Mongolia</option>
+                            <option value="MSR">Montserrat</option>
+                            <option value="MAR">Morocco</option>
+                            <option value="MOZ">Mozambique</option>
+                            <option value="MMR">Myanmar</option>
+                            <option value="NAM">Namibia</option>
+                            <option value="NRU">Nauru</option>
+                            <option value="NPL">Nepal</option>
+                            <option value="NLD">Netherlands</option>
+                            <option value="ANT">Netherlands Antilles</option>
+                            <option value="NCL">New Caledonia</option>
+                            <option value="NZL">New Zealand</option>
+                            <option value="NIC">Nicaragua</option>
+                            <option value="NER">Niger</option>
+                            <option value="NGA">Nigeria</option>
+                            <option value="NIU">Niue</option>
+                            <option value="NFK">Norfolk Island</option>
+                            <option value="PRK">North Korea</option>
+                            <option value="MNP">Northern Mariana Islands</option>
+                            <option value="NOR">Norway</option>
+                            <option value="OMN">Oman</option>
+                            <option value="PAK">Pakistan</option>
+                            <option value="PLW">Palau</option>
+                            <option value="PAL">Palestine</option>
+                            <option value="PAN">Panama</option>
+                            <option value="PNG">Papua New Guinea</option>
+                            <option value="PRY">Paraguay</option>
+                            <option value="PER">Peru</option>
+                            <option value="PHL">Philippines</option>
+                            <option value="PCN">Pitcairn Islands</option>
+                            <option value="POL">Poland</option>
+                            <option value="PRT">Portugal</option>
+                            <option value="PRI">Puerto Rico</option>
+                            <option value="QAT">Qatar</option>
+                            <option value="REU">Reunion</option>
+                            <option value="ROM">Romania</option>
+                            <option value="RUS">Russian Federation</option>
+                            <option value="RWA">Rwanda</option>
+                            <option value="SHN">Saint Helena</option>
+                            <option value="KNA">Saint Kitts and Nevis</option>
+                            <option value="LCA">Saint Lucia</option>
+                            <option value="SPM">Saint Pierre and Miquelon</option>
+                            <option value="VCT">Saint Vincent and the Grenadines</option>
+                            <option value="WSM">Samoa</option>
+                            <option value="SMR">San Marino</option>
+                            <option value="STP">Sao Tome and Principe</option>
+                            <option value="SAU">Saudi Arabia</option>
+                            <option value="SEN">Senegal</option>
+                            <option value="YUG">Serbia and Montenegro</option>
+                            <option value="SYC">Seychelles</option>
+                            <option value="SLE">Sierra Leone</option>
+                            <option value="SGP">Singapore</option>
+                            <option value="SVK">Slovakia</option>
+                            <option value="SVN">Slovenia</option>
+                            <option value="SLB">Solomon Islands</option>
+                            <option value="SOM">Somalia</option>
+                            <option value="ZAF">South Africa</option>
+                            <option value="SGS">South Georgia and the South Sandwich Islands</option>
+                            <option value="KOR">South Korea</option>
+                            <option value="ESP">Spain</option>
+                            <option value="LKA">Sri Lanka</option>
+                            <option value="SDN">Sudan</option>
+                            <option value="SUR">Suriname</option>
+                            <option value="SJM">Svalbard and Jan Mayen Islands</option>
+                            <option value="SWZ">Swaziland</option>
+                            <option value="SWE">Sweden</option>
+                            <option value="CHE">Switzerland</option>
+                            <option value="SYR">Syria</option>
+                            <option value="TWN">Taiwan</option>
+                            <option value="TJK">Tajikistan</option>
+                            <option value="TZA">Tanzania</option>
+                            <option value="THA">Thailand</option>
+                            <option value="COD">The Democratic Republic of the Congo</option>
+                            <option value="TGO">Togo</option>
+                            <option value="TKL">Tokelau</option>
+                            <option value="TON">Tonga</option>
+                            <option value="TTO">Trinidad and Tobago</option>
+                            <option value="TUN">Tunisia</option>
+                            <option value="TUR">Turkey</option>
+                            <option value="TKM">Turkmenistan</option>
+                            <option value="TCA">Turks and Caicos Islands</option>
+                            <option value="TUV">Tuvalu</option>
+                            <option value="UGA">Uganda</option>
+                            <option value="UKR">Ukraine</option>
+                            <option value="ARE">United Arab Emirates</option>
+                            <option value="UMI">United States Minor Outlying Islands</option>
+                            <option value="URY">Uruguay</option>
+                            <option value="UZB">Uzbekistan</option>
+                            <option value="VUT">Vanuatu</option>
+                            <option value="VAT">Vatican City State</option>
+                            <option value="VEN">Venezuela</option>
+                            <option value="VNM">Viet Nam</option>
+                            <option value="VIR">Virgin Islands (American)</option>
+                            <option value="VGB">Virgin Islands (British)</option>
+                            <option value="WLF">Wallis and Futuna Islands</option>
+                            <option value="ESH">Western Sahara</option>
+                            <option value="YEM">Yemen</option>
+                            <option value="ZAR">Zaire</option>
+                            <option value="ZMB">Zambia</option>
+                            <option value="ZWE">Zimbabwe</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="job_title">Job Title</label>
+                        <select id="job_title" name="job_title" required>
+                            <option value="">Please Select</option>
+                            <option value="CEO">CEO, COO, Chairman, President</option>
+                            <option value="CFO">CFO, Controller, Treasurer</option>
+                            <option value="CIO">CIO, CTO, CSO</option>
+                            <option value="VPIT">VP (IT)</option>
+                            <option value="EVPIT">Executive VP, Senior VP (IT)</option>
+                            <option value="DirectorIT">Director (IT)</option>
+                            <option value="ManagerIT">Manager/Supervisor (IT)</option>
+                            <option value="EVPBS">Executive VP, Senior VP, VP, GM (Business Management)</option>
+                            <option value="DirectorBS">Director, Manager (Business Management)</option>
+                            <option value="Rockstar">IT/Software Developer</option>
+                            <option value="Roadie">IT Staff</option>
+                            <option value="BSManager">Other Corporate, Business Manager</option>
+                            <option value="Grunt">Non-Manager</option>
+                            <option value="smarty_pants">Systems Integrator</option>
+                            <option value="fancy_pants">Non-Technical Consultant</option>
+                            <option value="consultant">Technical Consultant</option>
+                            <option value="lazy">Student/Retired</option>
+                            <option value="pissoff">I'd prefer not to say</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="company_size">Company Size</label>
+                        <select id="company_size" name="company_size" required>
+                            <option value="">Please Select</option>
+                            <option value="XXXL">20,000 or More</option>
+                            <option value="XXL">10,000 - 19,999</option>
+                            <option value="XL">5,000 - 9,999</option>
+                            <option value="L">1,000 - 4,999</option>
+                            <option value="M">500 - 999</option>
+                            <option value="S">100 - 499</option>
+                            <option value="XS">50 - 99</option>
+                            <option value="TINY">Less than 50</option>
+                            <option value='NA'>Unspecified/Not Applicable</option>
+                        </select>
+                    </li>
+                </ul>
+                <div class="ui-modal-controls">
+                    <button class="btn btn-primary pull-right btn-close newsletter-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </fieldset>
+        <footer class="modal-footer">
+            <a href="http://slashdotmedia.com/privacy-statement/">Privacy Policy</a>
+        </footer>
+    </form>
+    <script>
+        // **************************************************************************************************
+        // Newsletter Flow: Displays correct view for the newsletter workflow
+        // **************************************************************************************************
+        (function(){
+            var $views = $('.modal-flow'),
+                $btn_next = $('.modal-flow-next'),
+                $btn_prev = $('.modal-flow-prev');
+
+            $views.hide();
+            $views.first().show();
+
+            $('body').on('click', '.modal-flow-next', nextView);
+            $('body').on('click', '.modal-flow-prev', prevView);
+            $('body').on('click', '.newsletter-subscribe', subscribeNewsletter);
+
+            function nextView( evt ) {
+                evt.preventDefault();
+                $(this).closest( '.modal-flow' )
+                    .hide()
+                    .next()
+                    .show()
+            }
+
+            function prevView( evt ) {
+                evt.preventDefault();
+                $(this).closest( '.modal-flow' )
+                    .hide()
+                    .prev()
+                    .show()
+            }
+
+            function subscribeNewsletter( evt ) {
+                evt.preventDefault();
+
+                var token = $.cookie('user'),
+                    realemail = $('#realemail').val(),
+                    country = $('#country').val(),
+                    job_title = $('#job_title').val(),
+                    company_size = $('#company_size').val(),
+                    slashdot_daily = $('#slashdot_daily').val(),
+                    weekly_slashback = $('#weekly_slashback').val(),
+                    weekly_resource = $('#weekly_resource').val(),
+                    api_key = sd_api_key,
+                    api_endpoint = sd_api_base + 'newsletter.json'
+                    data = {
+                        api_key: api_key,
+                        realemail: realemail,
+                        country: country,
+                        job_title: job_title,
+                        company_size: company_size
+                    };
+
+                    if (slashdot_daily) {
+                        data.slashdot_daily = slashdot_daily;
+                    }
+                    if (weekly_slashback) {
+                        data.weekly_slashback = weekly_slashback;
+                    }
+                    if (weekly_resource) {
+                        data.weekly_resource = weekly_resource;
+                    }
+                    if (token) {
+                        data.token = token;
+                    }
+
+                $.ajax({
+                    url: api_endpoint,
+                    data: data,
+                    dataType: 'json'
+                });
+                $('.close_btn').trigger('click');
+            }
+
+            // $("#newsletter-signup").validate({
+            //  messages: {
+            //      usr_email: {
+            //          required: 'Please enter a valid email address'
+            //      }
+            //  },
+            //  errorClass: 'form-error',
+            // });
+        })();
+    </script>
+</div>
+
+<!--SignUp Content-->
+<div id="signup-form-contents" class="signup-modal">
+    <form action="https://beta.slashdot.org/login.pl" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }">
+			<fieldset>
+				<legend>Create a Slashdot Account</legend>
+			</fieldset>
+			<h3>Loading...</h3>
+		</form>
+</div>
+
+<div class="forgotpw-modal" id="forgotpw-modal-contents">
+</div>
+
+<script id="geojobs-template" type="text/x-handlebars-template">
+    <header id="dice_jobs-title" class="row">
+        <h4 class="span8">Latest Tech Jobs</h4>
+        <span class="span4 poweredby logo-dice-small pull-right">
+            <a href="http://www.dice.com?CMPID=AF_SD_UP_JS_AV_OG_BN_&amp;utm_source=Slashdot&amp;utm_medium=Affiliate&amp;utm_content=&amp;utm_campaign=Advocacy_Ongoing" target="_blank">Powered by <span>Dice Jobs</span></a>
+        </span>
+    </header>
+    <ul class="slashbox-list">
+        {{#each resultItemList}}
+            <li>
+                <a href="{{detailUrl}}&CMPID=AF_SD_UP_JS_AV_OG_WG_&utm_source=Slashdot&utm_medium=Affiliate&utm_content=&utm_campaign=Advocacy_Ongoing" id="job_title" target="_blank" onClick="trackLinkDiceJob(this, 'JobWidget', '{{detailUrl}}');return false;">{{jobTitle}}<br><span>{{company}}, {{location}}</span></a>
+            </li>
+        {{/each}}
+    </ul>
+</script>
+<script id="geojobs-nav-template" type="text/x-handlebars-template">
+    <header id="dice_jobs-title" class="row">
+        <h4 class="span5">Latest Tech Jobs</h4>
+        <span class="poweredby logo-dice-small pull-right">
+            <a href="http://www.dice.com?CMPID=AF_SD_UP_JS_AV_OG_BN_&amp;utm_source=Slashdot&amp;utm_medium=Affiliate&amp;utm_content=&amp;utm_campaign=Advocacy_Ongoing" target="_blank">Powered by <span>Dice Jobs</span></a>
+        </span>
+    </header>
+    <ul class="slashbox-list">
+        {{#each resultItemList}}
+            <li>
+                <a href="{{detailUrl}}&CMPID=AF_SD_UP_JS_AV_OG_WG_&utm_source=Slashdot&utm_medium=Affiliate&utm_content=&utm_campaign=Advocacy_Ongoing" id="job_title" target="_blank" onClick="trackLinkDiceJob(this, 'JobWidget', '{{detailUrl}}');return false;">{{jobTitle}}<br><span>{{company}}, {{location}}</span></a>
+            </li>
+        {{/each}}
+    </ul>
+    <span class="menu-footer">
+        <a class="pull-right" href="//beta.slashdot.org/job_board.pl" target="_blank">View More Jobs</a>
+    </span>
+</script>
+<script src="//c.fsdn.com/s/js/libs/handlebars-v1.3.0.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins/slash-cookies.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins/slashmodal-1-0.1.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins/jquery.lazyload.min.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins/jquery.validate.min.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins/additional-methods.min.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/plugins.js?alpha_20140408"></script>
+<script src="//c.fsdn.com/s/js/scripts/main.js?alpha_20140408"></script>
+
+
+<!--SLASH-3947  Use TrustE Consent Manager to manage the setting of third-party advertiser cookies-->
+
+    <script type="text/javascript" src="//consent.truste.com/notice?domain=slashdot.org&c=teconsent&text=true"></script>
+
+<script>
+    $(function(){
+        $('.for-text').slashModal({
+            content     : $('.submission-info'),
+            width       : 525,
+            hide_overlay: true
+        });
+
+        $('.edit-login').on("click", function() {
+            editPreview();
+        });
+
+        $("#usr-login").validate({
+            messages: {
+                unickname: {
+                    required: 'Please eneter a valid nickname'
+                },
+                upasswd: {
+                    required: 'Please enter a valid password'
+                }
+            },
+            errorClass: 'form-error',
+        });
+
+        (function(){
+            var $anchor = $('a[href=""], a[href="#"]');
+            // IF ON SANDBOX ONLY COLOR ALL EMPTY ANCHOR TAGS RED
+            
+        })();
+    });
+</script>
+
+</body>
+</html>

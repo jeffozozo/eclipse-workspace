@@ -1,0 +1,5 @@
+//start it
+sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist`
+
+//stop it
+sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist

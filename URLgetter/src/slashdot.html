@@ -1,0 +1,1364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1187.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Monaco; min-height: 15.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Monaco}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1"><br></p>
+<p class="p2">&lt;html lang="en"&gt;</p>
+<p class="p2">&lt;head&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;title&gt;Slashdot Poll&lt;/title&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="//c.fsdn.com/s/css/application.css?alpha_20140408"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="//c.fsdn.com/s/js/libs/modernizr-2.6.2.min.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="//c.fsdn.com/s/js/libs/jquery-1.10.2.min.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="//c.fsdn.com/s/js/plugins/slash-cookies.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script src="//c.fsdn.com/s/all-minified.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var sd_basedomain<span class="Apple-converted-space">    </span>= window.location.hostname.split('.').slice(-2).join('.');</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var sd_am_on_sandbox = /sb\.sf\.net$/.test(window.location.hostname);</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var sd_api_key <span class="Apple-converted-space">      </span>= sd_am_on_sandbox</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">                    </span>? '54321'</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">                    </span>: 'lAKljjdbRgUncL3FHmvQMpxQwyHdcrqnuMJLc6cQDx0'</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">                    </span>;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var sd_api_base<span class="Apple-converted-space">      </span>= '//' + window.location.hostname + '/api/v1/';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script type="text/javascript"&gt;</p>
+<p class="p2">(function() {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain !== 'object') window.janrain = {};</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>/* _______________ can edit below this line _______________ */</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.tokenUrl = 'https://beta.slashdot.org/token_callback.pl';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.type = 'embed';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.appId = 'ggidemlconlmjciiohla';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.appUrl = 'https://login.slashdot.org';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.providers = ["google","twitter","facebook", "linkedin"];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.providersPerPage = '4';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.format = 'one column';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.actionText = 'Sign in using your account with';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.showAttribution = false;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.fontColor = '#666666';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.fontFamily = 'lucida grande, Helvetica, Verdana, sans-serif';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.backgroundColor = '#ffffff';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.width = '308';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.borderColor = '#C0C0C0';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.borderRadius = '5';<span class="Apple-converted-space">    </span>janrain.settings.buttonBorderColor = '#CCCCCC';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.buttonBorderRadius = '5';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.buttonBackgroundStyle = 'gradient';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.language = 'en';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.linkClass = 'janrainEngage';</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>/* _______________ can edit above this line _______________ */</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>function isReady() { janrain.ready = true; };</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (document.addEventListener) {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>document.addEventListener("DOMContentLoaded", isReady, false);</p>
+<p class="p2"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>window.attachEvent('onload', isReady);</p>
+<p class="p2"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>var e = document.createElement('script');</p>
+<p class="p2"><span class="Apple-converted-space">    </span>e.type = 'text/javascript';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>e.id = 'janrainAuthWidget';</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (document.location.protocol === 'https:') {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/engage.js';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>e.src = 'http://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/engage.js';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>var s = document.getElementsByTagName('script')[0];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>s.parentNode.insertBefore(e, s);</p>
+<p class="p2">})();</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script type="text/javascript"&gt;</p>
+<p class="p2">(function() {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain !== 'object') window.janrain = {};</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain.settings !== 'object') window.janrain.settings = {};</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain.settings.share !== 'object') window.janrain.settings.share = {};</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (typeof window.janrain.settings.packages !== 'object') janrain.settings.packages = [];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.packages.push('share');</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>/* _______________ can edit below this line _______________ */</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.providers = ["facebook","twitter","linkedin"];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.providersEmail = [];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.modes = ["broadcast","contact"];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.attributionDisplay = false;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.message = "";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.title = "";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.url = "";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.description = "";</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>// Modal Styles</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.modalBackgroundColor = "#000000";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.modalBorderRadius = "5";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.modalOpacity = "0.5";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.modalWidth = "5";</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>// Body Styles</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyBackgroundColor = "#009DDC";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyBackgroundColorOverride = false;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyColor = "#333333";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyContentBackgroundColor = "#ffffff";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyFontFamily = "Helvetica";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyTabBackgroundColor = "#f8f8f8";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.bodyTabColor = "#000000";</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>// Element Styles</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementBackgroundColor = "#f6f6f6";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementBorderColor = "#cccccc";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementBorderRadius = "3";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementButtonBorderRadius = "6";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementButtonBoxShadow = "3";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementColor = "#333333";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementHoverBackgroundColor = "#eeeeee";</p>
+<p class="p2"><span class="Apple-converted-space">    </span>janrain.settings.share.elementLinkColor = "#009DDC";</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>/* _______________ can edit above this line _______________ */</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>function isReady() { janrain.ready = true; };</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (document.addEventListener) {</p>
+<p class="p2"><span class="Apple-converted-space">        </span>document.addEventListener("DOMContentLoaded", isReady, false);</p>
+<p class="p2"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p2"><span class="Apple-converted-space">        </span>window.attachEvent('onload', isReady);</p>
+<p class="p2"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>var e = document.createElement('script');</p>
+<p class="p2"><span class="Apple-converted-space">    </span>e.type = 'text/javascript';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>e.id = 'janrainWidgets';</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>if (document.location.protocol === 'https:') {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>e.src = 'https://rpxnow.com/js/lib/login.slashdot.org/widget.js';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>} else {</p>
+<p class="p2"><span class="Apple-converted-space">      </span>e.src = 'http://widget-cdn.rpxnow.com/js/lib/login.slashdot.org/widget.js';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>var s = document.getElementsByTagName('script')[0];</p>
+<p class="p2"><span class="Apple-converted-space">    </span>s.parentNode.insertBefore(e, s);</p>
+<p class="p2">})();</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2">$(document).ready(function(){</p>
+<p class="p2"><span class="Apple-converted-space">    </span>if(janrain) {</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$(document).on('click', "a.janrain", function () {</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>var $anchor = $(this);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var provider = $anchor.attr("data-provider");</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var url = $anchor.attr("data-url");</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var message = $anchor.attr("data-message");</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var title = $anchor.attr("data-title");</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.reset();</p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.showProvider(provider);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.setTitle(title);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.setMessage(message);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.setUrl(url);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>janrain.engage.share.show();</p>
+<p class="p2"><span class="Apple-converted-space">            </span>return false;</p>
+<p class="p2"><span class="Apple-converted-space">         </span>});</p>
+<p class="p2"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2">});</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;meta http-equiv="X-XRDS-Location" content="http://beta.slashdot.org/slashdot.xrds"&gt;&lt;link rel="top" <span class="Apple-converted-space">      </span>title="News for nerds, stuff that matters" href="//beta.slashdot.org/" &gt;</p>
+<p class="p2">&lt;link rel="search"<span class="Apple-converted-space">    </span>title="Search Slashdot" href="//beta.slashdot.org/search.pl"&gt;</p>
+<p class="p2">&lt;link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml"&gt;</p>
+<p class="p2">&lt;link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;div class="branddark sticky"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="container brandbar"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="row"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a href="//beta.slashdot.org"&gt;&lt;span class="beta-badge"&gt;Beta&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;!-- &lt;nav class="nav-mobile"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="#menu-mobile" class="menu-mobile"&gt;&lt;i class="fa fa-align-justify"&gt;&lt;/i&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div id="panel-menu"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="" class="open-login"&gt;&lt;i class="icon-signin"&gt;&lt;/i&gt;Sign in&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href=""&gt;&lt;i class="icon-sitemap"&gt;&lt;/i&gt;Topics&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/job_board.pl"&gt;&lt;i&gt;&lt;/i&gt;Tech Jobs&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/nav&gt; --&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="span5"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;h1&gt;&lt;a href="//beta.slashdot.org"&gt;Slashdot: News for Nerds&lt;/a&gt;&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;nav class="nav-desktop"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;ul class="nav-primary"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;li class="menu-trigger"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="/" id="waypoint_02" class="arrow-down" data-tour-id="tour-topics"&gt;Topics&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;div class="menu menu-mega"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;div class="menu-content"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                    </span>&lt;div class="news-content"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;h3&gt;FEATURED TOPICS&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;ul class="news-list"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a class="tv" href="//tv.slashdot.org"&gt;SlashTV&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a class="bi" href="////beta.slashdot.org/stories/business%20intelligence"&gt;SlashBI&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a class="cloud"href="////beta.slashdot.org/stories/cloud"&gt;SlashCloud&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a class="data-center"href="////beta.slashdot.org/stories/data%20center"&gt;SlashDataCenter&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                    </span>&lt;div class="topics"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;h3&gt;POPULAR TOPICS&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;ul class="topic-list"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/technology" class="technology"&gt;Technology&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/science" class="science"&gt;Science&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/cloud" class="cloud"&gt;Cloud&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/movies" class="movies"&gt;Movies&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/storage" class="data-storage"&gt;Data Storage&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/government" class="government"&gt;Government&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/games" class="games"&gt;Games&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/privacy" class="privacy"&gt;Privacy&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/space" class="space"&gt;Space&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/court" class="court"&gt;Court&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/security" class="security"&gt;Security&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/censorship" class="censorship"&gt;Censorship&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/open-source" class="open-source"&gt;Open Source&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/politics" class="politics"&gt;Politics&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/stories/biotech" class="biotech"&gt;Biotech&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;li class="menu-trigger"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;a href="//beta.slashdot.org/job_board.pl" class="arrow-down"&gt;Tech Jobs&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;div id="geojobs-nav" class="menu"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/nav&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="span2"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul class="control-submit"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li class="menu-triggers" data-toggle="tooltip"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;a href="//beta.slashdot.org/submission" class=" btn btn-vanilla"&gt;Submit a Story&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;ul class="menu menu-submit"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/submission"&gt;Story&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li &gt;&lt;a href=""&gt;Video&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href=""&gt;Poll&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href=""&gt;Event&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href=""&gt;Book Review&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href=""&gt;Ask Slashdot&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;li&gt;&lt;a href=""&gt;Journal Entry&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="span3 search"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;form id="search" method="get" action="//beta.slashdot.org/index2.pl"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;label for="search"&gt;Search Slashdot&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;input type="text" name="fhfilter" id="searchquery" placeholder="Search Slashdot"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;button type="text" class="btn fa fa-search"&gt;Search&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/form&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="span2"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;nav class="nav-access pull-right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li &gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;a href="//beta.slashdot.org/my/login" class="open-login"<span class="Apple-converted-space">  </span>&gt;Login&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li &gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;a href="/" <span class="Apple-converted-space">  </span>&gt; or &lt;/a&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li &gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" class="open-signup "<span class="Apple-converted-space">  </span>&gt;Sign Up&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2">&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/nav&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p2">&lt;div class="messaging-nav container"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;span class="close-message"&gt;&amp;times;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;p&gt;&lt;i class="fa fa-comments-o"&gt;&lt;/i&gt; Welcome to the Slashdot Beta site -- &lt;a href="/faq/index.shtml#betanews"&gt;learn more here.&lt;/a&gt; Use the link in the footer or &lt;a class="back_to_classic" href="//slashdot.org/?nobeta=1"&gt;click here&lt;/a&gt; to return to the Classic version of Slashdot.&lt;/p&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p2">&lt;div id="optout"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;h3&gt;Thank you!&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;p&gt;Before you choose to head back to the Classic look of the site, we'd appreciate it if you &lt;a href="mailto:feedback@slashdot.org?subject=Feedback for Beta site"&gt;share your thoughts on the Beta&lt;/a&gt;; your feedback is what drives our ongoing development.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;p&gt;Beta is different and we value you taking the time to try it out. Please take a look at the changes we've made in Beta and &lt;a href="//beta.slashdot.org/faq/learnmore.shtml"&gt;??learn more about it&lt;/a&gt;.??Thanks for reading, and for making the site better!&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;footer class="popover-navigation"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;button class="optoutconfirm btn btn-primary pull-right"&gt;Continue to classic site&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;a href="" class="btn close_modal pull-right"&gt;Stay on Beta&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script type="text/javascript"&gt;</p>
+<p class="p2">$(function(){</p>
+<p class="p2"><span class="Apple-converted-space">    </span>(function(){</p>
+<p class="p2"><span class="Apple-converted-space">        </span>var $message, $close;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$message = $( '.messaging-nav' );</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$close <span class="Apple-converted-space">  </span>= $( '.close-message' );</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$confirm = $( '.optoutconfirm' );</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$back_to_classic = $( '.back_to_classic' );</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>//modal</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$back_to_classic.slashModal({</p>
+<p class="p2"><span class="Apple-converted-space">            </span>content <span class="Apple-converted-space">    </span>: $('#optout'),</p>
+<p class="p2"><span class="Apple-converted-space">            </span>width <span class="Apple-converted-space">      </span>: 670,</p>
+<p class="p2"><span class="Apple-converted-space">            </span>top <span class="Apple-converted-space">        </span>: 70,</p>
+<p class="p2"><span class="Apple-converted-space">            </span>hide_overlay: false</p>
+<p class="p2"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>if( !$.cookie('hide_sitenotice_2') ) {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>$message.fadeIn('fast');</p>
+<p class="p2"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span>function hideNotice(evt) {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>evt.preventDefault();</p>
+<p class="p2"><span class="Apple-converted-space">            </span>$message.fadeOut('fast', function() {</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$.cookie('hide_sitenotice_2', 'true', { path: '/', expires: 14 });</p>
+<p class="p2"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span>function optOutBeta() {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>window.location.href = "http://slashdot.org/?nobeta=1";</p>
+<p class="p2"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$close.on( 'click', hideNotice );</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$confirm.on( 'click', optOutBeta );</p>
+<p class="p2"><span class="Apple-converted-space">    </span>})();</p>
+<p class="p2">});</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p2">&lt;!-- DoubleClick Random Number --&gt;</p>
+<p class="p2">&lt;script type="text/javascript"&gt;</p>
+<p class="p2">function safe_for_ads() {</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var path = window.location.pathname;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>if (path === '/'</p>
+<p class="p2"><span class="Apple-tab-span">	</span>|| path === ''</p>
+<p class="p2"><span class="Apple-tab-span">	</span>|| path.match(/^\/stories/)</p>
+<p class="p2"><span class="Apple-tab-span">	</span>|| path.match(/^\/blog/)</p>
+<p class="p2"><span class="Apple-tab-span">	</span>) {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return true;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>} else {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return false;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>}</p>
+<p class="p2">}</p>
+<p class="p1"><br></p>
+<p class="p2">function yet_another_tpc() {</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var skin_at_hostname = {</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"" : "awards",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"tech-beta.slashdot.org" : "technology",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"slashdot.sourceforge.net" : "sfauth",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"amd.vendors-beta.slashdot.org" : "vendoramd",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"interviews-beta.slashdot.org" : "interviews",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"developers-beta.slashdot.org" : "developers",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"features-beta.slashdot.org" : "features",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"ask-beta.slashdot.org" : "askslashdot",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"games-beta.slashdot.org" : "games",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"intel.vendors-beta.slashdot.org" : "vendorintel",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"hardware-beta.slashdot.org" : "hardware",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"apache-beta.slashdot.org" : "apache",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"oracle.vendors-beta.slashdot.org" : "vendororacle",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"apple-beta.slashdot.org" : "apple",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"bsd-beta.slashdot.org" : "bsd",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"search-beta.slashdot.org" : "search",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"yro-beta.slashdot.org" : "yro",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"vendors-beta.slashdot.org" : "vendors",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"science-beta.slashdot.org" : "science",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"polls-beta.slashdot.org" : "polls",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"politics-beta.slashdot.org" : "politics",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"meta-beta.slashdot.org" : "meta",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"radio-beta.slashdot.org" : "radio",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"news-beta.slashdot.org" : "news",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"thinkgeek.shill-beta.slashdot.org" : "thinkgeek",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"beta.slashdot.org" : "slashdot",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"idle-beta.slashdot.org" : "idle",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"mobile-beta.slashdot.org" : "mobile",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"cmdrtaco-beta.slashdot.org" : "cmdrtaco",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"entertainment-beta.slashdot.org" : "entertainment",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"books-beta.slashdot.org" : "bookreview",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"it-beta.slashdot.org" : "it",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"linux-beta.slashdot.org" : "linux",</p>
+<p class="p2"><span class="Apple-converted-space">   </span>"backslash-beta.slashdot.org" : "backslash"</p>
+<p class="p2">}</p>
+<p class="p2">;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span>var stories = window.location.pathname.match(/stories\/([^\/#?]+)/);</p>
+<p class="p2"><span class="Apple-tab-span">	</span>var skin;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>if (skin_at_hostname) {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>skin = skin_at_hostname[window.location.hostname];</p>
+<p class="p2"><span class="Apple-tab-span">	</span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span>if (stories &amp;&amp; stories.length) {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return matches[1];</p>
+<p class="p2"><span class="Apple-tab-span">	</span>} else if (skin) {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return skin;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>} else {</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>return null;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>}</p>
+<p class="p2">}</p>
+<p class="p1"><br></p>
+<p class="p2">dfp_ord=Math.random()*10000000000000000;</p>
+<p class="p2">dfp_tile = 1;</p>
+<p class="p2">dfp_page = safe_for_ads() ? 'index' : 'story';</p>
+<p class="p2">dfp_tpc = yet_another_tpc() || 'slashdot';</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p2">&lt;!-- End DoubleClick Random Number --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script type="text/javascript"&gt;</p>
+<p class="p2">window.google_analytics_uacct = "UA-44495704-1";</p>
+<p class="p1"><br></p>
+<p class="p2">var _gaq = _gaq || [];</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">  </span>_gaq.push(['_setAccount', 'UA-44495704-1']);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>_gaq.push(['_setDomainName', '.slashdot.org']);</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>_gaq.push(['_addIgnoredRef', 'slashdot.org']);</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">  </span>_gaq.push(['_setCustomVar', 1, 'User Type',<span class="Apple-converted-space">  </span>'Anon', 3]);</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span>_gaq.push(['_setCustomVar', 2, 'Page','pollBooth', 3]);</p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2">// track beta behavior for user</p>
+<p class="p2">var betamatches = document.cookie.match(/betagroup=(-?\d+)/);</p>
+<p class="p1"><br></p>
+<p class="p2">if(betamatches &amp;&amp; betamatches[1]) {</p>
+<p class="p2"><span class="Apple-converted-space">  </span>if(betamatches[1] == -1) {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>_gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-out', 3]);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>} else if (betamatches[1] == 1) {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>_gaq.push(['_setCustomVar', 3, 'Beta-Usage','opt-in', 3]);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>} else if (betamatches[1] &gt;= 2 &amp;&amp; betamatches[1] &lt;= 26) {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>_gaq.push(['_setCustomVar', 3, 'Beta-Usage','redirected', 3]);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>} else {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>_gaq.push(['_setCustomVar', 3, 'Beta-Usage','unredirected', 3]);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>}</p>
+<p class="p2">} else {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>_gaq.push(['_setCustomVar', 3, 'Beta-Usage','visitor-nogroup', 3]);</p>
+<p class="p2">}</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">  </span>_gaq.push(['_trackPageview']);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>_gaq.push(['_trackPageLoadTime']);</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">  </span>(function() {</p>
+<p class="p2"><span class="Apple-converted-space">    </span>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</p>
+<p class="p2"><span class="Apple-converted-space">    </span>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</p>
+<p class="p2"><span class="Apple-converted-space">  </span>})();</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/head&gt;</p>
+<p class="p2">&lt;body class="anon pollBooth "&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!-- user.currentPage = 'pollBooth' --&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="container leaderboard"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div id="ad-wrapper"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;!-- ad position 1 --&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;!-- DoubleClick Ad Tag --&gt;</p>
+<p class="p2">&lt;div id="fad1" style="display: inline-block;"&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;script type="text/javascript"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>//&lt;![CDATA[</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var hint <span class="Apple-converted-space">  </span>= 'mainpage';</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span>document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/polls_p1_leader;pg=pollBooth;page='+dfp_page+';site=beta;logged_in=0;tile='+dfp_tile+';sz=728x90;tpc='+dfp_tpc+';u=;ord='+dfp_ord+'?"&gt;&lt;\/script&gt;');</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>dfp_tile++;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>//]]&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p2">&lt;!-- End DoubleClick Ad Tag --&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">       </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;&lt;aside class="layout-rail"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;div class="rail-module"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;header id="-title"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h4 class="icon--sm"&gt;&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$0 - $10 &lt;em&gt;(7474)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$10 - $20 &lt;em&gt;(1509)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$20 - $30 &lt;em&gt;(567)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$30 - $40 &lt;em&gt;(195)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$40 - $50 &lt;em&gt;(170)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;$50+ &lt;em&gt;(408)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;I don't own a mobile device &lt;em&gt;(888)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;Too much oh god please help me &lt;em&gt;(161)&lt;/em&gt;&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-converted-space">   </span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>(You've already voted.)</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>Voted on &lt;strong&gt;11372&lt;/strong&gt; times.</p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;/div&gt;</p>
+<p class="p2">&lt;/aside&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span>&lt;h1&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span>Slashdot Polls</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="ad32 advertisement"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;script type="text/javascript"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>var ad6 = 'inactive';</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;div id="fad32"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;script type="text/javascript"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>//&lt;![CDATA[</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>var hint <span class="Apple-converted-space">  </span>= 'mainpage';</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>document.write('&lt;script type="text/javascript" src="http://ad.doubleclick.net/adj/ostg.slashdot/polls_p32_upper_poll_spons;pg=index;page='+dfp_page+';site=beta;logged_in=0;tile='+dfp_tile+';tpc='+dfp_tpc+';ord='+dfp_ord+'?"&gt;&lt;\/script&gt;');</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>dfp_tile++;</p>
+<p class="p2"><span class="Apple-converted-space">                                        </span>//]]&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                                </span>&lt;/script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;ul&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2735/how-much-do-you-spend-yearly-on-mobile-apps"&gt;How much do you spend yearly on mobile apps?&lt;/a&gt;&lt;/b&gt; on April<span class="Apple-converted-space">  </span>8th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;11372 votes and 111 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2733/should-nasa-send-astronauts-on-voluntary-one-way-missions"&gt;Should NASA Send Astronauts On Voluntary One-Way Missions?&lt;/a&gt;&lt;/b&gt; on April<span class="Apple-converted-space">  </span>3rd, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;20508 votes and 305 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2731/how-interested-are-you-in-virtual-reality-tech"&gt;How interested are you in Virtual Reality tech?&lt;/a&gt;&lt;/b&gt; on March 29th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;17020 votes and 202 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2729/i-prefer-my-peppers-"&gt;I prefer my peppers ... &lt;/a&gt;&lt;/b&gt; on March 25th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;18200 votes and 285 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2727/what-day-of-the-week-is-your-most-productive"&gt;What day of the week is your most productive?&lt;/a&gt;&lt;/b&gt; on March 20th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;15621 votes and 91 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2725/recent-news-events-re-bitcoin-"&gt;Recent news events re: Bitcoin ... &lt;/a&gt;&lt;/b&gt; on March 13th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;17879 votes and 192 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2723/daylight-saving-time-"&gt;Daylight Saving Time ... &lt;/a&gt;&lt;/b&gt; on March<span class="Apple-converted-space">  </span>9th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;18014 votes and 310 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2721/time-sucked-into-netflix-or-similar-weekly"&gt;Time sucked into Netflix or similar, weekly:&lt;/a&gt;&lt;/b&gt; on March<span class="Apple-converted-space">  </span>5th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;13417 votes and 146 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2719/should-programming-be-a-required-curriculum-in-public-schools"&gt;Should programming be a required curriculum in public schools?&lt;/a&gt;&lt;/b&gt; on February 27th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;18371 votes and 313 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2717/how-much-time-do-you-spend-gaming-compared-to-10-years-ago"&gt;How much time do you spend gaming compared to 10 years ago?&lt;/a&gt;&lt;/b&gt; on February 21st, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;31654 votes and 270 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2715/id-prefer-military-fiction-books-that-are-"&gt;I'd prefer military fiction books that are ... &lt;/a&gt;&lt;/b&gt; on February 17th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;11469 votes and 236 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2713/best-valentines-day-gift-as-recipient"&gt;Best Valentine's Day gift (as recipient): &lt;/a&gt;&lt;/b&gt; on February 12th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;13546 votes and 197 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2711/old-cellphones-in-my-household-"&gt;Old cellphones, in my household ... &lt;/a&gt;&lt;/b&gt; on February<span class="Apple-converted-space">  </span>9th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;15291 votes and 171 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2709/at-my-current-workplace-ive-outlasted-"&gt;At my current workplace, I've outlasted ...&lt;/a&gt;&lt;/b&gt; on February<span class="Apple-converted-space">  </span>4th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;28318 votes and 177 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2707/how-loud-is-your-primary-computer"&gt;How loud is your primary computer?&lt;/a&gt;&lt;/b&gt; on January 28th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;34167 votes and 371 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2705/best-skywatching-equipment-at-my-disposal"&gt;Best skywatching equipment at my disposal:&lt;/a&gt;&lt;/b&gt; on January 20th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;20121 votes and 201 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2703/how-would-you-use-science-to-innovate-upon-sports"&gt;How would you use science to innovate upon sports?&lt;/a&gt;&lt;/b&gt; on January 14th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;16049 votes and 253 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2701/i-think-wearable-computing-will-take-off"&gt;I think wearable computing will take off...&lt;/a&gt;&lt;/b&gt; on January<span class="Apple-converted-space">  </span>7th, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;24228 votes and 254 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2699/no-of-vehicle-license-types-i-hold"&gt;No. of vehicle license types I hold: &lt;/a&gt;&lt;/b&gt; on January<span class="Apple-converted-space">  </span>2nd, 2014&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;21182 votes and 312 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;li&gt;&lt;b&gt;&lt;a href="//beta.slashdot.org/poll/2697/id-rather-pay-for-my-space-latte-with-"&gt;I'd rather pay for my space latte with ...&lt;/a&gt;&lt;/b&gt; on December 29th, 2013&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;small&gt;12402 votes and 265 comments.</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/small&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/ul&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;b&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;a href="//beta.slashdot.org/search.pl?op=polls"&gt;More Polls&lt;/a&gt;&lt;br&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;a href="//beta.slashdot.org/submit.pl"&gt;Submit Poll&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/b&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/p&gt;&lt;div<span class="Apple-converted-space">  </span>class="container"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;footer id="layout-footer"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;h1&gt;&lt;a href="http://slashdot.org"&gt;Slashdot: News for Nerds&lt;/a&gt;&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span></p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="bucket-wrapper"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="bucket"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#about"&gt;About Slashdot&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#who_does_this"&gt;Staff&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="mailto:feedback@slashdot.org?subject=Beta Feedback"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdotmedia.com/advertising-and-marketing-services/"&gt;Advertising&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdotmedia.com/terms-of-use/"&gt;Terms of Use&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdotmedia.com/privacy-statement/"&gt;Privacy&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li id="teconsent"&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="bucket"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml"&gt;FAQ&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/blog"&gt;Blog&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdot.org/archive.pl"&gt;Archived Stories&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="#" class="open-newsletter"&gt;Newsletter&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="bucket footer-sprite"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdot.org/?nobeta=1" class="back_to_classic sdc"&gt;Slashdot Classic&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdot.org/hof.shtml" class="fame"&gt;Hall of Fame&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://www.sourceforge.net/?source=sd_beta_footer" class="sfg"&gt;Source Forge&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;a href="http://slashdot.jp/" target="_blank" class="japan"&gt;Slashdot Japan&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="bucket social"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;span&gt;Follow Slashdot&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;div class="fa fa-facebook circle icon-lg brand"&gt;&lt;a href="http://www.facebook.com/slashdot" target="_blank" class="fb"&gt;Facebook&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;div class="fa fa-google-plus circle icon-lg brand"&gt;&lt;a href="https://plus.google.com/113450234747488780301" target="_blank"; class="gp"&gt;Google+&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;div class="fa fa-twitter circle icon-lg brand"&gt;&lt;a href="http://twitter.com/slashdot" target="_blank" class="tw"&gt;Twitter&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;div class="fa fa-rss circle icon-lg brand"&gt;&lt;a href="http://rss.slashdot.org/Slashdot/slashdot" target="_blank" class="rs"&gt;RSS&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="fancy"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;Riches:<span class="Apple-converted-space">  </span>A gift from Heaven signifying, "This is my beloved son, in whom I</p>
+<p class="p2">am well pleased."</p>
+<p class="p2">-- John D. Rockefeller, (slander by Ambrose Bierce)&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>Trademarks property of their respective owners. Comments owned by the poster. &lt;br&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>Copyright ?? 2014 Dice. All Rights Reserved. Slashdot is a</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;amp;p=irol-landing" title="The Mother Ship"&gt;Dice Holdings, Inc.&lt;/a&gt; service</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!-- Modal Content --&gt;</p>
+<p class="p2">&lt;div class="login-modal"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="ui-form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;form action="https://beta.slashdot.org/my/login" method="post" id="usr-login" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;input type="hidden" name="returnto" value=""&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;input type="hidden" name="op" value="userlogin"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;fieldset&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;legend&gt;Slashdot Account&lt;/legend&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;label&gt;&lt;input type="text" name="unickname" placeholder="nickname" required&gt;&lt;/label&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;&lt;label&gt;&lt;input type="password" name="upasswd" placeholder="password" required&gt;&lt;/label&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/fieldset&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="ui-form-controls"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;button class="btn btn-primary" name="userlogin"&gt;Login&lt;/button&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;Need an Account? &lt;br&gt; &lt;a href="/" class="pop_signup_modal" id="foobar"&gt;Sign Up Now!&lt;/a&gt;&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;span&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" class="pop_pwd_modal"&gt;Forgot your password?&lt;/a&gt;&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;div class="social-login"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="facebook" class="fb btn-social"&gt;Facebook&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="google" <span class="Apple-converted-space">  </span>class="gp btn-social"&gt;Google+&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="twitter"<span class="Apple-converted-space">  </span>class="tw btn-social"&gt;Twitter&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="//beta.slashdot.org/faq/index.shtml#i_use_noscript" data-provider="linkedin" class="ln btn-social"&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;!--&lt;li&gt;&lt;a href="" id="openid" <span class="Apple-converted-space">  </span>class="op btn-social"&gt;OpenID&lt;/a&gt;&lt;/li&gt;--&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;p&gt;Don't worry, we never post anything without your permission.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;footer&gt;&lt;a href="http://slashdotmedia.com/privacy-statement/"&gt;Privacy Policy&lt;/a&gt;&lt;/footer&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!-- Submission Info Modal --&gt;</p>
+<p class="p2">&lt;div class="submission-info"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;article class="submission-info-ui"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;h1&gt;Submission Text Formatting Tips&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div class="clearfix"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;p&gt;We support a small subset of HTML, namely these tags:&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;b&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;i&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;p&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;br&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;a&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;ol&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;ul&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;li&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;dl&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;dt&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;dd&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;em&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;strong&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;tt&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;blockquote&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;div&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;quote&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;li&gt;ecode&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;hr&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;h3&gt;"ecode" can be used for code snippets, for example:&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;pre&gt;&lt;code&gt;&amp;lt;ecode&amp;gt;<span class="Apple-converted-space">    </span>while(1) { do_something(); } &amp;lt;/ecode&amp;gt;&lt;/code&gt;&lt;/pre&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/article&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!-- Newsletter Content --&gt;</p>
+<p class="p2">&lt;div class="newsletter-modal ui-modal-form"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;form id="newsletter-signup"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;fieldset&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;legend&gt;Sign up for Slashdot Newsletters&lt;/legend&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;div class="modal-flow"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;p&gt;Get more Slashdot in your inbox. Check off the email newsletter you want to recieve and hit the Subscribe button at the bottom of the page.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input type="checkbox" id="slashdot_daily" name="slashdot_daily" checked&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="slashdot_daily" class="control-left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="check-control"&gt;&lt;/i&gt;Slashdot Headlines &lt;span&gt;Daily&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;15 of the hottest Slashdot.org stories of the day&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input type="checkbox" id="weekly_slashback" name="weekly_slashback"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="weekly_slashback" class="control-left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="check-control"&gt;&lt;/i&gt;Slashback &lt;span&gt;Weekly&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;A weekly roundup of the hottest stories from Slashdot&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input type="checkbox" id="weekly_resource" name="weekly_resource"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="weekly_resource" class="control-left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;i class="check-control"&gt;&lt;/i&gt;Slashdot Weekly Resource &lt;span&gt;Weekly&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;p&gt;Resources on technical topics including virtualization, storage, cloud, security &amp;amp; more&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;ul class="label-left"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label&gt;Email&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;input type="email" id="realemail" name="realemail" placeholder="Please enter email address"<span class="Apple-converted-space">  </span>required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="country"&gt;Country&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;select id="country" name="country" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;Please Select&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="USA"&gt;United States&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value='NA'&gt;I'd prefer not to say&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AFG"&gt;Afghanistan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ALB"&gt;Albania&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DZA"&gt;Algeria&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ASM"&gt;American Samoa&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AND"&gt;Andorra&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AGO"&gt;Angola&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AIA"&gt;Anguilla&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ATA"&gt;Antarctica&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ATG"&gt;Antigua and Barbuda&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ARG"&gt;Argentina&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ARM"&gt;Armenia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ABW"&gt;Aruba&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AUS"&gt;Australia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AUT"&gt;Austria&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="AZE"&gt;Azerbaijan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BHS"&gt;Bahamas&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BHR"&gt;Bahrain&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BGD"&gt;Bangladesh&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BRB"&gt;Barbados&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BLR"&gt;Belarus&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BEL"&gt;Belgium&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BLZ"&gt;Belize&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BEN"&gt;Benin&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BMU"&gt;Bermuda&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BTN"&gt;Bhutan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BOL"&gt;Bolivia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BIH"&gt;Bosnia-Herseg&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BWA"&gt;Botswana&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BVT"&gt;Bouvet Island&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BRA"&gt;Brazil&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IOT"&gt;British Indian Ocean Territory&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BRN"&gt;Brunei Darussalam&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BGR"&gt;Bulgaria&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BFA"&gt;Burkina Faso&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BDI"&gt;Burundi&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KHM"&gt;Cambodia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CMR"&gt;Cameroon&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CAN"&gt;Canada&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CPV"&gt;Cape Verde&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CYM"&gt;Cayman Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CAF"&gt;Central African Republic&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TCD"&gt;Chad&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CHL"&gt;Chile&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CHN"&gt;China&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CXR"&gt;Christmas Island&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CCK"&gt;Cocos (Keeling) Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="COP"&gt;Columbia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="COM"&gt;Comoros&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="COG"&gt;Congo&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="COK"&gt;Cook Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CRI"&gt;Costa Rica&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CIV"&gt;Cote DIvoire (Ivory Coast)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HRV"&gt;Croatia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CUB"&gt;Cuba&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CYP"&gt;Cyprus&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CZE"&gt;Czech Republic&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DNK"&gt;Denmark&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DJI"&gt;Djibouti&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DMA"&gt;Dominica&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DOM"&gt;Dominican Republic&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TMP"&gt;East Timor&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ECU"&gt;Ecuador&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="EGY"&gt;Egypt&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SLV"&gt;El Salvador&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GNQ"&gt;Equatorial Guinea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ERI"&gt;Eritrea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="EST"&gt;Estonia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ETH"&gt;Ethiopia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FLK"&gt;Falkland-Malvinas&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FRO"&gt;Faroe Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FJI"&gt;Fiji&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FIN"&gt;Finland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FRA"&gt;France&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GUF"&gt;French Guiana&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PYF"&gt;French Pacific Islands (French Polynesia)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ATF"&gt;French Southern Territories&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GAB"&gt;Gabon&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GMB"&gt;Gambia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GEO"&gt;Georgia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DEU"&gt;Germany&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GHA"&gt;Ghana&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GIB"&gt;Gibraltar&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GBR"&gt;United Kingdom&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GRC"&gt;Greece&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GRL"&gt;Greenland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GRD"&gt;Grenada&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GLP"&gt;Guadeloupe&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GUM"&gt;Guam&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GTM"&gt;Guatemala&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GIN"&gt;Guinea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GNB"&gt;Guinea-Bissau&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="GUY"&gt;Guyana&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HTI"&gt;Haiti&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HMD"&gt;Heard and McDonald Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HND"&gt;Honduras&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HKG"&gt;Hong Kong&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="HUN"&gt;Hungary&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ISL"&gt;Iceland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IND"&gt;India&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IDN"&gt;Indonesia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IRN"&gt;Iran&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IRQ"&gt;Iraq&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="IRL"&gt;Ireland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ISR"&gt;Israel&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ITA"&gt;Italy&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="JAM"&gt;Jamaica&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="JPN"&gt;Japan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="JOR"&gt;Jordan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KAZ"&gt;Kazachstan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KEN"&gt;Kenya&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KIR"&gt;Kiribati&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="RKS"&gt;Kosovo&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KWT"&gt;Kuwait&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KGZ"&gt;Kyrgyzstan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LAO"&gt;Laos&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LVA"&gt;Latvia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LBN"&gt;Lebanon&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LSO"&gt;Lesotho&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LBR"&gt;Liberia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LBY"&gt;Libya&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LIE"&gt;Liechtenstein&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LTU"&gt;Lithuania&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LUX"&gt;Luxembourg&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MAC"&gt;Macau&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MKG"&gt;Macedonia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MDG"&gt;Madagascar&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MWI"&gt;Malawi&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MYS"&gt;Malaysia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MDV"&gt;Maldives (Maldive Islands)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MLI"&gt;Mali&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MLT"&gt;Malta&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MHL"&gt;Marshall Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MTQ"&gt;Martinique&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MRT"&gt;Mauritania&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MUS"&gt;Mauritius&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MYT"&gt;Mayotte&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FXX"&gt;Metropolitan France&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MEX"&gt;Mexico&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="FSM"&gt;Micronesia, Federated States of&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MDA"&gt;Moldova&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MCO"&gt;Monaco&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MNG"&gt;Mongolia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MSR"&gt;Montserrat&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MAR"&gt;Morocco&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MOZ"&gt;Mozambique&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MMR"&gt;Myanmar&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NAM"&gt;Namibia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NRU"&gt;Nauru&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NPL"&gt;Nepal&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NLD"&gt;Netherlands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ANT"&gt;Netherlands Antilles&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NCL"&gt;New Caledonia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NZL"&gt;New Zealand&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NIC"&gt;Nicaragua&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NER"&gt;Niger&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NGA"&gt;Nigeria&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NIU"&gt;Niue&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NFK"&gt;Norfolk Island&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PRK"&gt;North Korea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="MNP"&gt;Northern Mariana Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="NOR"&gt;Norway&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="OMN"&gt;Oman&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PAK"&gt;Pakistan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PLW"&gt;Palau&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PAL"&gt;Palestine&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PAN"&gt;Panama&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PNG"&gt;Papua New Guinea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PRY"&gt;Paraguay&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PER"&gt;Peru&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PHL"&gt;Philippines&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PCN"&gt;Pitcairn Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="POL"&gt;Poland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PRT"&gt;Portugal&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="PRI"&gt;Puerto Rico&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="QAT"&gt;Qatar&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="REU"&gt;Reunion&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ROM"&gt;Romania&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="RUS"&gt;Russian Federation&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="RWA"&gt;Rwanda&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SHN"&gt;Saint Helena&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KNA"&gt;Saint Kitts and Nevis&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LCA"&gt;Saint Lucia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SPM"&gt;Saint Pierre and Miquelon&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VCT"&gt;Saint Vincent and the Grenadines&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="WSM"&gt;Samoa&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SMR"&gt;San Marino&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="STP"&gt;Sao Tome and Principe&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SAU"&gt;Saudi Arabia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SEN"&gt;Senegal&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="YUG"&gt;Serbia and Montenegro&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SYC"&gt;Seychelles&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SLE"&gt;Sierra Leone&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SGP"&gt;Singapore&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SVK"&gt;Slovakia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SVN"&gt;Slovenia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SLB"&gt;Solomon Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SOM"&gt;Somalia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ZAF"&gt;South Africa&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SGS"&gt;South Georgia and the South Sandwich Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="KOR"&gt;South Korea&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ESP"&gt;Spain&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="LKA"&gt;Sri Lanka&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SDN"&gt;Sudan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SUR"&gt;Suriname&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SJM"&gt;Svalbard and Jan Mayen Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SWZ"&gt;Swaziland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SWE"&gt;Sweden&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CHE"&gt;Switzerland&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="SYR"&gt;Syria&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TWN"&gt;Taiwan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TJK"&gt;Tajikistan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TZA"&gt;Tanzania&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="THA"&gt;Thailand&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="COD"&gt;The Democratic Republic of the Congo&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TGO"&gt;Togo&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TKL"&gt;Tokelau&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TON"&gt;Tonga&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TTO"&gt;Trinidad and Tobago&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TUN"&gt;Tunisia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TUR"&gt;Turkey&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TKM"&gt;Turkmenistan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TCA"&gt;Turks and Caicos Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TUV"&gt;Tuvalu&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="UGA"&gt;Uganda&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="UKR"&gt;Ukraine&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ARE"&gt;United Arab Emirates&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="UMI"&gt;United States Minor Outlying Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="URY"&gt;Uruguay&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="UZB"&gt;Uzbekistan&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VUT"&gt;Vanuatu&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VAT"&gt;Vatican City State&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VEN"&gt;Venezuela&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VNM"&gt;Viet Nam&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VIR"&gt;Virgin Islands (American)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VGB"&gt;Virgin Islands (British)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="WLF"&gt;Wallis and Futuna Islands&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ESH"&gt;Western Sahara&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="YEM"&gt;Yemen&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ZAR"&gt;Zaire&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ZMB"&gt;Zambia&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ZWE"&gt;Zimbabwe&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="job_title"&gt;Job Title&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;select id="job_title" name="job_title" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;Please Select&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CEO"&gt;CEO, COO, Chairman, President&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CFO"&gt;CFO, Controller, Treasurer&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="CIO"&gt;CIO, CTO, CSO&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="VPIT"&gt;VP (IT)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="EVPIT"&gt;Executive VP, Senior VP (IT)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DirectorIT"&gt;Director (IT)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="ManagerIT"&gt;Manager/Supervisor (IT)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="EVPBS"&gt;Executive VP, Senior VP, VP, GM (Business Management)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="DirectorBS"&gt;Director, Manager (Business Management)&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="Rockstar"&gt;IT/Software Developer&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="Roadie"&gt;IT Staff&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="BSManager"&gt;Other Corporate, Business Manager&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="Grunt"&gt;Non-Manager&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="smarty_pants"&gt;Systems Integrator&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="fancy_pants"&gt;Non-Technical Consultant&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="consultant"&gt;Technical Consultant&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="lazy"&gt;Student/Retired&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="pissoff"&gt;I'd prefer not to say&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;label for="company_size"&gt;Company Size&lt;/label&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;select id="company_size" name="company_size" required&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value=""&gt;Please Select&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="XXXL"&gt;20,000 or More&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="XXL"&gt;10,000 - 19,999&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="XL"&gt;5,000 - 9,999&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="L"&gt;1,000 - 4,999&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="M"&gt;500 - 999&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="S"&gt;100 - 499&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="XS"&gt;50 - 99&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value="TINY"&gt;Less than 50&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                            </span>&lt;option value='NA'&gt;Unspecified/Not Applicable&lt;/option&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>&lt;/select&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;div class="ui-modal-controls"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>&lt;button class="btn btn-primary pull-right btn-close newsletter-subscribe"&gt;Subscribe&lt;/button&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/fieldset&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;footer class="modal-footer"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a href="http://slashdotmedia.com/privacy-statement/"&gt;Privacy Policy&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>// **************************************************************************************************</p>
+<p class="p2"><span class="Apple-converted-space">        </span>// Newsletter Flow: Displays correct view for the newsletter workflow</p>
+<p class="p2"><span class="Apple-converted-space">        </span>// **************************************************************************************************</p>
+<p class="p2"><span class="Apple-converted-space">        </span>(function(){</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var $views = $('.modal-flow'),</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$btn_next = $('.modal-flow-next'),</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$btn_prev = $('.modal-flow-prev');</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>$views.hide();</p>
+<p class="p2"><span class="Apple-converted-space">            </span>$views.first().show();</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>$('body').on('click', '.modal-flow-next', nextView);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>$('body').on('click', '.modal-flow-prev', prevView);</p>
+<p class="p2"><span class="Apple-converted-space">            </span>$('body').on('click', '.newsletter-subscribe', subscribeNewsletter);</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>function nextView( evt ) {</p>
+<p class="p2"><span class="Apple-converted-space">                </span>evt.preventDefault();</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$(this).closest( '.modal-flow' )</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.hide()</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.next()</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.show()</p>
+<p class="p2"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>function prevView( evt ) {</p>
+<p class="p2"><span class="Apple-converted-space">                </span>evt.preventDefault();</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$(this).closest( '.modal-flow' )</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.hide()</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.prev()</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>.show()</p>
+<p class="p2"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>function subscribeNewsletter( evt ) {</p>
+<p class="p2"><span class="Apple-converted-space">                </span>evt.preventDefault();</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>var token = $.cookie('user'),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>realemail = $('#realemail').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>country = $('#country').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>job_title = $('#job_title').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>company_size = $('#company_size').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>slashdot_daily = $('#slashdot_daily').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>weekly_slashback = $('#weekly_slashback').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>weekly_resource = $('#weekly_resource').val(),</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>api_key = sd_api_key,</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>api_endpoint = sd_api_base + 'newsletter.json'</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>data = {</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>api_key: api_key,</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>realemail: realemail,</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>country: country,</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>job_title: job_title,</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>company_size: company_size</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>};</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                    </span>if (slashdot_daily) {</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>data.slashdot_daily = slashdot_daily;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>if (weekly_slashback) {</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>data.weekly_slashback = weekly_slashback;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>if (weekly_resource) {</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>data.weekly_resource = weekly_resource;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>if (token) {</p>
+<p class="p2"><span class="Apple-converted-space">                        </span>data.token = token;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">                </span>$.ajax({</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>url: api_endpoint,</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>data: data,</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>dataType: 'json'</p>
+<p class="p2"><span class="Apple-converted-space">                </span>});</p>
+<p class="p2"><span class="Apple-converted-space">                </span>$('.close_btn').trigger('click');</p>
+<p class="p2"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span>// $("#newsletter-signup").validate({</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">  </span>messages: {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">      </span>usr_email: {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">          </span>required: 'Please enter a valid email address'</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">  </span>},</p>
+<p class="p2"><span class="Apple-converted-space">            </span>//<span class="Apple-converted-space">  </span>errorClass: 'form-error',</p>
+<p class="p2"><span class="Apple-converted-space">            </span>// });</p>
+<p class="p2"><span class="Apple-converted-space">        </span>})();</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!--SignUp Content--&gt;</p>
+<p class="p2">&lt;div id="signup-form-contents" class="signup-modal"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;form action="https://beta.slashdot.org/login.pl" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }"&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;fieldset&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;legend&gt;Create a Slashdot Account&lt;/legend&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/fieldset&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;h3&gt;Loading...&lt;/h3&gt;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;/form&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;div class="forgotpw-modal" id="forgotpw-modal-contents"&gt;</p>
+<p class="p2">&lt;/div&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script id="geojobs-template" type="text/x-handlebars-template"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;header id="dice_jobs-title" class="row"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;h4 class="span8"&gt;Latest Tech Jobs&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;span class="span4 poweredby logo-dice-small pull-right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a href="http://www.dice.com?CMPID=AF_SD_UP_JS_AV_OG_BN_&amp;amp;utm_source=Slashdot&amp;amp;utm_medium=Affiliate&amp;amp;utm_content=&amp;amp;utm_campaign=Advocacy_Ongoing" target="_blank"&gt;Powered by &lt;span&gt;Dice Jobs&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;ul class="slashbox-list"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>{{#each resultItemList}}</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="{{detailUrl}}&amp;CMPID=AF_SD_UP_JS_AV_OG_WG_&amp;utm_source=Slashdot&amp;utm_medium=Affiliate&amp;utm_content=&amp;utm_campaign=Advocacy_Ongoing" id="job_title" target="_blank" onClick="trackLinkDiceJob(this, 'JobWidget', '{{detailUrl}}');return false;"&gt;{{jobTitle}}&lt;br&gt;&lt;span&gt;{{company}}, {{location}}&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>{{/each}}</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p2">&lt;script id="geojobs-nav-template" type="text/x-handlebars-template"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;header id="dice_jobs-title" class="row"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;h4 class="span5"&gt;Latest Tech Jobs&lt;/h4&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;span class="poweredby logo-dice-small pull-right"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;a href="http://www.dice.com?CMPID=AF_SD_UP_JS_AV_OG_BN_&amp;amp;utm_source=Slashdot&amp;amp;utm_medium=Affiliate&amp;amp;utm_content=&amp;amp;utm_campaign=Advocacy_Ongoing" target="_blank"&gt;Powered by &lt;span&gt;Dice Jobs&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;/span&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;ul class="slashbox-list"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>{{#each resultItemList}}</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span>&lt;a href="{{detailUrl}}&amp;CMPID=AF_SD_UP_JS_AV_OG_WG_&amp;utm_source=Slashdot&amp;utm_medium=Affiliate&amp;utm_content=&amp;utm_campaign=Advocacy_Ongoing" id="job_title" target="_blank" onClick="trackLinkDiceJob(this, 'JobWidget', '{{detailUrl}}');return false;"&gt;{{jobTitle}}&lt;br&gt;&lt;span&gt;{{company}}, {{location}}&lt;/span&gt;&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span>&lt;/li&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>{{/each}}</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/ul&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;span class="menu-footer"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span>&lt;a class="pull-right" href="//beta.slashdot.org/job_board.pl" target="_blank"&gt;View More Jobs&lt;/a&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;/span&gt;</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/libs/handlebars-v1.3.0.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins/slash-cookies.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins/slashmodal-1-0.1.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins/jquery.lazyload.min.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins/jquery.validate.min.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins/additional-methods.min.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/plugins.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p2">&lt;script src="//c.fsdn.com/s/js/scripts/main.js?alpha_20140408"&gt;&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p1"><br></p>
+<p class="p2">&lt;!--SLASH-3947<span class="Apple-converted-space">  </span>Use TrustE Consent Manager to manage the setting of third-party advertiser cookies--&gt;</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">    </span>&lt;script type="text/javascript" src="//consent.truste.com/notice?domain=slashdot.org&amp;c=teconsent&amp;text=true"&gt;&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;script&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span>$(function(){</p>
+<p class="p2"><span class="Apple-converted-space">        </span>$('.for-text').slashModal({</p>
+<p class="p2"><span class="Apple-converted-space">            </span>content <span class="Apple-converted-space">    </span>: $('.submission-info'),</p>
+<p class="p2"><span class="Apple-converted-space">            </span>width <span class="Apple-converted-space">      </span>: 525,</p>
+<p class="p2"><span class="Apple-converted-space">            </span>hide_overlay: true</p>
+<p class="p2"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>$('.edit-login').on("click", function() {</p>
+<p class="p2"><span class="Apple-converted-space">            </span>editPreview();</p>
+<p class="p2"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>$("#usr-login").validate({</p>
+<p class="p2"><span class="Apple-converted-space">            </span>messages: {</p>
+<p class="p2"><span class="Apple-converted-space">                </span>unickname: {</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>required: 'Please eneter a valid nickname'</p>
+<p class="p2"><span class="Apple-converted-space">                </span>},</p>
+<p class="p2"><span class="Apple-converted-space">                </span>upasswd: {</p>
+<p class="p2"><span class="Apple-converted-space">                    </span>required: 'Please enter a valid password'</p>
+<p class="p2"><span class="Apple-converted-space">                </span>}</p>
+<p class="p2"><span class="Apple-converted-space">            </span>},</p>
+<p class="p2"><span class="Apple-converted-space">            </span>errorClass: 'form-error',</p>
+<p class="p2"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><br></p>
+<p class="p2"><span class="Apple-converted-space">        </span>(function(){</p>
+<p class="p2"><span class="Apple-converted-space">            </span>var $anchor = $('a[href=""], a[href="#"]');</p>
+<p class="p2"><span class="Apple-converted-space">            </span>// IF ON SANDBOX ONLY COLOR ALL EMPTY ANCHOR TAGS RED</p>
+<p class="p1"><span class="Apple-converted-space">            </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span>})();</p>
+<p class="p2"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2">&lt;/script&gt;</p>
+<p class="p1"><br></p>
+<p class="p2">&lt;/body&gt;</p>
+<p class="p2">&lt;/html&gt;</p>
+</body>
+</html>
